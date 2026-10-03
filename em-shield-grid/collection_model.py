@@ -7,24 +7,28 @@ Rough 2D collection-efficiency model for an OPD with an embedded (transparent) g
 - For each carrier the adjoint problem gives the collection probability P(r) at its
   own electrode(s); wrong-type electrodes either absorb (ohmic metal, default) or block.
 - Pair collection ~ P_n(r) * P_p(r); efficiency = sum(G * P_n * P_p) / sum(G).
-- Generation profile is 1D (transparent grid -> optics unchanged), placeholder shapes.
+- Generation profile is 1D (grid optics cost <= ~1 pp per FDTD group 05), taken from the
+  TMM profile of the 655 nm device (g1D_L655_800_1100.txt).
 
 Structures:
   orig : bottom cathode / BHJ / top anode (no grid)
   grid : bottom cathode / BHJ / grid cathode / BHJ / top anode (current design)
   sym  : bottom anode / BHJ / grid cathode / BHJ / top anode (proposed)
+  cont : bottom anode / BHJ / continuous middle cathode / BHJ / top anode (group 07)
+Grid line = Ag core (w x 20 nm) + 10 nm ZnO shell -> conducting block (w+20) x 40 nm.
 """
+import os
 import numpy as np, scipy.sparse as sp, scipy.sparse.linalg as spl
 
 VT = 0.02585
-d, zg, w, t = 655e-9, 290e-9, 100e-9, 50e-9
-VBI = 0.7
+d, zg, t = 655e-9, 290e-9, 40e-9
+VBI = 0.6   # built-in potential estimate from group 06 parameter table
 
 def bern(x):
     x = np.asarray(x, float); out = np.empty_like(x); s = np.abs(x) < 1e-6
     out[s] = 1 - x[s]/2; out[~s] = x[~s]/np.expm1(x[~s]); return out
 
-def build(struct, p, h):
+def build(struct, p, h, w=100e-9):
     nx = max(int(round(p/h)), 1) if struct != 'orig' else 1
     nz = int(round(d/h)) + 1
     z = np.arange(nz)*h; x = (np.arange(nx)+0.5)*h
@@ -32,8 +36,11 @@ def build(struct, p, h):
     bot = np.zeros((nx,nz),bool); bot[:,0] = True
     top = np.zeros((nx,nz),bool); top[:,-1] = True
     grid = np.zeros((nx,nz),bool)
-    if struct != 'orig':
-        grid = (np.abs(X-p/2) <= w/2) & (np.abs(Z-zg) <= t/2)
+    if struct in ('grid','sym'):
+        grid = (np.abs(X-p/2) <= (w+20e-9)/2) & (np.abs(Z-zg) <= t/2)
+    elif struct == 'cont':
+        nx = 1; X, Z = X[:1], Z[:1]; bot, top = bot[:1], top[:1]
+        grid = np.abs(Z-zg) <= t/2
     if struct in ('orig','grid'):
         cath = bot | grid; anod = top
     else:
@@ -82,16 +89,13 @@ def collection_prob(V, h, collect, block, mu, tau, sign, wrong='sink'):
     P[fi] = spl.spsolve(A.tocsc(), rhs[fi])
     return P.reshape(nx,nz)
 
+_G = np.loadtxt(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'g1D_L655_800_1100.txt'))
 def gen_profile(z, kind):
-    n = 1.8
-    if kind == '800':   # strongly weighted to the bottom of the BHJ
-        return np.exp(-z/200e-9) * (0.25 + np.sin(np.pi*(z+60e-9)/(800e-9/(2*n)))**2)
-    if kind == '1100':  # several antinodes spread through the film
-        return 0.3 + np.sin(np.pi*(z+40e-9)/(1100e-9/(2*n)))**2
-    return np.ones_like(z)
+    col = {'800': 1, '1100': 2}[kind]
+    return np.interp(z*1e9, _G[:,0], _G[:,col])
 
-def efficiency(struct, p, Vapp, kind, mu_n, mu_p, tau_n, tau_p, h=5e-9, wrong='sink'):
-    nx, nz, z, cath, anod = build(struct, p, h)
+def efficiency(struct, p, Vapp, kind, mu_n, mu_p, tau_n, tau_p, h=5e-9, wrong='sink', w=100e-9):
+    nx, nz, z, cath, anod = build(struct, p, h, w)
     V = laplace(nx, nz, h, cath, anod, VBI - Vapp)
     Pn = collection_prob(V, h, cath, anod, mu_n, tau_n, +1, wrong)
     Pp = collection_prob(V, h, anod, cath, mu_p, tau_p, -1, wrong)
