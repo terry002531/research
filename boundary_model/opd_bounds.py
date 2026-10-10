@@ -348,3 +348,145 @@ def classify_overlap(mask_i, mask_j, axis_step, tol, k=3.0, shift_masks=None, sa
             if np.logical_and(mi, mj).any():
                 return "shiftable"
     return "none"
+
+
+# ---------------------------------------------------------------- 弹性（饱和边界的通用判据）
+def elasticity(fun, p, rel=1e-4):
+    """∂ln η / ∂ln p 的数值导数；fun 为 p 的标量函数。"""
+    p = float(p)
+    return (np.log(fun(p * (1 + rel))) - np.log(fun(p * (1 - rel)))) / (np.log(1 + rel) - np.log(1 - rel))
+
+
+# ---------------------------------------------------------------- d–V 图上补的五条线（Eq.M1–M5）
+def F_sat_braun(eps_r, a, k_f, mu_sum, eps_s=0.1, T=300.0, F_lo=1e3, F_hi=1e10, n=120):
+    """Eq.M1  C5：η_diss(F) 的弹性最后一次降到 ε_s 的场 F_sat [V/m]（弹性先升后降，取高场一侧）。
+    弹性在 [F_lo, F_hi] 内处处 ≤ ε_s 时返回 F_lo（产生端已饱和）；到 F_hi 仍 > ε_s 时返回 nan。"""
+    e = lambda lnF: elasticity(lambda F: braun_eta(F, eps_r, a, k_f, mu_sum, T), np.exp(lnF)) - eps_s
+    g = np.linspace(np.log(F_lo), np.log(F_hi), n)
+    v = np.array([e(x) for x in g])
+    above = np.nonzero(v > 0)[0]
+    if above.size == 0:
+        return F_lo
+    k = above[-1]
+    if k == n - 1:
+        return np.nan
+    return np.exp(brentq(e, g[k], g[k + 1]))
+
+
+def V_field_line(F, d, V0):
+    """Eq.M1/M2  场为 F 的等场线 V = F·d − V₀（C5 用 F_sat，C7 用 F_½）。"""
+    return F * np.asarray(d, float) - V0
+
+
+def eta_bulk_generation(F, F_half):
+    """Eq.M2  C7：体内产生的经验饱和式 η = F/(F+F_½)。EQE 达到饱和一半的线为 V = F_½·d − V₀。"""
+    return F / (F + F_half)
+
+
+def dV_ferro(P_r, t, eps_FE):
+    """Eq.M3  D12：铁电界面层给出的内场电压上界 ΔV = P_r·t/(ε₀ε_FE)，P_r [C/m²]，未计退极化。"""
+    return P_r * t / (eps0 * eps_FE)
+
+
+def V_bi_pin(N_A, N_D, n_i, T=300.0):
+    """Eq.M3  D12：p-i-n 内建电势 V_bi = (kT/q)·ln(N_A N_D / n_i²)。"""
+    return kT(T) * np.log(N_A * N_D / n_i**2)
+
+
+def d_collection_shifted(mutau, V, V0, dV_int, eta_target=0.9):
+    """Eq.M3  D12：内场调控后的收集线，V₀ → V₀ + ΔV_int（整条 K3 向 V<0 平移 ΔV_int）。"""
+    Veff = np.maximum(V0 + dV_int + np.asarray(V, float), 0.0)
+    return np.sqrt(xi_star(eta_target) * mutau * Veff)
+
+
+def dX_optimum(alpha, L, s=0.0, d_max=500e-9):
+    """Eq.M4  A4：PHJ 中吸光子层最优厚度 d_X* = argmax η_A(d_X)·η_slab(d_X, L, s)，
+    η_A 用单程 1−exp(−α d_X)。返回 (d_X*, 该处乘积)。"""
+    from scipy.optimize import minimize_scalar
+    f = lambda u: -(1 - np.exp(-alpha * u * L)) * eta_slab(u * L, L, s)  # 以 L 为单位，避免绝对容差问题
+    r = minimize_scalar(f, bounds=(1e-3, d_max / L), method="bounded", options={"xatol": 1e-6})
+    return r.x * L, -r.fun
+
+
+def loop_gain(V, g_max, V_on, n=2.0):
+    """Eq.M5  3.1-9：回路增益随偏压上升的示意形式 g(V) = g_max·Vⁿ/(Vⁿ + V_onⁿ)。"""
+    V = np.maximum(np.asarray(V, float), 0.0)
+    return g_max * V**n / (V**n + V_on**n)
+
+
+def V_feedback_max(EQE0, g_max, V_on, n=2.0):
+    """Eq.M5  3.1-9：EQE₀/(1−g) ≤ 1 ⇔ g(V) ≤ 1 − EQE₀ 的偏压上限；g_max 不到则返回 inf。"""
+    g_star = 1 - EQE0
+    if g_max <= g_star:
+        return np.inf
+    return V_on * (g_star / (g_max - g_star)) ** (1 / n)
+
+
+# ---------------------------------------------------------------- λ 轴、材料参数、P/f 轴图用到的补充式（Eq.P1–P12）
+def lambda_fwhm_cavity(lam, n, d, r):
+    """Eq.P1  3.1-6：腔的谱半高宽 Δλ ≈ λ²(1−r)/(2πn d√r)。"""
+    return lam**2 * (1 - r) / (2 * np.pi * n * d * np.sqrt(r))
+
+
+def lambda_res_angle(lam0, n, theta):
+    """Eq.P2  3.1-6：共振波长随入射角 λ(θ) = λ₀·√(1 − sin²θ/n²)。"""
+    return lam0 * np.sqrt(1 - np.sin(theta) ** 2 / n**2)
+
+
+def shell_min_plasmon(z0, k0, tau_X, eps_q=0.1):
+    """Eq.P3  3.1-8：猝灭 k_q(z)=k₀(z₀/z)⁶ ≤ ε_q/τ_X 所需最小壳厚 t_s。"""
+    return z0 * (k0 * tau_X / eps_q) ** (1 / 6)
+
+
+def eqe_subgap(sigma_t, N_t, d, IQE_sub):
+    """Eq.P4  3.1-10：亚带隙 EQE ≈ σ_t N_t d · IQE_sub（弱吸收）。"""
+    return sigma_t * N_t * d * IQE_sub
+
+
+def dstar_ipe(E_ph, phi_B, C_F=1.0, A_rich=1.2e6, T=300.0):
+    """Eq.P5  3.1-11：内光电发射的散粒噪声 D*（相对量），最优 Φ_B* ≈ hν − 4kT。"""
+    eta = fowler_ipe(E_ph, phi_B, C_F)
+    Jd = A_rich * T**2 * np.exp(-phi_B / kT(T))
+    R = eta * q / (E_ph * q)
+    return R / np.sqrt(2 * q * Jd)
+
+
+def eta_upconversion(P, P_th):
+    """Eq.P6  3.1-12：上转换 η ∝ P/(P+P_th)；P < P_th 时响应非线性。"""
+    return P / (P + P_th)
+
+
+def r_max_fret(R0, E_target):
+    """Eq.P7  A3：E ≥ E* 的最大转移距离 r = R₀(1/E* − 1)^{1/6}。"""
+    return R0 * (1 / E_target - 1) ** (1 / 6)
+
+
+def eps_dispersive(t, eps_inf, eps_s, tau_D):
+    """Eq.P8  C3：Debye 弛豫下时间尺度 t 上的有效介电常数。"""
+    return eps_inf + (eps_s - eps_inf) * (1 - np.exp(-t / tau_D))
+
+
+def percolation_mobility(phi, phi_c, mu0, t_exp=2.0):
+    """Eq.P9  A1/A4/D6：渗流迁移率 μ ∝ (φ − φ_c)^t，φ ≤ φ_c 时为 0。"""
+    return mu0 * np.clip((phi - phi_c) / (1 - phi_c), 0, None) ** t_exp
+
+
+def J_gen_trap(d, N_t, E_t, nu0=1e12, T=300.0):
+    """Eq.P10  D3：体陷阱热产生电流 J = q·d·N_t·ν₀·exp(−E_t/kT)。"""
+    return q * d * N_t * nu0 * np.exp(-E_t / kT(T))
+
+
+def f_trap_bulk(E_t, nu0=1e12, T=300.0):
+    """Eq.P10  D3：弱光下陷阱释放截止频率 ν₀·exp(−E_t/kT)/2π。"""
+    return nu0 * np.exp(-E_t / kT(T)) / (2 * np.pi)
+
+
+def n_steady(G, d, mu, Veff):
+    """Eq.P11  C4：抽取限制的稳态载流子密度 n ≈ G·t_tr，t_tr = d²/(μV_eff)。"""
+    return G * d**2 / (mu * Veff)
+
+
+def sheet_tradeoff(t, rho, k_par, lam, L_strip):
+    """Eq.P12  3.1-5：电极厚度 t 的寄生透过 exp(−4πk t/λ) 与方阻 R_□ = ρ/t（长 L_strip 的条形电极电阻按 R_□ 计）。"""
+    T_el = np.exp(-4 * np.pi * k_par * t / lam)
+    return T_el, rho / t * L_strip
