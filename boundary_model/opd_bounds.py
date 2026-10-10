@@ -183,6 +183,17 @@ def hecht_profile(d, alpha, mutau_e, mutau_h, Veff, light_on_hole_side=True, n=4
     return float(np.sum(g * (ce + ch)))
 
 
+def hard_edge_collection(d, alpha, mutau_cross, Veff, n=400):
+    """Eq.K4'  硬边界收集（Drive 模型 v2.x 回溯检验所用形式）：
+    只有距背电极 x_d = μτ·V_eff/d 以内产生的载流子被收集，其余全部损失。
+    mutau_cross 取需要穿越整层到背电极的那种载流子。对 CCN 分类，它比 Ramo–Hecht 形式（K4）更符合实测。"""
+    x = (np.arange(n) + 0.5) / n * d
+    g = alpha * np.exp(-alpha * x)
+    g = g / g.sum()
+    xd = mutau_cross * Veff / d
+    return float(g[x >= d - xd].sum())
+
+
 def w_space_charge(mu_slow, G, Veff, eps_r):
     """Eq.K5  Goodman–Rose 空间电荷区宽度；d > w 进入空间电荷限制。G [1/m³s]。"""
     return (9 * eps0 * eps_r * mu_slow / (8 * q * G)) ** 0.25 * np.sqrt(Veff)
@@ -235,9 +246,11 @@ def f_trap_power(P, f0, P0, gamma_t):
 
 
 # ---------------------------------------------------------------- 带宽
-def f_transit(mu_slow, Veff, d, kappa=3.5):
-    """Eq.B1  渡越带宽 f_tr = κ μ V_eff /(2π d²)。"""
-    return kappa * mu_slow * Veff / (2 * np.pi * d**2)
+def f_transit(mu_slow, Veff, d, kappa=3.5, d_tr=None):
+    """Eq.B1  渡越带宽 f_tr = κ μ V_eff /(2π d_tr²)。
+    d_tr 默认取 d（全厚度）；体相均匀产生时 Drive 回溯检验与 Armin 2014 支持 d_tr = d/2，见《与Drive模型对比.md》。"""
+    dt = d if d_tr is None else d_tr
+    return kappa * mu_slow * Veff / (2 * np.pi * dt**2)
 
 
 def f_RC(R, eps_r, A, d):

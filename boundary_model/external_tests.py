@@ -199,6 +199,22 @@ for a1, a2, v0, muh in itertools.product([5e6, 1e7, 2e7], [1e5, 5e5, 2e6], [0.6,
         n_loose += RR[0] >= 1 and RR[1] >= 1 and RR[2] < 1 and RR[3] < 1
 print(f"Y19 CCN 稳健性：{n_tot} 组先验组合中，严格判据（CCN: RR<0.5）命中 {n_strict}，宽松判据（RR<1）命中 {n_loose}")
 
+# 对照：硬边界收集（K4'，Drive 模型所用形式），同一先验网格
+hits = {}
+for a1, a2, v0, muh in itertools.product([5e6, 1e7, 2e7], [1e5, 5e5, 2e6], [0.6, 0.9], [1e-9, 1e-8, 3e-8]):
+    for tau in np.geomspace(1e-9, 1e-3, 61):
+        RR = []
+        for name, d, conv, obs in cases:
+            mt = 1e-7 * tau if conv else muh * tau      # 常规：电子穿越到背电极；反转：空穴穿越
+            ep = b.eta_A_incoherent(a1, d) * b.hard_edge_collection(d, a1, mt, v0)
+            ee = b.eta_A_incoherent(a2, d) * b.hard_edge_collection(d, a2, mt, v0)
+            RR.append(ep / max(ee, 1e-30))
+        if RR[0] >= 1 and RR[1] >= 1 and RR[2] < 0.5 and RR[3] < 0.5:
+            hits.setdefault(muh, []).append(tau)
+print(f"Y19 CCN 硬边界判据：严格判据命中 {sum(len(v) for v in hits.values())} 组")
+for muh, ts in sorted(hits.items()):
+    print(f"  μh = {muh*1e4:g} cm²/Vs：τ = {min(ts):.1e}–{max(ts):.1e} s（{len(ts)} 组）")
+
 fig.suptitle("Yazmaciyan 2019 CCN classification: aqua = τ range reproducing all four observations", fontsize=9.5)
 fig.tight_layout()
 fig.savefig("external_ccn.png", dpi=170)
