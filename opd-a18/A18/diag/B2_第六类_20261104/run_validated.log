@@ -1,0 +1,252 @@
+[4.0s] Allowed data prepared; no test spectra generated.
+[4.0s] Allowed data prepared; no test spectra generated.
+[4.1s] B1 baseline reproduced within 1e-6 on identical diagnostic readings (float32 GPU tolerance).
+[6.2s] specialist_512x4: 30000-step measured estimate 135.3s
+[10.1s] specialist_512x4: step 1000, validation 0.332092, best 0.332092 @ 1000, 4s
+[14.0s] specialist_512x4: step 2000, validation 0.296895, best 0.296895 @ 2000, 8s
+[17.8s] specialist_512x4: step 3000, validation 0.250502, best 0.250502 @ 3000, 12s
+[21.6s] specialist_512x4: step 4000, validation 0.229003, best 0.229003 @ 4000, 15s
+[25.5s] specialist_512x4: step 5000, validation 0.225672, best 0.225672 @ 5000, 19s
+[29.3s] specialist_512x4: step 6000, validation 0.234631, best 0.225672 @ 5000, 23s
+[33.1s] specialist_512x4: step 7000, validation 0.235275, best 0.225672 @ 5000, 27s
+[37.1s] specialist_512x4: step 8000, validation 0.214399, best 0.214399 @ 8000, 31s
+[40.9s] specialist_512x4: step 9000, validation 0.232991, best 0.214399 @ 8000, 35s
+[44.8s] specialist_512x4: step 10000, validation 0.209826, best 0.209826 @ 10000, 39s
+[48.6s] specialist_512x4: step 11000, validation 0.240080, best 0.209826 @ 10000, 42s
+[52.4s] specialist_512x4: step 12000, validation 0.191859, best 0.191859 @ 12000, 46s
+[56.2s] specialist_512x4: step 13000, validation 0.194574, best 0.191859 @ 12000, 50s
+[60.1s] specialist_512x4: step 14000, validation 0.208752, best 0.191859 @ 12000, 54s
+[63.8s] specialist_512x4: step 15000, validation 0.177639, best 0.177639 @ 15000, 58s
+[67.5s] specialist_512x4: step 16000, validation 0.167557, best 0.167557 @ 16000, 61s
+[71.2s] specialist_512x4: step 17000, validation 0.167278, best 0.167278 @ 17000, 65s
+[75.0s] specialist_512x4: step 18000, validation 0.154506, best 0.154506 @ 18000, 69s
+[78.7s] specialist_512x4: step 19000, validation 0.144608, best 0.144608 @ 19000, 73s
+[82.4s] specialist_512x4: step 20000, validation 0.146202, best 0.144608 @ 19000, 76s
+[86.1s] specialist_512x4: step 21000, validation 0.137566, best 0.137566 @ 21000, 80s
+[89.9s] specialist_512x4: step 22000, validation 0.133521, best 0.133521 @ 22000, 84s
+[93.9s] specialist_512x4: step 23000, validation 0.133045, best 0.133045 @ 23000, 88s
+[97.8s] specialist_512x4: step 24000, validation 0.132245, best 0.132245 @ 24000, 92s
+[101.4s] specialist_512x4: step 25000, validation 0.130008, best 0.130008 @ 25000, 95s
+[105.1s] specialist_512x4: step 26000, validation 0.129370, best 0.129370 @ 26000, 99s
+[108.7s] specialist_512x4: step 27000, validation 0.128715, best 0.128715 @ 27000, 102s
+[112.4s] specialist_512x4: step 28000, validation 0.128343, best 0.128343 @ 28000, 106s
+[116.0s] specialist_512x4: step 29000, validation 0.128111, best 0.128111 @ 29000, 110s
+[119.6s] specialist_512x4: step 30000, validation 0.128176, best 0.128111 @ 29000, 113s
+[121.2s] specialist_768x6: 30000-step measured estimate 213.6s
+[0.5s] Oracle 阶梯谱: K=1 shrink=0.0001 validation=0.199625
+[0.5s] Oracle 阶梯谱: K=1 shrink=0.01 validation=0.199547
+[0.6s] Oracle 阶梯谱: K=8 shrink=0.0001 validation=0.192829
+[0.7s] Oracle 阶梯谱: K=8 shrink=0.01 validation=0.192713
+[1.0s] Oracle 阶梯谱: K=32 shrink=0.0001 validation=0.183526
+[1.2s] Oracle 阶梯谱: K=32 shrink=0.01 validation=0.183461
+[1.9s] Oracle 阶梯谱: K=64 shrink=0.0001 validation=0.179851
+[2.5s] Oracle 阶梯谱: K=64 shrink=0.01 validation=0.179812
+[4.2s] 阶梯谱 diagnostic oracle=0.206896, Gaussian=0.228419, null=0.1581%
+[4.2s] Oracle 零件组合: K=1 shrink=0.0001 validation=0.173762
+[4.2s] Oracle 零件组合: K=1 shrink=0.01 validation=0.173654
+[4.3s] Oracle 零件组合: K=8 shrink=0.0001 validation=0.169622
+[4.4s] Oracle 零件组合: K=8 shrink=0.01 validation=0.169685
+[4.7s] Oracle 零件组合: K=32 shrink=0.0001 validation=0.171314
+[5.0s] Oracle 零件组合: K=32 shrink=0.01 validation=0.171431
+[5.7s] Oracle 零件组合: K=64 shrink=0.0001 validation=0.169232
+[128.8s] specialist_768x6: step 1000, validation 0.318615, best 0.318615 @ 1000, 8s
+[6.3s] Oracle 零件组合: K=64 shrink=0.01 validation=0.169277
+[7.8s] 零件组合 diagnostic oracle=0.170256, Gaussian=0.180399, null=0.3257%
+[7.8s] Oracle 随机光滑: K=1 shrink=0.0001 validation=0.083248
+[7.8s] Oracle 随机光滑: K=1 shrink=0.01 validation=0.083315
+[7.9s] Oracle 随机光滑: K=8 shrink=0.0001 validation=0.079955
+[8.0s] Oracle 随机光滑: K=8 shrink=0.01 validation=0.079917
+[8.4s] Oracle 随机光滑: K=32 shrink=0.0001 validation=0.068201
+[8.7s] Oracle 随机光滑: K=32 shrink=0.01 validation=0.068177
+[9.3s] Oracle 随机光滑: K=64 shrink=0.0001 validation=0.065527
+[10.0s] Oracle 随机光滑: K=64 shrink=0.01 validation=0.065513
+[11.6s] 随机光滑 diagnostic oracle=0.071859, Gaussian=0.091415, null=0.0038%
+[11.7s] Oracle 同分布五类: K=1 shrink=0.0001 validation=0.183023
+[11.7s] Oracle 同分布五类: K=1 shrink=0.01 validation=0.183137
+[11.8s] Oracle 同分布五类: K=8 shrink=0.0001 validation=0.129437
+[11.9s] Oracle 同分布五类: K=8 shrink=0.01 validation=0.129411
+[12.4s] Oracle 同分布五类: K=32 shrink=0.0001 validation=0.104041
+[12.7s] Oracle 同分布五类: K=32 shrink=0.01 validation=0.104021
+[13.5s] Oracle 同分布五类: K=64 shrink=0.0001 validation=0.091719
+[136.6s] specialist_768x6: step 2000, validation 0.326240, best 0.318615 @ 1000, 15s
+[14.1s] Oracle 同分布五类: K=64 shrink=0.01 validation=0.091649
+[15.9s] 同分布五类 diagnostic oracle=0.109351, Gaussian=0.207178, null=0.0224%
+[15.9s] Oracle 单峰 60–200 nm: K=1 shrink=0.0001 validation=0.047039
+[15.9s] Oracle 单峰 60–200 nm: K=1 shrink=0.01 validation=0.047292
+[16.0s] Oracle 单峰 60–200 nm: K=8 shrink=0.0001 validation=0.024067
+[16.1s] Oracle 单峰 60–200 nm: K=8 shrink=0.01 validation=0.024121
+[16.5s] Oracle 单峰 60–200 nm: K=32 shrink=0.0001 validation=0.011644
+[16.8s] Oracle 单峰 60–200 nm: K=32 shrink=0.01 validation=0.011654
+[17.5s] Oracle 单峰 60–200 nm: K=64 shrink=0.0001 validation=0.008369
+[18.1s] Oracle 单峰 60–200 nm: K=64 shrink=0.01 validation=0.008381
+[19.9s] 单峰 60–200 nm diagnostic oracle=0.009634, Gaussian=0.046772, null=0.0005%
+[19.9s] Oracle 宽带通: K=1 shrink=0.0001 validation=0.139963
+[19.9s] Oracle 宽带通: K=1 shrink=0.01 validation=0.139960
+[20.0s] Oracle 宽带通: K=8 shrink=0.0001 validation=0.079205
+[20.1s] Oracle 宽带通: K=8 shrink=0.01 validation=0.078936
+[20.4s] Oracle 宽带通: K=32 shrink=0.0001 validation=0.059428
+[20.8s] Oracle 宽带通: K=32 shrink=0.01 validation=0.059245
+[144.4s] specialist_768x6: step 3000, validation 0.255001, best 0.255001 @ 3000, 23s
+[21.4s] Oracle 宽带通: K=64 shrink=0.0001 validation=0.047498
+[22.1s] Oracle 宽带通: K=64 shrink=0.01 validation=0.047458
+[23.8s] 宽带通 diagnostic oracle=0.049464, Gaussian=0.133449, null=0.2282%
+[23.8s] Oracle phase complete.
+[151.8s] specialist_768x6: step 4000, validation 0.256816, best 0.255001 @ 3000, 31s
+[159.0s] specialist_768x6: step 5000, validation 0.241863, best 0.241863 @ 5000, 38s
+[166.4s] specialist_768x6: step 6000, validation 0.233520, best 0.233520 @ 6000, 45s
+[173.8s] specialist_768x6: step 7000, validation 0.238682, best 0.233520 @ 6000, 53s
+[181.0s] specialist_768x6: step 8000, validation 0.226509, best 0.226509 @ 8000, 60s
+[188.1s] specialist_768x6: step 9000, validation 0.229561, best 0.226509 @ 8000, 67s
+[195.3s] specialist_768x6: step 10000, validation 0.196762, best 0.196762 @ 10000, 74s
+[202.4s] specialist_768x6: step 11000, validation 0.198628, best 0.196762 @ 10000, 81s
+[209.8s] specialist_768x6: step 12000, validation 0.196985, best 0.196762 @ 10000, 89s
+[217.2s] specialist_768x6: step 13000, validation 0.178245, best 0.178245 @ 13000, 96s
+[224.3s] specialist_768x6: step 14000, validation 0.181224, best 0.178245 @ 13000, 103s
+[0.5s] Oracle 阶梯谱: K=1 shrink=0.0001 validation=0.199625
+[0.5s] Oracle 阶梯谱: K=1 shrink=0.01 validation=0.199547
+[0.6s] Oracle 阶梯谱: K=8 shrink=0.0001 validation=0.192829
+[0.7s] Oracle 阶梯谱: K=8 shrink=0.01 validation=0.192713
+[1.0s] Oracle 阶梯谱: K=32 shrink=0.0001 validation=0.183526
+[1.3s] Oracle 阶梯谱: K=32 shrink=0.01 validation=0.183461
+[2.0s] Oracle 阶梯谱: K=64 shrink=0.0001 validation=0.179851
+[2.6s] Oracle 阶梯谱: K=64 shrink=0.01 validation=0.179812
+[4.3s] 阶梯谱 diagnostic oracle=0.206896, Gaussian=0.228419, null=0.1581%
+[4.3s] Oracle 零件组合: K=1 shrink=0.0001 validation=0.173762
+[4.3s] Oracle 零件组合: K=1 shrink=0.01 validation=0.173654
+[4.4s] Oracle 零件组合: K=8 shrink=0.0001 validation=0.169622
+[4.5s] Oracle 零件组合: K=8 shrink=0.01 validation=0.169685
+[4.8s] Oracle 零件组合: K=32 shrink=0.0001 validation=0.171314
+[5.1s] Oracle 零件组合: K=32 shrink=0.01 validation=0.171431
+[5.8s] Oracle 零件组合: K=64 shrink=0.0001 validation=0.169232
+[6.3s] Oracle 零件组合: K=64 shrink=0.01 validation=0.169277
+[232.0s] specialist_768x6: step 15000, validation 0.171981, best 0.171981 @ 15000, 111s
+[7.9s] 零件组合 diagnostic oracle=0.170256, Gaussian=0.180399, null=0.3257%
+[7.9s] Oracle 随机光滑: K=1 shrink=0.0001 validation=0.083248
+[8.0s] Oracle 随机光滑: K=1 shrink=0.01 validation=0.083315
+[8.1s] Oracle 随机光滑: K=8 shrink=0.0001 validation=0.079955
+[8.1s] Oracle 随机光滑: K=8 shrink=0.01 validation=0.079917
+[8.5s] Oracle 随机光滑: K=32 shrink=0.0001 validation=0.068201
+[8.8s] Oracle 随机光滑: K=32 shrink=0.01 validation=0.068177
+[9.4s] Oracle 随机光滑: K=64 shrink=0.0001 validation=0.065527
+[10.1s] Oracle 随机光滑: K=64 shrink=0.01 validation=0.065513
+[11.7s] 随机光滑 diagnostic oracle=0.071859, Gaussian=0.091415, null=0.0038%
+[11.8s] Oracle 同分布五类: K=1 shrink=0.0001 validation=0.183023
+[11.8s] Oracle 同分布五类: K=1 shrink=0.01 validation=0.183137
+[11.9s] Oracle 同分布五类: K=8 shrink=0.0001 validation=0.129437
+[12.0s] Oracle 同分布五类: K=8 shrink=0.01 validation=0.129411
+[12.4s] Oracle 同分布五类: K=32 shrink=0.0001 validation=0.104041
+[12.7s] Oracle 同分布五类: K=32 shrink=0.01 validation=0.104021
+[13.6s] Oracle 同分布五类: K=64 shrink=0.0001 validation=0.091719
+[14.2s] Oracle 同分布五类: K=64 shrink=0.01 validation=0.091649
+[14.2s] Oracle 同分布五类: validation still improves >5%; extend K to 128,256.
+[239.8s] specialist_768x6: step 16000, validation 0.164866, best 0.164866 @ 16000, 118s
+[16.0s] Oracle 同分布五类: K=128 shrink=0.0001 validation=0.082518
+[17.3s] Oracle 同分布五类: K=128 shrink=0.01 validation=0.082562
+[20.5s] Oracle 同分布五类: K=256 shrink=0.0001 validation=0.071612
+[247.5s] specialist_768x6: step 17000, validation 0.160078, best 0.160078 @ 17000, 126s
+[23.1s] Oracle 同分布五类: K=256 shrink=0.01 validation=0.071638
+[255.3s] specialist_768x6: step 18000, validation 0.159910, best 0.159910 @ 18000, 134s
+[30.4s] 同分布五类 diagnostic oracle=0.094559, Gaussian=0.207178, null=0.0224%
+[30.4s] Oracle 单峰 60–200 nm: K=1 shrink=0.0001 validation=0.047039
+[30.4s] Oracle 单峰 60–200 nm: K=1 shrink=0.01 validation=0.047292
+[30.5s] Oracle 单峰 60–200 nm: K=8 shrink=0.0001 validation=0.024067
+[30.6s] Oracle 单峰 60–200 nm: K=8 shrink=0.01 validation=0.024121
+[31.0s] Oracle 单峰 60–200 nm: K=32 shrink=0.0001 validation=0.011644
+[31.3s] Oracle 单峰 60–200 nm: K=32 shrink=0.01 validation=0.011654
+[32.1s] Oracle 单峰 60–200 nm: K=64 shrink=0.0001 validation=0.008369
+[32.7s] Oracle 单峰 60–200 nm: K=64 shrink=0.01 validation=0.008381
+[32.7s] Oracle 单峰 60–200 nm: validation still improves >5%; extend K to 128,256.
+[34.2s] Oracle 单峰 60–200 nm: K=128 shrink=0.0001 validation=0.007312
+[35.5s] Oracle 单峰 60–200 nm: K=128 shrink=0.01 validation=0.007311
+[263.0s] specialist_768x6: step 19000, validation 0.149495, best 0.149495 @ 19000, 142s
+[38.4s] Oracle 单峰 60–200 nm: K=256 shrink=0.0001 validation=0.007505
+[41.0s] Oracle 单峰 60–200 nm: K=256 shrink=0.01 validation=0.007512
+[44.7s] 单峰 60–200 nm diagnostic oracle=0.009393, Gaussian=0.046772, null=0.0005%
+[44.7s] Oracle 宽带通: K=1 shrink=0.0001 validation=0.139963
+[44.7s] Oracle 宽带通: K=1 shrink=0.01 validation=0.139960
+[44.8s] Oracle 宽带通: K=8 shrink=0.0001 validation=0.079205
+[44.9s] Oracle 宽带通: K=8 shrink=0.01 validation=0.078936
+[45.2s] Oracle 宽带通: K=32 shrink=0.0001 validation=0.059428
+[270.7s] specialist_768x6: step 20000, validation 0.143081, best 0.143081 @ 20000, 149s
+[45.6s] Oracle 宽带通: K=32 shrink=0.01 validation=0.059245
+[46.3s] Oracle 宽带通: K=64 shrink=0.0001 validation=0.047498
+[46.9s] Oracle 宽带通: K=64 shrink=0.01 validation=0.047458
+[46.9s] Oracle 宽带通: validation still improves >5%; extend K to 128,256.
+[48.3s] Oracle 宽带通: K=128 shrink=0.0001 validation=0.045669
+[49.6s] Oracle 宽带通: K=128 shrink=0.01 validation=0.045648
+[52.3s] Oracle 宽带通: K=256 shrink=0.0001 validation=0.046171
+[278.2s] specialist_768x6: step 21000, validation 0.144542, best 0.143081 @ 20000, 157s
+[54.9s] Oracle 宽带通: K=256 shrink=0.01 validation=0.046199
+[58.6s] 宽带通 diagnostic oracle=0.046348, Gaussian=0.133449, null=0.2282%
+[58.6s] Oracle phase complete.
+[285.8s] specialist_768x6: step 22000, validation 0.137601, best 0.137601 @ 22000, 165s
+[293.2s] specialist_768x6: step 23000, validation 0.135430, best 0.135430 @ 23000, 172s
+[300.6s] specialist_768x6: step 24000, validation 0.135652, best 0.135430 @ 23000, 179s
+[307.9s] specialist_768x6: step 25000, validation 0.132581, best 0.132581 @ 25000, 187s
+[315.0s] specialist_768x6: step 26000, validation 0.133336, best 0.132581 @ 25000, 194s
+[322.4s] specialist_768x6: step 27000, validation 0.133136, best 0.132581 @ 25000, 201s
+[329.8s] specialist_768x6: step 28000, validation 0.133553, best 0.132581 @ 25000, 208s
+[337.0s] specialist_768x6: step 29000, validation 0.132933, best 0.132581 @ 25000, 216s
+[0.5s] Oracle 阶梯谱: K=1 shrink=0.0001 validation=0.199625
+[0.5s] Oracle 阶梯谱: K=1 shrink=0.01 validation=0.199547
+[0.7s] Oracle 阶梯谱: K=8 shrink=0.0001 validation=0.192829
+[0.7s] Oracle 阶梯谱: K=8 shrink=0.01 validation=0.192713
+[1.0s] Oracle 阶梯谱: K=32 shrink=0.0001 validation=0.183526
+[1.4s] Oracle 阶梯谱: K=32 shrink=0.01 validation=0.183461
+[2.2s] Oracle 阶梯谱: K=64 shrink=0.0001 validation=0.179851
+[344.6s] specialist_768x6: step 30000, validation 0.133204, best 0.132581 @ 25000, 223s
+[344.7s] Network phase complete.
+[3.0s] Oracle 阶梯谱: K=64 shrink=0.01 validation=0.179812
+[4.5s] 阶梯谱 diagnostic oracle=0.206896, Gaussian=0.228419, null=0.1581%
+[4.6s] Oracle 零件组合: K=1 shrink=0.0001 validation=0.173762
+[4.6s] Oracle 零件组合: K=1 shrink=0.01 validation=0.173654
+[4.7s] Oracle 零件组合: K=8 shrink=0.0001 validation=0.169622
+[4.7s] Oracle 零件组合: K=8 shrink=0.01 validation=0.169685
+[5.1s] Oracle 零件组合: K=32 shrink=0.0001 validation=0.171314
+[5.4s] Oracle 零件组合: K=32 shrink=0.01 validation=0.171431
+[6.0s] Oracle 零件组合: K=64 shrink=0.0001 validation=0.169232
+[6.5s] Oracle 零件组合: K=64 shrink=0.01 validation=0.169277
+[7.9s] 零件组合 diagnostic oracle=0.170256, Gaussian=0.180399, null=0.3257%
+[8.0s] Oracle 随机光滑: K=1 shrink=0.0001 validation=0.083248
+[8.0s] Oracle 随机光滑: K=1 shrink=0.01 validation=0.083315
+[8.1s] Oracle 随机光滑: K=8 shrink=0.0001 validation=0.079955
+[8.2s] Oracle 随机光滑: K=8 shrink=0.01 validation=0.079917
+[8.6s] Oracle 随机光滑: K=32 shrink=0.0001 validation=0.068201
+[8.9s] Oracle 随机光滑: K=32 shrink=0.01 validation=0.068177
+[9.6s] Oracle 随机光滑: K=64 shrink=0.0001 validation=0.065527
+[10.2s] Oracle 随机光滑: K=64 shrink=0.01 validation=0.065513
+[11.6s] 随机光滑 diagnostic oracle=0.071859, Gaussian=0.091415, null=0.0038%
+[11.7s] Oracle 同分布五类: K=1 shrink=0.0001 validation=0.183023
+[11.7s] Oracle 同分布五类: K=1 shrink=0.01 validation=0.183137
+[11.8s] Oracle 同分布五类: K=8 shrink=0.0001 validation=0.129437
+[11.9s] Oracle 同分布五类: K=8 shrink=0.01 validation=0.129411
+[12.3s] Oracle 同分布五类: K=32 shrink=0.0001 validation=0.104041
+[12.6s] Oracle 同分布五类: K=32 shrink=0.01 validation=0.104021
+[13.5s] Oracle 同分布五类: K=64 shrink=0.0001 validation=0.091719
+[14.1s] Oracle 同分布五类: K=64 shrink=0.01 validation=0.091649
+[14.1s] Oracle 同分布五类: validation still improves >5%; extend K to 128,256.
+[15.8s] Oracle 同分布五类: K=128 shrink=0.0001 validation=0.082518
+[17.0s] Oracle 同分布五类: K=128 shrink=0.01 validation=0.082562
+[19.8s] Oracle 同分布五类: K=256 shrink=0.0001 validation=0.071612
+[22.3s] Oracle 同分布五类: K=256 shrink=0.01 validation=0.071638
+[22.7s] Oracle 同分布五类: training subtype mixture K=5 shrink=0.0001 validation=0.083477
+[22.7s] Oracle 同分布五类: training subtype mixture K=5 shrink=0.01 validation=0.083755
+[23.2s] Oracle 同分布五类: training subtype mixture K=40 shrink=0.0001 validation=0.067378
+[23.6s] Oracle 同分布五类: training subtype mixture K=40 shrink=0.01 validation=0.067304
+[25.2s] Oracle 同分布五类: training subtype mixture K=160 shrink=0.0001 validation=0.060561
+[26.7s] Oracle 同分布五类: training subtype mixture K=160 shrink=0.01 validation=0.060561
+[30.2s] Oracle 同分布五类: training subtype mixture K=320 shrink=0.0001 validation=0.058110
+[33.4s] Oracle 同分布五类: training subtype mixture K=320 shrink=0.01 validation=0.058274
+[41.6s] 同分布五类 diagnostic oracle=0.080230, Gaussian=0.207178, null=0.0224%
+[41.6s] Oracle 单峰 60–200 nm: K=1 shrink=0.0001 validation=0.047039
+[41.6s] Oracle 单峰 60–200 nm: K=1 shrink=0.01 validation=0.047292
+[41.7s] Oracle 单峰 60–200 nm: K=8 shrink=0.0001 validation=0.024067
+[41.8s] Oracle 单峰 60–200 nm: K=8 shrink=0.01 validation=0.024121
+[42.1s] Oracle 单峰 60–200 nm: K=32 shrink=0.0001 validation=0.011644
+[42.4s] Oracle 单峰 60–200 nm: K=32 shrink=0.01 validation=0.011654
+[43.0s] Oracle 单峰 60–200 nm: K=64 shrink=0.0001 validation=0.008369
+[43.7s] Oracle 单峰 60–200 nm: K=64 shrink=0.01 validation=0.008381
+[43.7s] Oracle 单峰 60–200 nm: validation still improves >5%; extend K to 128,256.
+[44.9s] Oracle 单峰 60–200 nm: K=128 shrink=0.0001 validation=0.007312
+[46.0s] Oracle 单峰 60–200 nm: K=128 shrink=0.01 validation=0.007311
+[48.4s] Oracle 单峰 60–200 nm: K=256 shrink=0.0001 validation=0.007505

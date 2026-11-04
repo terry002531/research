@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-11-04T11:51:14.652773+07:00",
+  "seed": 63862,
+  "diagnostic_generation_count": 1,
+  "families": 6,
+  "spectra": 180,
+  "readings": 720,
+  "raw_bootstrap_comparisons_recomputed": 72,
+  "bootstrap_replicates": 200000,
+  "nrmse_checks_from_saved_predictions": 30,
+  "old_B2_files_unchanged": 66,
+  "frozen_files_unchanged": 24,
+  "original_handoff_bytes_preserved": 20279,
+  "handoff_sha256": "f78a7a97c3139bf44ebca93493ba999f28f7976fdc672f3c7e442d23b3161e2c",
+  "report_sha256": "f27156715b77ccd5459694328b64a170973ad213483294d2c5b01dedc16b5ddd",
+  "no_network_training": true,
+  "old_31451_reproduction_passed": true,
+  "extended_historical_overlap_check": {
+    "status": "PASS",
+    "method": "Exact rows after 9-decimal rounding",
+    "new_seed_spectra_read_from_file": true,
+    "new_seed_regenerated": false,
+    "new_seed_spectra": 780,
+    "reported_six_family_spectra": 180,
+    "compared_counts": {
+      "full_training": 87000,
+      "full_fusion_validation": 1040,
+      "SS_tuning_31451_all26": 780,
+      "A_Gaussian_fit_seed11": 6000,
+      "A_tuning_five_31439": 40,
+      "parts_network_original_training_pool": 65536
+    },
+    "overlaps": {
+      "full_training": 0,
+      "full_fusion_validation": 0,
+      "SS_tuning_31451_all26": 0,
+      "A_Gaussian_fit_seed11": 0,
+      "A_tuning_five_31439": 0,
+      "parts_network_original_training_pool": 0
+    },
+    "test_6161_4242_generated_or_loaded": false,
+    "results_81063_loaded": false,
+    "fitting_or_inference_performed": false
+  },
+  "all_prior_and_model_hashes_unchanged": true,
+  "unknown_family_universe": 6,
+  "unknown_noise_calibration_only": true,
+  "utf8_verified": true
+}

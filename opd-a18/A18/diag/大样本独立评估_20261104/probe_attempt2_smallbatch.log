@@ -1,0 +1,9 @@
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:109: RuntimeWarning: overflow encountered in exp
+  return _poly(g, x, b) / (1 + np.exp(-sgn * (WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:50: RuntimeWarning: overflow encountered in exp
+  return 1.0 / (1.0 + np.exp(-(WL - e) / (w / 4)))
+Traceback (most recent call last):
+  File "D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\06_重建算法\A18\diag\大样本独立评估_20261104\probe_frozen.py", line 32, in <module>
+    assert da < 1e-6 and db < 1e-6,(name,da,db)
+                         ^^^^^^^^^
+AssertionError: ('同分布五类', 8.714784495711392e-07, 1.4827651986792922e-06)

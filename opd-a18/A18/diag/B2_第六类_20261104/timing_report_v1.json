@@ -1,0 +1,10 @@
+{
+  "start_utc": "2026-11-04T02:26:59+00:00",
+  "report_created_utc": "2026-11-04T03:18:18.717051+00:00",
+  "elapsed_seconds": 3079.717051,
+  "approximate_interruption_seconds": 2080.0,
+  "approximate_active_seconds": 999.7170510000001,
+  "interruption_boundary_source": "last pre-interruption log timestamp 09:37:32; user said interrupted at 09:37",
+  "network_training_seconds": 336.72593300000153,
+  "evidence": "clock timestamps 已核实; elapsed/active 推算, interruption is approximate"
+}

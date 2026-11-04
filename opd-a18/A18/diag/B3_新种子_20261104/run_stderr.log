@@ -1,0 +1,16 @@
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:50: RuntimeWarning: overflow encountered in exp
+  return 1.0 / (1.0 + np.exp(-(WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:109: RuntimeWarning: overflow encountered in exp
+  return _poly(g, x, b) / (1 + np.exp(-sgn * (WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:109: RuntimeWarning: overflow encountered in exp
+  return _poly(g, x, b) / (1 + np.exp(-sgn * (WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\06_重建算法\算法对照\a16_ss.py:48: RuntimeWarning: overflow encountered in exp
+  sg = lambda e, w: 1.0 / (1.0 + np.exp(-(WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:109: RuntimeWarning: overflow encountered in exp
+  return _poly(g, x, b) / (1 + np.exp(-sgn * (WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:50: RuntimeWarning: overflow encountered in exp
+  return 1.0 / (1.0 + np.exp(-(WL - e) / (w / 4)))
+Traceback (most recent call last):
+  File "D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\06_重建算法\A18\diag\B3_新种子_20261104\diagnose_b3_newseed.py", line 330, in <module>
+    assert not changes, changes
+AssertionError: {'A18\\diag\\B2_新种子63862_20261104\\input_inventory_before.json': {'before': None, 'after': {'size': 19105, 'mtime_ns': 1793766869078453800}}, 'A18\\diag\\B2_新种子63862_20261104\\run.log': {'before': None, 'after': {'size': 545, 'mtime_ns': 1793766870272190900}}, 'A18\\diag\\B2_新种子63862_20261104\\existing_files_before.json': {'before': None, 'after': {'size': 104818, 'mtime_ns': 1793766868912755100}}, 'A18\\HANDOFF_A18-B2.md': {'before': {'size': 18515, 'mtime_ns': 1793764127032109400}, 'after': {'size': 19471, 'mtime_ns': 1793766713100596500}}, 'A18\\diag\\B2_新种子63862_20261104\\preflight.json': {'before': None, 'after': {'size': 5064, 'mtime_ns': 1793766870272190900}}, 'A18\\HANDOFF_A18-B1.md': {'before': {'size': 47144, 'mtime_ns': 1793765013849231900}, 'after': {'size': 49380, 'mtime_ns': 1793766627338524100}}, 'A18\\diag\\B2_新种子63862_20261104\\preflight.py': {'before': None, 'after': {'size': 7284, 'mtime_ns': 1793766863597170600}}, 'A18\\diag\\B2_新种子63862_20261104\\preflight_verification.json': {'before': None, 'after': {'size': 188, 'mtime_ns': 1793766870558050100}}}

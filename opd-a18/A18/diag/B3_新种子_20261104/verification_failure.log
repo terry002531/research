@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\06_重建算法\A18\diag\B3_新种子_20261104\verify_b3.py", line 19, in <module>
+    check('all_eleven_required_deliverables_present',all((O/n).is_file() for n in required))
+  File "D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\06_重建算法\A18\diag\B3_新种子_20261104\verify_b3.py", line 10, in check
+    if not condition: raise AssertionError(name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: all_eleven_required_deliverables_present

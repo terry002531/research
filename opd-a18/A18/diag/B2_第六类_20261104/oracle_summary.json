@@ -1,0 +1,92 @@
+{
+  "simulation_only": true,
+  "seconds": 58.111716200000956,
+  "metrics": [
+    {
+      "family": "阶梯谱",
+      "selected_K": 64,
+      "shrink": 0.01,
+      "validation_nrmse": 0.1798122509795575,
+      "oracle_nrmse": 0.20689642063464475,
+      "gaussian_K1_nrmse": 0.22841877414926864,
+      "refined_quadrature_nrmse": 0.20689640308102186,
+      "quadrature_max_spectrum_difference": 2.0318944647830517e-07,
+      "quadrature_mean_nrmse_difference": -1.7553622888577536e-08,
+      "per_spectrum_mean_min": 0.09816653561859302,
+      "per_spectrum_mean_max": 0.423339013884141
+    },
+    {
+      "family": "零件组合",
+      "selected_K": 64,
+      "shrink": 0.0001,
+      "validation_nrmse": 0.16923238241422317,
+      "oracle_nrmse": 0.17025634027155648,
+      "gaussian_K1_nrmse": 0.18039918490385803,
+      "refined_quadrature_nrmse": 0.17025632871548801,
+      "quadrature_max_spectrum_difference": 3.86175108736328e-07,
+      "quadrature_mean_nrmse_difference": -1.155606846325874e-08,
+      "per_spectrum_mean_min": 0.08399754834106755,
+      "per_spectrum_mean_max": 0.2897310319585418
+    },
+    {
+      "family": "随机光滑",
+      "selected_K": 64,
+      "shrink": 0.01,
+      "validation_nrmse": 0.06551254048906893,
+      "oracle_nrmse": 0.07185911055043312,
+      "gaussian_K1_nrmse": 0.0914151009415792,
+      "refined_quadrature_nrmse": 0.0718590887250366,
+      "quadrature_max_spectrum_difference": 1.5138520392116162e-07,
+      "quadrature_mean_nrmse_difference": -2.1825396517849427e-08,
+      "per_spectrum_mean_min": 0.024244214713146583,
+      "per_spectrum_mean_max": 0.1493962468943862
+    },
+    {
+      "family": "同分布五类",
+      "selected_K": 256,
+      "shrink": 0.0001,
+      "validation_nrmse": 0.07161240506765512,
+      "oracle_nrmse": 0.094558532371235,
+      "gaussian_K1_nrmse": 0.20717826159018854,
+      "refined_quadrature_nrmse": 0.09455841498997006,
+      "quadrature_max_spectrum_difference": 4.4865685421002777e-07,
+      "quadrature_mean_nrmse_difference": -1.1738126494409418e-07,
+      "per_spectrum_mean_min": 0.008523138633749676,
+      "per_spectrum_mean_max": 0.42957853199304513
+    },
+    {
+      "family": "单峰 60–200 nm",
+      "selected_K": 128,
+      "shrink": 0.01,
+      "validation_nrmse": 0.007310974932512837,
+      "oracle_nrmse": 0.00939282470100358,
+      "gaussian_K1_nrmse": 0.046772141169922156,
+      "refined_quadrature_nrmse": 0.00939281867045156,
+      "quadrature_max_spectrum_difference": 3.7316584357294236e-08,
+      "quadrature_mean_nrmse_difference": -6.030552021293878e-09,
+      "per_spectrum_mean_min": 0.0033474891191660663,
+      "per_spectrum_mean_max": 0.020786877332070783
+    },
+    {
+      "family": "宽带通",
+      "selected_K": 128,
+      "shrink": 0.01,
+      "validation_nrmse": 0.04564833747783538,
+      "oracle_nrmse": 0.04634834654431015,
+      "gaussian_K1_nrmse": 0.13344876753228158,
+      "refined_quadrature_nrmse": 0.04634834972816788,
+      "quadrature_max_spectrum_difference": 1.3496040036919954e-07,
+      "quadrature_mean_nrmse_difference": 3.183857726074546e-09,
+      "per_spectrum_mean_min": 0.02481590774814001,
+      "per_spectrum_mean_max": 0.0755972027310665
+    }
+  ],
+  "prior": "KMeans spectral-area Gaussian mixture, K and covariance shrinkage selected only on validation; extend 64 to 128/256 only if validation gain over 32 exceeds 5%",
+  "likelihood": "exact simulator additive Gaussian dark+white noise; marginal lognormal gain and positive radial coordinate",
+  "inference_input": "reading direction only; true family known; no true spectral amplitude/true power supplied",
+  "caveats": [
+    "MMSE only under fitted area-GMM and squared area loss; shape NRMSE is a different metric",
+    "Non-Gaussian true families, finite training library, Gaussian tails, clipping and peak renormalization prevent a strict universal lower bound",
+    "Nullspace energy alone is not irreducible error; a prior can infer correlated nullspace components"
+  ]
+}

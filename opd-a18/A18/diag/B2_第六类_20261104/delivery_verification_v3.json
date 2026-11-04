@@ -1,0 +1,30 @@
+{
+  "task": "A18-B2",
+  "author": "AI（Codex）",
+  "verified_utc": "2026-11-04T03:20:56.401668+00:00",
+  "original_files_checked": 655,
+  "external_changes_during_interruption": {
+    "A18\\HANDOFF_A18-B1.md": {
+      "size": 28212,
+      "mtime_ns": 1793758306400965400
+    }
+  },
+  "files_changed_after_resume": {},
+  "pre_resume_hashes_checked": 44,
+  "pre_resume_hash_changes": {},
+  "report_utf8": true,
+  "report_numbers_match": true,
+  "SS_selection_bias_disclosed": true,
+  "networks_checkpoint_and_counts_verified": true,
+  "all_six_oracles_complete": true,
+  "total_spectra": 180,
+  "total_individual_readings": 720,
+  "simulation_only": true,
+  "figure_visually_inspected_separately": true,
+  "test_data_not_used": true,
+  "original_source_and_baseline_hashes_match": true,
+  "elapsed_minutes": 53.95669446666667,
+  "approximate_pause_minutes": 34.666666666666664,
+  "approximate_active_minutes": 19.2900278,
+  "evidence_time": "推算；时钟时间戳已核实，中断起点取末条旧日志"
+}

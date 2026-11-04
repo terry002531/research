@@ -1,0 +1,54 @@
+{
+  "script": {
+    "bytes": 21781,
+    "sha256": "f111ceaed910e926b9d46419f541045e7d97d2a04670edfdbf6d5966ea4e64e6",
+    "match": true
+  },
+  "inputs": [
+    {
+      "file": "算法对照\\a15_three.py",
+      "bytes": 49798,
+      "sha256": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+      "expected": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+      "match": true
+    },
+    {
+      "file": "算法对照\\a11_peakfix.py",
+      "bytes": 20576,
+      "sha256": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+      "expected": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+      "match": true
+    },
+    {
+      "file": "算法对照\\a11_device.py",
+      "bytes": 50681,
+      "sha256": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+      "expected": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+      "match": true
+    },
+    {
+      "file": "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py",
+      "bytes": 18046,
+      "sha256": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2",
+      "expected": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2",
+      "match": true
+    },
+    {
+      "file": "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnet0.pt",
+      "bytes": 8677129,
+      "sha256": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3",
+      "expected": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3",
+      "match": true
+    }
+  ],
+  "a16_ss": {
+    "file": "算法对照\\a16_ss.py",
+    "bytes": 11078,
+    "sha256": "b8f6b5839a9e3b354f597119350b2a1eba2ae0f0a7e46a7fc64968f61912aeaf"
+  },
+  "b1": {
+    "file": "A18\\diag\\B1_诊断_20261104\\family_metrics.csv",
+    "sha256": "9f35fd0054dbef9c5af66873417b75f250267a029529d454bbe4708f25adf148"
+  },
+  "checked_at_utc": "2026-11-04T04:17:33.2772798Z"
+}

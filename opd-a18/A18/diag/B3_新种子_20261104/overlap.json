@@ -1,0 +1,14 @@
+{
+  "diagnostic_vs_used": {},
+  "diagnostic_vs_old_diag": {},
+  "method": "round 9 decimals, exact rows; no test spectra generated",
+  "diagnostic_seed": 31600,
+  "n_per_family": 30,
+  "jitter": true,
+  "noise_seed": 8191,
+  "old_diag_sets": [
+    "诊断集 VSEED+7",
+    "调参集 VSEED+13",
+    "诊断集 VSEED+21"
+  ]
+}

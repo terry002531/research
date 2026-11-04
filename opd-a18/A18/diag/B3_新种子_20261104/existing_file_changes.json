@@ -1,0 +1,64 @@
+{
+  "A18\\diag\\B2_新种子63862_20261104\\input_inventory_before.json": {
+    "before": null,
+    "after": {
+      "size": 19105,
+      "mtime_ns": 1793766869078453800
+    }
+  },
+  "A18\\diag\\B2_新种子63862_20261104\\run.log": {
+    "before": null,
+    "after": {
+      "size": 545,
+      "mtime_ns": 1793766870272190900
+    }
+  },
+  "A18\\diag\\B2_新种子63862_20261104\\existing_files_before.json": {
+    "before": null,
+    "after": {
+      "size": 104818,
+      "mtime_ns": 1793766868912755100
+    }
+  },
+  "A18\\HANDOFF_A18-B2.md": {
+    "before": {
+      "size": 18515,
+      "mtime_ns": 1793764127032109400
+    },
+    "after": {
+      "size": 19471,
+      "mtime_ns": 1793766713100596500
+    }
+  },
+  "A18\\diag\\B2_新种子63862_20261104\\preflight.json": {
+    "before": null,
+    "after": {
+      "size": 5064,
+      "mtime_ns": 1793766870272190900
+    }
+  },
+  "A18\\HANDOFF_A18-B1.md": {
+    "before": {
+      "size": 47144,
+      "mtime_ns": 1793765013849231900
+    },
+    "after": {
+      "size": 49380,
+      "mtime_ns": 1793766627338524100
+    }
+  },
+  "A18\\diag\\B2_新种子63862_20261104\\preflight.py": {
+    "before": null,
+    "after": {
+      "size": 7284,
+      "mtime_ns": 1793766863597170600
+    }
+  },
+  "A18\\diag\\B2_新种子63862_20261104\\preflight_verification.json": {
+    "before": null,
+    "after": {
+      "size": 188,
+      "mtime_ns": 1793766870558050100
+    }
+  }
+}

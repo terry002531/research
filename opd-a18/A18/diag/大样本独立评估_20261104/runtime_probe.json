@@ -1,0 +1,223 @@
+{
+  "passed": true,
+  "new_evaluation_spectra_generated": false,
+  "archived_seed": 31600,
+  "spectra_checked": 780,
+  "readings_checked": 3120,
+  "max_A_error_difference": 0.0,
+  "max_B_error_difference": 0.0,
+  "batch16_vs_original_pointwise_max": 0.0,
+  "numerical_batch_change_only": true,
+  "current_A_includes_same_B_auxiliary": true,
+  "family_groups": [
+    "peaks",
+    "broad",
+    "blackbody",
+    "peak+bg",
+    "edge",
+    "窄带通",
+    "宽带通",
+    "锐边缘 2–10 nm",
+    "卤素灯 2000–3500 K",
+    "白光 LED 合成",
+    "CIE LED 实谱",
+    "随机光滑",
+    "留出·LED+卤素",
+    "留出·RGB 三色 LED",
+    "留出·斜坡+单峰",
+    "留出·透射谱",
+    "留出·激光线+宽背景",
+    "阶梯谱",
+    "荧光灯式多线",
+    "零件组合",
+    "干涉波纹",
+    "宽谱带吸收凹陷",
+    "4–6 个峰",
+    "留出·双带通"
+  ],
+  "mixture_component_count": 272,
+  "benchmark_batch16_seconds_for_3120_readings": 441.0931669000056,
+  "benchmark_original_seconds_for_120_readings": 22.032246999999188,
+  "seconds": 463.4468369000024,
+  "peak_cuda_GiB": 3.53407621383667,
+  "noise": {
+    "sigma_b": 0.015,
+    "sigma_g": 0.15,
+    "sigma_n": 3e-10
+  },
+  "P0_W": 1.0542339586846165e-05,
+  "source_read_paths": [
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\23_COTIC-4F_厚度阵列_FDTD\\charge\\results\\kernels.csv",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\23_COTIC-4F_厚度阵列_FDTD\\fdtd\\materials\\Ag_nk.txt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\23_COTIC-4F_厚度阵列_FDTD\\fdtd\\materials\\BHJ_L_nk.txt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\23_COTIC-4F_厚度阵列_FDTD\\fdtd\\materials\\ITO_nk.txt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\23_COTIC-4F_厚度阵列_FDTD\\fdtd\\materials\\MoOx_nk.txt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\23_COTIC-4F_厚度阵列_FDTD\\fdtd\\materials\\ZnO_nk.txt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\24_设计收益预估\\scripts\\__pycache__\\forward.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\27_3x3阵列端到端设计\\..\\24_设计收益预估\\scripts\\__pycache__\\design_lib.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\27_3x3阵列端到端设计\\scripts\\__pycache__\\e2e_lib.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\29_Hao2025_腔阵列重建\\e2e\\__pycache__\\hao_algo.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\30_三端叠层_前窄后宽\\scripts\\__pycache__\\stack_lib.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\31_PM_PTB7-Th掺少量COTIC-4F\\data\\CIE_illum_LEDs_1nm.csv",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\33_口径阶梯_已发表器件对比\\scripts\\__pycache__\\ladder.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo10.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo12.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo13.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo17.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo18.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo2.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo2b.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo3.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo4.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo5.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo6.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo7.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\algo8.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\best3.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\__pycache__\\diag_spike.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\03_仿真\\41_重建算法二_形状自适应解码\\scripts\\algo13.py",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\A18\\diag\\B2_新种子63862_20261104\\frozen_A_state.pt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\A18\\diag\\B3_新种子_20261104\\diagnose_b3_newseed.py",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\A18\\diag\\B3_新种子_20261104\\per_reading_metrics.csv",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\45_Uddin2024_真实R矩阵\\data\\R_uddin2024.npz",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnet0.pt",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\__pycache__\\a16_ss.cpython-311.pyc",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\a11_device.py",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\a11_peakfix.py",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\a15_three.py",
+    "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\06_重建算法\\算法对照\\a16_ss.py"
+  ],
+  "families": [
+    {
+      "family": "同分布五类",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "窄线 4–10 nm",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "单峰 15–60 nm",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "单峰 60–200 nm",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "近邻双峰",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "4–6 个峰",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "洛伦兹峰",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "不对称峰",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "窄带通",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "宽带通",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "锐边缘 2–10 nm",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "宽谱带吸收凹陷",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "卤素灯 2000–3500 K",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "白光 LED 合成",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "CIE LED 实谱",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "荧光灯式多线",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "干涉波纹",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "阶梯谱",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "随机光滑",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "零件组合",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "双带通",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "LED+卤素",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "激光线+宽背景",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "RGB 三色 LED",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "斜坡+单峰",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    },
+    {
+      "family": "透射谱",
+      "max_A_error_difference": 0.0,
+      "max_B_error_difference": 0.0
+    }
+  ]
+}

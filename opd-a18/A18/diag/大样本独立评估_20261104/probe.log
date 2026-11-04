@@ -1,0 +1,64 @@
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:109: RuntimeWarning: overflow encountered in exp
+  return _poly(g, x, b) / (1 + np.exp(-sgn * (WL - e) / (w / 4)))
+D:\OneDrive\Terry\01_Research\09_OPD端到端设计_光谱重建\03_仿真\41_重建算法二_形状自适应解码\scripts\algo13.py:50: RuntimeWarning: overflow encountered in exp
+  return 1.0 / (1.0 + np.exp(-(WL - e) / (w / 4)))
+同分布五类: archived A/B errors reproduced; A diff=0, B diff=0
+窄线 4–10 nm: archived A/B errors reproduced; A diff=0, B diff=0
+单峰 15–60 nm: archived A/B errors reproduced; A diff=0, B diff=0
+单峰 60–200 nm: archived A/B errors reproduced; A diff=0, B diff=0
+近邻双峰: archived A/B errors reproduced; A diff=0, B diff=0
+4–6 个峰: archived A/B errors reproduced; A diff=0, B diff=0
+洛伦兹峰: archived A/B errors reproduced; A diff=0, B diff=0
+不对称峰: archived A/B errors reproduced; A diff=0, B diff=0
+窄带通: archived A/B errors reproduced; A diff=0, B diff=0
+宽带通: archived A/B errors reproduced; A diff=0, B diff=0
+锐边缘 2–10 nm: archived A/B errors reproduced; A diff=0, B diff=0
+宽谱带吸收凹陷: archived A/B errors reproduced; A diff=0, B diff=0
+卤素灯 2000–3500 K: archived A/B errors reproduced; A diff=0, B diff=0
+白光 LED 合成: archived A/B errors reproduced; A diff=0, B diff=0
+CIE LED 实谱: archived A/B errors reproduced; A diff=0, B diff=0
+荧光灯式多线: archived A/B errors reproduced; A diff=0, B diff=0
+干涉波纹: archived A/B errors reproduced; A diff=0, B diff=0
+阶梯谱: archived A/B errors reproduced; A diff=0, B diff=0
+随机光滑: archived A/B errors reproduced; A diff=0, B diff=0
+零件组合: archived A/B errors reproduced; A diff=0, B diff=0
+双带通: archived A/B errors reproduced; A diff=0, B diff=0
+LED+卤素: archived A/B errors reproduced; A diff=0, B diff=0
+激光线+宽背景: archived A/B errors reproduced; A diff=0, B diff=0
+RGB 三色 LED: archived A/B errors reproduced; A diff=0, B diff=0
+斜坡+单峰: archived A/B errors reproduced; A diff=0, B diff=0
+透射谱: archived A/B errors reproduced; A diff=0, B diff=0
+{
+  "passed": true,
+  "max_A_error_difference": 0.0,
+  "max_B_error_difference": 0.0,
+  "batch16_vs_original_pointwise_max": 0.0,
+  "family_groups": [
+    "peaks",
+    "broad",
+    "blackbody",
+    "peak+bg",
+    "edge",
+    "窄带通",
+    "宽带通",
+    "锐边缘 2–10 nm",
+    "卤素灯 2000–3500 K",
+    "白光 LED 合成",
+    "CIE LED 实谱",
+    "随机光滑",
+    "留出·LED+卤素",
+    "留出·RGB 三色 LED",
+    "留出·斜坡+单峰",
+    "留出·透射谱",
+    "留出·激光线+宽背景",
+    "阶梯谱",
+    "荧光灯式多线",
+    "零件组合",
+    "干涉波纹",
+    "宽谱带吸收凹陷",
+    "4–6 个峰",
+    "留出·双带通"
+  ],
+  "benchmark_batch16_seconds_for_3120_readings": 441.0931669000056,
+  "peak_cuda_GiB": 3.53407621383667
+}

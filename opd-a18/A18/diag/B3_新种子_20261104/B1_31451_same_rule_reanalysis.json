@@ -1,0 +1,43 @@
+{
+  "source": "original B1 31451 per_reading_metrics.csv only; no spectra regenerated",
+  "statistic": "mean paired B_raw minus A per spectrum, four readings retained",
+  "bootstrap": 20000,
+  "bootstrap_seed": 1901122,
+  "bonferroni_families": 26,
+  "tiers": {
+    "B 稳定胜": [
+      "单峰 15–60 nm",
+      "单峰 60–200 nm",
+      "近邻双峰",
+      "洛伦兹峰",
+      "不对称峰",
+      "窄带通",
+      "宽带通",
+      "锐边缘 2–10 nm",
+      "CIE LED 实谱",
+      "斜坡+单峰"
+    ],
+    "A 稳定胜": [
+      "卤素灯 2000–3500 K",
+      "干涉波纹",
+      "LED+卤素"
+    ],
+    "边界·未校正显著": [
+      "宽谱带吸收凹陷",
+      "荧光灯式多线",
+      "零件组合",
+      "激光线+宽背景"
+    ],
+    "跨零": [
+      "同分布五类",
+      "窄线 4–10 nm",
+      "4–6 个峰",
+      "白光 LED 合成",
+      "阶梯谱",
+      "随机光滑",
+      "双带通",
+      "RGB 三色 LED",
+      "透射谱"
+    ]
+  }
+}

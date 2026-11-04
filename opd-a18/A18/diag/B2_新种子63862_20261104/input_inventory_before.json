@@ -1,0 +1,377 @@
+{
+  "old_B2": {
+    "A18\\diag\\B2_第六类_20261104\\allowed_data.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\allowed_data.npz",
+      "size": 63964818,
+      "sha256": "d885e50d63e97be6e2408cbc23a705dce1361ae0f9b75bc23a329806ba084eaf"
+    },
+    "A18\\diag\\B2_第六类_20261104\\B1_reproduction.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\B1_reproduction.csv",
+      "size": 507,
+      "sha256": "6476dec323cadf6ecc9235ef9e8ef20f6070b71fad432aca4d7ec785b15af539"
+    },
+    "A18\\diag\\B2_第六类_20261104\\B2_comparison_resume_v1.png": {
+      "path": "A18\\diag\\B2_第六类_20261104\\B2_comparison_resume_v1.png",
+      "size": 156446,
+      "sha256": "3d079455bf83c4a65552375c58f6bfe31007dca4ff71d7002342e048f9e80061"
+    },
+    "A18\\diag\\B2_第六类_20261104\\baseline_errors.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\baseline_errors.npz",
+      "size": 6873,
+      "sha256": "1f89bdf6134a37b05984d9d58a671b1fa271c39ba136013df3f5c1ca140de4d6"
+    },
+    "A18\\diag\\B2_第六类_20261104\\bootstrap_b2.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\bootstrap_b2.py",
+      "size": 8952,
+      "sha256": "f709ec2f47756877208b9bb9846c43ad3bb9ae3dc25aeb099acbe824138921d9"
+    },
+    "A18\\diag\\B2_第六类_20261104\\complete_resume_v1.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\complete_resume_v1.py",
+      "size": 11041,
+      "sha256": "70eb559663fbc87a7a0bf2117d5caddf965b257d53c5395303a04cee54f7cc73"
+    },
+    "A18\\diag\\B2_第六类_20261104\\complete_resume_v2.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\complete_resume_v2.py",
+      "size": 11264,
+      "sha256": "db943eb7ad342b2913d9718a37955767708325ae427b0f49f927ea01bafe9e55"
+    },
+    "A18\\diag\\B2_第六类_20261104\\completion_inventory_resume_v2.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\completion_inventory_resume_v2.json",
+      "size": 1117,
+      "sha256": "6f2ce347cf2805e17e230c64cba8864eb23bede6c4930d2bd3255d800c63fcbf"
+    },
+    "A18\\diag\\B2_第六类_20261104\\delivery_manifest_v3.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\delivery_manifest_v3.json",
+      "size": 11391,
+      "sha256": "8db39729621ef04bc828a5097bd188b59f3efca89cf65a6facea65838e9cb177"
+    },
+    "A18\\diag\\B2_第六类_20261104\\delivery_verification_v3.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\delivery_verification_v3.json",
+      "size": 1040,
+      "sha256": "d7f4414f318908d801bd680ed1102a87b79f090d90e6f5279822acf6af36cb3a"
+    },
+    "A18\\diag\\B2_第六类_20261104\\existing_files_before.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\existing_files_before.json",
+      "size": 89075,
+      "sha256": "6560675bdf00508310dd3c21936017cb55d89610e59bb270be743707e42c4442"
+    },
+    "A18\\diag\\B2_第六类_20261104\\family_metrics_complete_resume_v2.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\family_metrics_complete_resume_v2.csv",
+      "size": 1822,
+      "sha256": "eac933c4bc96a6abfad829af1bd5c21d63e5dad0a72357d03feb823ab9eceac9"
+    },
+    "A18\\diag\\B2_第六类_20261104\\five_subtype_missing_predictions_resume_v2.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\five_subtype_missing_predictions_resume_v2.npz",
+      "size": 70844,
+      "sha256": "c224181c96a91557318d80356313706d70d997a01f46193610e2e1ff84e449d3"
+    },
+    "A18\\diag\\B2_第六类_20261104\\make_report_v1.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\make_report_v1.py",
+      "size": 19440,
+      "sha256": "2c2085cc69a54068cb39de29e125e31fbc55b0be54991b86a6ac94d27d88762b"
+    },
+    "A18\\diag\\B2_第六类_20261104\\network_summary.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\network_summary.json",
+      "size": 1257,
+      "sha256": "333f2badc75cf48e05443332ffe59f0a98c7880718391f09023b2fbae5596906"
+    },
+    "A18\\diag\\B2_第六类_20261104\\nullspace_detail.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\nullspace_detail.json",
+      "size": 20090,
+      "sha256": "72d9472b358fad91a8459677bdd1964e8715f23fceac8ef9a8b0ebaed5e6c93b"
+    },
+    "A18\\diag\\B2_第六类_20261104\\nullspace_metrics.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\nullspace_metrics.csv",
+      "size": 607,
+      "sha256": "8829b70531175dbf4deacd398c4d56c3e9dead73bc821c2c1b829f2460fb7f0b"
+    },
+    "A18\\diag\\B2_第六类_20261104\\nullspace_metrics_complete_resume_v2.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\nullspace_metrics_complete_resume_v2.csv",
+      "size": 1014,
+      "sha256": "3645cf508343687aa7dacbb7137efe77b0a2f0fc924a642799bfcc66256e2c2a"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_candidates.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_candidates.csv",
+      "size": 3240,
+      "sha256": "447bc753400302f0cf26939ad225cf8c46353d51c2e8b688748dbe9095005c2a"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_errors.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_errors.npz",
+      "size": 6877,
+      "sha256": "e65d811bde6d3be64f100565e7effd0e5295b15b04d40d8cff2646daa7b14178"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_errors_complete_resume_v2.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_errors_complete_resume_v2.npz",
+      "size": 6881,
+      "sha256": "5b6dc7a3c29d7604ba46ddada6e5e96f7aec9c359d70d6d63f82583de7a87458"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_metrics.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_metrics.csv",
+      "size": 1050,
+      "sha256": "5caa799f10cb03e9d7c981b3444df94e8ecf03db2c8eee812407fd6a6dfc214c"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_metrics_complete_resume_v2.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_metrics_complete_resume_v2.csv",
+      "size": 2228,
+      "sha256": "59549621570028e8aaf8fe6c45d535dc7a261db03425a28b3a5f2f25ab450dc8"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_predictions.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_predictions.npz",
+      "size": 417013,
+      "sha256": "a1c9f037601327cf3311762fe00f497a7cc57eee2f736d1380b934363bac7db8"
+    },
+    "A18\\diag\\B2_第六类_20261104\\oracle_summary.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\oracle_summary.json",
+      "size": 4088,
+      "sha256": "0df6c582f41cc56fe31e920075a63ce6d504e4c92e565a2638303bcf288082fc"
+    },
+    "A18\\diag\\B2_第六类_20261104\\overlap.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\overlap.json",
+      "size": 141,
+      "sha256": "4daa20df130ba6f6df57d897d7a199e98529f2028d10e98cd5e6d6ef33360eda"
+    },
+    "A18\\diag\\B2_第六类_20261104\\paired_comparisons_resume_v2.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\paired_comparisons_resume_v2.csv",
+      "size": 5935,
+      "sha256": "d2074bb8496dd95eeefe4ec40f2b215e306cc142d815d31e5fb4706d675bf031"
+    },
+    "A18\\diag\\B2_第六类_20261104\\per_reading_complete_resume_v2.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\per_reading_complete_resume_v2.csv",
+      "size": 85727,
+      "sha256": "751d96641d00f70894ada1395cbee825b935abad896277fa35c4dac9f68a79c8"
+    },
+    "A18\\diag\\B2_第六类_20261104\\prior_0.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_0.npz",
+      "size": 1953161,
+      "sha256": "5926f486ecb2920bebc8b8bf810ec8b123dc52ad7048383f353e3348decc22f7"
+    },
+    "A18\\diag\\B2_第六类_20261104\\prior_1.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_1.npz",
+      "size": 1839280,
+      "sha256": "bd4ad52712f1690b8640b02649eb133d3619487ec51c2b4dba680578b7106bd3"
+    },
+    "A18\\diag\\B2_第六类_20261104\\prior_2.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_2.npz",
+      "size": 1973288,
+      "sha256": "0f6cb21f55b6f411401aa49792ccec4d6398d423b6ecf0d1fffa97ecd9d68868"
+    },
+    "A18\\diag\\B2_第六类_20261104\\prior_3.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_3.npz",
+      "size": 9635790,
+      "sha256": "1ffd750fd202a057a3fb575e00881d68fccb391b91d88a9d5533096f3eeb09a0"
+    },
+    "A18\\diag\\B2_第六类_20261104\\prior_4.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_4.npz",
+      "size": 3937364,
+      "sha256": "a5612c43bf9e83c2eafc0d7dd242caa82933d49f1a1600a8b96842c8188aed0d"
+    },
+    "A18\\diag\\B2_第六类_20261104\\prior_5.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_5.npz",
+      "size": 3735784,
+      "sha256": "b2aa94d14762e4bcf9005f0e851718a1375178e2a7264fa1442186e28abb0289"
+    },
+    "A18\\diag\\B2_第六类_20261104\\protocol.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\protocol.json",
+      "size": 1801,
+      "sha256": "50c45f08389a3b907d90c6149bf9b93a321d861c8ad9294fbfbeb04db376d8f7"
+    },
+    "A18\\diag\\B2_第六类_20261104\\resume_execution_v2.log": {
+      "path": "A18\\diag\\B2_第六类_20261104\\resume_execution_v2.log",
+      "size": 98,
+      "sha256": "51db008904d9515f039aeabda4983b3f125290530a46c1b5d37ce384b4a9d44f"
+    },
+    "A18\\diag\\B2_第六类_20261104\\resume_initial_outside_snapshot_v1.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\resume_initial_outside_snapshot_v1.json",
+      "size": 89199,
+      "sha256": "0fb0b7757897803e30f27cd13fc3fd75af70ad6d723e42de74512045af3302c8"
+    },
+    "A18\\diag\\B2_第六类_20261104\\resume_initial_outside_snapshot_v2.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\resume_initial_outside_snapshot_v2.json",
+      "size": 89199,
+      "sha256": "0fb0b7757897803e30f27cd13fc3fd75af70ad6d723e42de74512045af3302c8"
+    },
+    "A18\\diag\\B2_第六类_20261104\\resume_input_hashes_v1.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\resume_input_hashes_v1.json",
+      "size": 3799,
+      "sha256": "1128cc63a7151cdf026a7229b813823177cee2f594d3ead272c38afbb3c03463"
+    },
+    "A18\\diag\\B2_第六类_20261104\\resume_input_hashes_v2.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\resume_input_hashes_v2.json",
+      "size": 4226,
+      "sha256": "c5ee210dd2c7368953575f3d0c2df757c1d866162c4feed2607c36e1c7e1eff0"
+    },
+    "A18\\diag\\B2_第六类_20261104\\resume_verification_v2.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\resume_verification_v2.json",
+      "size": 452,
+      "sha256": "fc9b89494ad137a47c34ef5eb39516a92e33a9a3e6921c78e2fb97889a4a1640"
+    },
+    "A18\\diag\\B2_第六类_20261104\\run_networks.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\run_networks.py",
+      "size": 8885,
+      "sha256": "9271dae8b33f14cc135f0ab3d67253f18a248f524afc8e56e76500e77b472d44"
+    },
+    "A18\\diag\\B2_第六类_20261104\\run_oracles.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\run_oracles.py",
+      "size": 10899,
+      "sha256": "05c1c00f73c9c07bbd38801efc802e147f7b9ddb68a9a6325de5163664e37497"
+    },
+    "A18\\diag\\B2_第六类_20261104\\run_validated.log": {
+      "path": "A18\\diag\\B2_第六类_20261104\\run_validated.log",
+      "size": 18759,
+      "sha256": "cd42a6d13c823fab3ff6dde6ec19acf598ba38fb21bcd1eea6ed13ec0320bd16"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4.pt": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4.pt",
+      "size": 8677321,
+      "sha256": "58455b61e299ea35085944b7aa06d216466b14973e7177769c0345da2c17ff73"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4_budget.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4_budget.json",
+      "size": 95,
+      "sha256": "333fd8d816155a845854e641b52019cfc44c8c5c9c152422ed595590ebd50238"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4_curve.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4_curve.csv",
+      "size": 5644,
+      "sha256": "56a01012d107c63aa71f6b2245dd7560bcded9de6d12f2cafb7fa26c218a8d03"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4_errors.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4_errors.npz",
+      "size": 15500,
+      "sha256": "122108a9d86324699a384105938e9a73a49c9c34bcfb3e4703d27559cd180f2d"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4_gap.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4_gap.csv",
+      "size": 499,
+      "sha256": "dead882b1264d6e00120c7bebe24095a4e26f61f62931968a76028761cd5ace9"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4_last.pt": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4_last.pt",
+      "size": 8677193,
+      "sha256": "1caa19ad63cc7b75095dfb90a7f17606386474542b81efe4be345496636ba0f3"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_512x4_summary.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_512x4_summary.json",
+      "size": 522,
+      "sha256": "b5a3040cbca4e1efbb086a5e7f2abbeecfe0ef3be36073c9824618b6456e8522"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6.pt": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6.pt",
+      "size": 28767973,
+      "sha256": "39eae95a74cdff79a5e961d54f3c109407dec19bf8078148fb69466a6cf615bc"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6_budget.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6_budget.json",
+      "size": 96,
+      "sha256": "1028d559d992c17310ff58f77a35a49d0e097f0d1071eba45b241493e77db769"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6_curve.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6_curve.csv",
+      "size": 5648,
+      "sha256": "a64e8d9631bf6d05c6acd0c54ea56223663483ee8dfabb8ededd0c3ae6ac599d"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6_errors.npz": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6_errors.npz",
+      "size": 15511,
+      "sha256": "ab69cc03ed0efe0994f640145055bc86b7315f96e55c89348ddff357206ad623"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6_gap.csv": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6_gap.csv",
+      "size": 503,
+      "sha256": "66cca98b0e568147a9e8c5d5625728629e0f019f47301041421dbe213aef42c4"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6_last.pt": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6_last.pt",
+      "size": 28767909,
+      "sha256": "df7a9654278e3bb11ae3a7294c13532acd2fbf6a0844e0240609a52e1f0f1569"
+    },
+    "A18\\diag\\B2_第六类_20261104\\specialist_768x6_summary.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\specialist_768x6_summary.json",
+      "size": 523,
+      "sha256": "127b71b4021216b12784168a192248f47b0f723f7d9bb6d605b87821fce9ee0c"
+    },
+    "A18\\diag\\B2_第六类_20261104\\strict_validation_adapter.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\strict_validation_adapter.json",
+      "size": 380,
+      "sha256": "761ee7ca82ab7da34a868c565a7656d1645a877a5dd3ee8ebb8c1cb108d45774"
+    },
+    "A18\\diag\\B2_第六类_20261104\\strict_validation_adapter_resume_v1.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\strict_validation_adapter_resume_v1.json",
+      "size": 380,
+      "sha256": "761ee7ca82ab7da34a868c565a7656d1645a877a5dd3ee8ebb8c1cb108d45774"
+    },
+    "A18\\diag\\B2_第六类_20261104\\strict_validation_adapter_resume_v2.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\strict_validation_adapter_resume_v2.json",
+      "size": 380,
+      "sha256": "761ee7ca82ab7da34a868c565a7656d1645a877a5dd3ee8ebb8c1cb108d45774"
+    },
+    "A18\\diag\\B2_第六类_20261104\\timing_report_v1.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\timing_report_v1.json",
+      "size": 506,
+      "sha256": "8d5149c1ba985ff8fbb2b59bc2d5e3c4f6761041d5c4d90c7a112301ff1503cd"
+    },
+    "A18\\diag\\B2_第六类_20261104\\verify_delivery_v1.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\verify_delivery_v1.py",
+      "size": 5136,
+      "sha256": "e961cf2e0bf3c824a0aaf508724f90899cb0dfb6b0f4cf969756433c92a697bd"
+    },
+    "A18\\diag\\B2_第六类_20261104\\verify_delivery_v2.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\verify_delivery_v2.py",
+      "size": 5558,
+      "sha256": "78e017c7a82f8c22c5e07e3ad65e1f869b02af458878178f6e4f37e73cea0086"
+    },
+    "A18\\diag\\B2_第六类_20261104\\verify_delivery_v3.py": {
+      "path": "A18\\diag\\B2_第六类_20261104\\verify_delivery_v3.py",
+      "size": 5680,
+      "sha256": "77548e2ceadd31e8632dda5d63225b50f726f5640d6631d71ea3035278f7e752"
+    },
+    "A18\\diag\\B2_第六类_20261104\\plot_cache_report_v1\\fontlist-v3.11.0.json": {
+      "path": "A18\\diag\\B2_第六类_20261104\\plot_cache_report_v1\\fontlist-v3.11.0.json",
+      "size": 103343,
+      "sha256": "0a2909299dfe96529124ea38885431303d76f5a9bfd03f42d974b5b0f6d29b29"
+    }
+  },
+  "source": {
+    "算法对照\\a15_three.py": {
+      "path": "算法对照\\a15_three.py",
+      "size": 49798,
+      "sha256": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+      "expected_sha256": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+      "matches_original": true
+    },
+    "算法对照\\a11_peakfix.py": {
+      "path": "算法对照\\a11_peakfix.py",
+      "size": 20576,
+      "sha256": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+      "expected_sha256": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+      "matches_original": true
+    },
+    "算法对照\\a11_device.py": {
+      "path": "算法对照\\a11_device.py",
+      "size": 50681,
+      "sha256": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+      "expected_sha256": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+      "matches_original": true
+    },
+    "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py": {
+      "path": "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py",
+      "size": 18046,
+      "sha256": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2",
+      "expected_sha256": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2",
+      "matches_original": true
+    }
+  },
+  "B": {
+    "path": "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnet0.pt",
+    "size": 8677129,
+    "sha256": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3",
+    "expected_sha256": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3",
+    "matches_original": true
+  },
+  "handoff": {
+    "path": "A18\\HANDOFF_A18-B2.md",
+    "size": 19471,
+    "sha256": "76e4e5244c3b3a8e44419d49b3e4095422e12850b165328daf62b3279ab259ff"
+  },
+  "diagnostic_generated": false
+}
