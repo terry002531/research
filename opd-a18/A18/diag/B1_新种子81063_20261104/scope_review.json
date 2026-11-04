@@ -1,0 +1,24 @@
+{
+  "status": "external_concurrent_change_reviewed",
+  "reviewed_at": "2026-11-04T11:03:10.879679+07:00",
+  "raw_process_exit_code": 1,
+  "failed_stage": "final directory-wide before/after assertion, after all numerical outputs were saved",
+  "numerical_evaluation_rerun": false,
+  "original_change_record_preserved": true,
+  "external_changes": {
+    "A18\\HANDOFF_A18-B2.md": {
+      "before": {
+        "size": 16499,
+        "mtime_ns": 1793762437207650000
+      },
+      "after": {
+        "size": 18515,
+        "mtime_ns": 1793764127032109400
+      },
+      "current_sha256": "2d38d5a171bc549e5ad3b2ab491f0276b7194bfb66f4106f3d668b3873d90260"
+    }
+  },
+  "evidence": "B2 append is attributed to 科研牛马（实验）; running B1 audit hook forbids writes outside its diagnostic directory.",
+  "old_B1_artifacts_and_algorithm_sources_unchanged": true,
+  "conclusion": "Do not overwrite B2 or conceal the original audit failure; independently verify all B1 numerical data and protected files."
+}

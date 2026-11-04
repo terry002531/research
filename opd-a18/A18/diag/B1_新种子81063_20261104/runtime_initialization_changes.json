@@ -1,0 +1,62 @@
+[
+  [
+    "a15_three",
+    117,
+    "PF.OUT initialization only"
+  ],
+  [
+    "a11_peakfix",
+    34,
+    "OUT initialization only"
+  ],
+  [
+    "a11_device",
+    64,
+    "skip unused author test-check import"
+  ],
+  [
+    "a11_device",
+    75,
+    "TEST_ST initialization only"
+  ],
+  [
+    "a11_device",
+    95,
+    "P0 initialization only"
+  ],
+  [
+    "a11_device",
+    96,
+    "Y_REAL initialization only"
+  ],
+  [
+    "a11_device",
+    101,
+    "P0 initialization only"
+  ],
+  [
+    "a11_device",
+    101,
+    "Y_REAL initialization only"
+  ],
+  [
+    "a11_device",
+    119,
+    "Y_REAL initialization only"
+  ],
+  [
+    "a11_device",
+    122,
+    "LAM_TEST initialization only"
+  ],
+  [
+    "a11_device",
+    498,
+    "REC initialization only"
+  ],
+  [
+    "forward",
+    129,
+    "(self.lam_test, self.I_test) initialization only"
+  ]
+]

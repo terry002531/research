@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-11-04T11:03:36.079020+07:00",
+  "family_count": 26,
+  "spectrum_count": 780,
+  "reading_count": 3120,
+  "actual_diagnostic_seed": 81063,
+  "paired_bootstrap_recomputed_comparisons": 52,
+  "bootstrap_replicates": 200000,
+  "correction": "Bonferroni, 26 families per baseline",
+  "old_B1_files_unchanged": 25,
+  "source_files_unchanged": 82,
+  "original_handoff_bytes_preserved": 32089,
+  "handoff_sha256": "a494a18b6311ff7c0d689a9fcfab43b23a71ad2c62b390fcec7463e5b3ef7194",
+  "model_states_unchanged": true,
+  "numerical_functions_preserved": {
+    "a15_three": 16,
+    "a11_peakfix": 15,
+    "a11_device": 23
+  },
+  "observed_existing_changes": [
+    "A18\\HANDOFF_A18-B1.md",
+    "A18\\HANDOFF_A18-B2.md"
+  ],
+  "new_files_outside_diagnostic": [],
+  "external_scope_review": {
+    "status": "external_concurrent_change_reviewed",
+    "reviewed_at": "2026-11-04T11:03:10.879679+07:00",
+    "raw_process_exit_code": 1,
+    "failed_stage": "final directory-wide before/after assertion, after all numerical outputs were saved",
+    "numerical_evaluation_rerun": false,
+    "original_change_record_preserved": true,
+    "external_changes": {
+      "A18\\HANDOFF_A18-B2.md": {
+        "before": {
+          "size": 16499,
+          "mtime_ns": 1793762437207650000
+        },
+        "after": {
+          "size": 18515,
+          "mtime_ns": 1793764127032109400
+        },
+        "current_sha256": "2d38d5a171bc549e5ad3b2ab491f0276b7194bfb66f4106f3d668b3873d90260"
+      }
+    },
+    "evidence": "B2 append is attributed to 科研牛马（实验）; running B1 audit hook forbids writes outside its diagnostic directory.",
+    "old_B1_artifacts_and_algorithm_sources_unchanged": true,
+    "conclusion": "Do not overwrite B2 or conceal the original audit failure; independently verify all B1 numerical data and protected files."
+  },
+  "A_stable_vs_B_raw": [
+    "宽谱带吸收凹陷",
+    "卤素灯 2000–3500 K",
+    "荧光灯式多线",
+    "干涉波纹"
+  ],
+  "A_stable_vs_B_consistent": [
+    "宽谱带吸收凹陷",
+    "卤素灯 2000–3500 K",
+    "白光 LED 合成",
+    "荧光灯式多线",
+    "干涉波纹"
+  ],
+  "old_B_raw_reference_improvement_percent": 5.0214268341840835,
+  "new_B_stopping_rule": "not evaluated; no new B implemented"
+}

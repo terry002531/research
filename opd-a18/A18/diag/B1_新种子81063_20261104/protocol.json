@@ -1,0 +1,32 @@
+{
+  "task": "A18-B1 seed rerun",
+  "author": "AI（Codex）",
+  "diagnostic_seed": 81063,
+  "n_per_family": 30,
+  "draws": 4,
+  "jitter": true,
+  "mode": "real",
+  "noise_seed": 4321,
+  "fitting_seed": 31438,
+  "training_seed": 31337,
+  "q": "load old B1 validation-only checkpoint",
+  "old_ss_tuning_seed": 31451,
+  "forbidden_test_seeds": [
+    6161,
+    4242
+  ],
+  "bootstrap": {
+    "unit": "spectrum, retain 4 paired readings",
+    "replicates": 200000,
+    "seed": 1901122,
+    "statistic": "mean over spectra of mean over draws log(A/B)",
+    "alpha_per_family": 0.0019230769230769232,
+    "point_requirement": "geometric paired ratio <= 0.95"
+  },
+  "preregistered_A_useful_rule": {
+    "final_improvement_over_B_raw_at_least": 0.05,
+    "A_stable_families_at_least": 5,
+    "applies_to": "future NEW B, not the current old B"
+  },
+  "restrictions": "No fitting, K selection, routing/weight selection or early stopping on 81063."
+}

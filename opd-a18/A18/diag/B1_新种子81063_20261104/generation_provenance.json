@@ -1,0 +1,110 @@
+{
+  "actual_all_fams_seed": 81063,
+  "actual_five_family_gen5_seed": 81064,
+  "actual_CIE_jitter_seed": 81396,
+  "family_generator_source": "Q.fams uses seed and derived seeds; see source_manifest.json",
+  "calls": [
+    {
+      "generator": "all_fams",
+      "seed": 31337,
+      "n": 3000,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31338,
+      "n": 3000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31344,
+      "n": 9000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31438,
+      "n": 40,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31438,
+      "n": 40,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31451,
+      "n": 30,
+      "jitter": true,
+      "phase": "overlap_audit_only"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31452,
+      "n": 30,
+      "phase": "overlap_audit_only"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 81063,
+      "n": 30,
+      "jitter": true,
+      "phase": "evaluation_only"
+    },
+    {
+      "generator": "gen5",
+      "seed": 81064,
+      "n": 30,
+      "phase": "evaluation_only"
+    }
+  ],
+  "derived_seeds_from_verified_generator_source": {
+    "main_shared_rng": 81063,
+    "five_family_gen5": 81064,
+    "CIE_jitter": 81396,
+    "ood4": 81563,
+    "parts_combo": 81963
+  }
+}

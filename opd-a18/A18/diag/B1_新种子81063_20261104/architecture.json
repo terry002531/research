@@ -1,0 +1,21 @@
+{
+  "parameters": 2166860,
+  "input": 41,
+  "output": 76,
+  "grid_points": 176,
+  "train_spectra": 87000,
+  "NVF": 40,
+  "noise_draws": 4,
+  "VSEED": 31438,
+  "P0_W": 1.0542339586846165e-05,
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "source_sha256": {
+    "算法对照\\a15_three.py": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+    "算法对照\\a11_peakfix.py": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+    "算法对照\\a11_device.py": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+    "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2",
+    "算法对照\\a16_ss.py": "b8f6b5839a9e3b354f597119350b2a1eba2ae0f0a7e46a7fc64968f61912aeaf"
+  },
+  "B_sha256": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3"
+}

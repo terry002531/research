@@ -1,0 +1,77 @@
+{
+  "bootstrap_n": 200000,
+  "bootstrap_seed": 1901122,
+  "statistic": "mean over spectra of mean over draws log(NRMSE_A/NRMSE_B)",
+  "quantiles": [
+    0.0009615384615384616,
+    0.9990384615384615
+  ],
+  "alpha_per_family": 0.0019230769230769232,
+  "correction": "Bonferroni 26 families, separately for B_raw and B_consistent",
+  "point_requirement": "exp(mean log ratio) <= 0.95",
+  "interval_method": "paired spectrum percentile bootstrap",
+  "A_stable_vs_B_raw": [
+    "宽谱带吸收凹陷",
+    "卤素灯 2000–3500 K",
+    "荧光灯式多线",
+    "干涉波纹",
+    "LED+卤素"
+  ],
+  "B_stable_vs_B_raw": [
+    "单峰 15–60 nm",
+    "单峰 60–200 nm",
+    "近邻双峰",
+    "洛伦兹峰",
+    "不对称峰",
+    "窄带通",
+    "宽带通",
+    "锐边缘 2–10 nm",
+    "CIE LED 实谱",
+    "斜坡+单峰"
+  ],
+  "uncertain_vs_B_raw": [
+    "同分布五类",
+    "窄线 4–10 nm",
+    "4–6 个峰",
+    "白光 LED 合成",
+    "阶梯谱",
+    "随机光滑",
+    "零件组合",
+    "双带通",
+    "激光线+宽背景",
+    "RGB 三色 LED",
+    "透射谱"
+  ],
+  "A_stable_vs_B_consistent": [
+    "宽谱带吸收凹陷",
+    "卤素灯 2000–3500 K",
+    "白光 LED 合成",
+    "荧光灯式多线",
+    "干涉波纹",
+    "LED+卤素"
+  ],
+  "B_stable_vs_B_consistent": [
+    "单峰 60–200 nm",
+    "近邻双峰",
+    "洛伦兹峰",
+    "不对称峰",
+    "窄带通",
+    "宽带通",
+    "锐边缘 2–10 nm",
+    "CIE LED 实谱",
+    "斜坡+单峰"
+  ],
+  "uncertain_vs_B_consistent": [
+    "同分布五类",
+    "窄线 4–10 nm",
+    "单峰 15–60 nm",
+    "4–6 个峰",
+    "阶梯谱",
+    "随机光滑",
+    "零件组合",
+    "双带通",
+    "激光线+宽背景",
+    "RGB 三色 LED",
+    "透射谱"
+  ]
+}
