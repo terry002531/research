@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "completed_families": 16,
+  "readings": 9600,
+  "first_1200_rows_exactly_preserved": true,
+  "saved_spectra_and_checkpoints_unchanged": true
+}

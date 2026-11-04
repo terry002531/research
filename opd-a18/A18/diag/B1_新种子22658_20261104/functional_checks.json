@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "paired draw permutation invariance",
+    "conservative CI envelope",
+    "freeze determinism",
+    "covariance mutation detection",
+    "q retained with uniformly lower error",
+    "q rejected when one family exceeds 10 percent"
+  ],
+  "test_bootstrap_n": 2000,
+  "production_bootstrap_n": 200000
+}

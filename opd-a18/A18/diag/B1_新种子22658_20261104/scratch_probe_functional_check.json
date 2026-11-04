@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "allowed_data_seed": 31438,
+  "maximum_absolute_output_difference": {
+    "gate": 0.0,
+    "t3": 0.0,
+    "t3c": 0.0,
+    "A11": 0.0,
+    "w": 0.0
+  },
+  "excluded_parameter_paths": [],
+  "scratch_path": "model.decoder.closure.base.closure.gate_of.closure.GF._m2",
+  "evaluation_generated": false,
+  "original_full_state_recovered": true
+}

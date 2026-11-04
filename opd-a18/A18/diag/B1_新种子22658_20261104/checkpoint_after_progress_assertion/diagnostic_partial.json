@@ -1,0 +1,26 @@
+[
+  {
+    "family": "同分布五类",
+    "n_spectra": 150,
+    "n_readings": 600,
+    "B_raw": 0.09503047390240825,
+    "B_consistent": 0.09245773169730948,
+    "A": 0.087207745932588,
+    "fusion_pre_q": 0.07661817311762789,
+    "final": 0.07669689801657652,
+    "hard_raw": 0.08088415264344202,
+    "hard_consistent": 0.07838374926713718,
+    "wA_mean": 0.3385603014652992,
+    "A_weight_gt_half": 0.31,
+    "route_vs_B_raw_accuracy": 0.6616666666666666,
+    "route_vs_B_raw_correct_n": 397,
+    "route_vs_B_raw_A_error_when_correct": 0.09343402194886016,
+    "route_vs_B_raw_correct_A_n": 150,
+    "route_vs_B_raw_A_error_when_correct_A": 0.059482418829664256,
+    "route_vs_B_consistent_accuracy": 0.6666666666666666,
+    "route_vs_B_consistent_correct_n": 400,
+    "route_vs_B_consistent_A_error_when_correct": 0.0907445463118734,
+    "route_vs_B_consistent_correct_A_n": 141,
+    "route_vs_B_consistent_A_error_when_correct_A": 0.05317004716288989
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "author": "AI（Codex）",
+  "purpose": "Descriptive aggregate uncertainty only; no B/q/routing/seed selection.",
+  "preregistered_primary_criterion": false,
+  "statistic": "Percent reduction of geometric mean of 26 family arithmetic mean NRMSE values.",
+  "unit": "Spectrum, retaining all four paired draws; independent stratified resampling within each family.",
+  "bootstrap_n": 200000,
+  "bootstrap_seed": 1901122,
+  "interval": "Unadjusted two-sided 95 percent percentile intervals; no simultaneous-coverage claim.",
+  "comparisons": [
+    {
+      "method": "fusion_pre_q",
+      "reference": "B_raw",
+      "improvement_percent": 7.416828427334254,
+      "percentile_95_ci_percent": [
+        6.801511554645794,
+        8.044739805500816
+      ]
+    },
+    {
+      "method": "final",
+      "reference": "B_raw",
+      "improvement_percent": 6.8930741416385,
+      "percentile_95_ci_percent": [
+        6.263967259880237,
+        7.533317618904154
+      ]
+    },
+    {
+      "method": "hard_raw",
+      "reference": "B_raw",
+      "improvement_percent": 6.386174415298229,
+      "percentile_95_ci_percent": [
+        5.752519079088309,
+        7.041120885698134
+      ]
+    },
+    {
+      "method": "hard_consistent",
+      "reference": "B_consistent",
+      "improvement_percent": 6.62493648904765,
+      "percentile_95_ci_percent": [
+        5.996538284728099,
+        7.27269484998673
+      ]
+    },
+    {
+      "method": "final",
+      "reference": "fusion_pre_q",
+      "improvement_percent": -0.5657121880780158,
+      "percentile_95_ci_percent": [
+        -0.6586321761561048,
+        -0.47852574822001614
+      ]
+    }
+  ],
+  "seconds": 20.547365427017212,
+  "input_sha256": {
+    "per_reading_metrics.csv": "a7ad2d7f7442084c8556466c084ad008cb007e5f076bb6a4b571b5a863be8b21",
+    "summary.json": "94e4600b1a7f30e269e4dd80caaf4d90eb387a1dd4a33fb06c10db231e22ce3d"
+  }
+}

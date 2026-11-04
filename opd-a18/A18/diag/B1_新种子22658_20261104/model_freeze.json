@@ -1,0 +1,20 @@
+{
+  "phase": "reconstruct_from_original_training_validation",
+  "diagnostic_not_generated_yet": true,
+  "source_and_B_match_old_B1": true,
+  "old_validation_metrics_match_atol": 1e-09,
+  "kappa": {
+    "t3": 0.25
+  },
+  "K": 32,
+  "ss_alpha": 0.75,
+  "model_state_sha256": {
+    "B": "5ff59028c0cc77f64a0d2c9db23db641cf92a39f1e83deff45e2f7d473853ebc",
+    "fusion": "e561fd7b5af1c21416b67a180f48fd5a3ab3c541ce666753e9e4f2f7418d3d84",
+    "q": "e8f9e61498c6fe18b634919888a4b2d8747a88c35e169c335c032f91d81c70f3"
+  },
+  "q_checkpoint_sha256": "ead0372278ce9f1a2c8edfd141a1e47efc1ee8d9115c4158de7d3f9ae27339ad",
+  "q_checkpoint": "A18\\diag\\B1_诊断_20261104\\q_validation_only.pt",
+  "q_lambda": 0.01,
+  "evaluation_seed_used_for_fitting": false
+}

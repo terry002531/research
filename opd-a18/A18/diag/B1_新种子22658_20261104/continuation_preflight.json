@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "recovered_families": 2,
+  "recovered_readings": 1200,
+  "completed_csv_rows_reconstructed_exactly": true,
+  "existing_first_family_summary_matches": true,
+  "spectra_regenerated": false
+}

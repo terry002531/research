@@ -1,0 +1,51 @@
+{
+  "author": "AI（Codex）",
+  "recorded": "2026-11-04T12:02:44.503992+07:00",
+  "source_preregistration": "HANDOFF_A18-B1.md: 2026-11-04 12:00",
+  "evaluation": {
+    "seed": 22658,
+    "n_per_family": 150,
+    "draws": 4,
+    "jitter": true,
+    "mode": "real",
+    "noise_seed": 1022658,
+    "generate_once": true
+  },
+  "model": "same old-B1 adaptation as 81063; reconstruct only on 31337/31438, verify hashes before 22658",
+  "frozen_B": "old cnet0",
+  "no_new_B": true,
+  "forbidden_evaluation_seeds": [
+    6161,
+    4242,
+    81063,
+    63862
+  ],
+  "statistics": {
+    "unit": "spectrum; mean of four log ratios",
+    "bootstrap_n": 200000,
+    "bootstrap_seed": 1901122,
+    "alpha_per_family": 0.0019230769230769232,
+    "interval": "envelope of percentile bootstrap and Student t",
+    "minimum_improvement": 0.05
+  },
+  "hard_route": {
+    "rule": "wA > .5 selects A",
+    "primary_comparison": "A vs B_raw",
+    "secondary": "A vs B_consistent",
+    "accuracy": "agreement with lower per-reading NRMSE; ties assigned B"
+  },
+  "q_ablation": {
+    "seed": 31438,
+    "n_per_family": 40,
+    "draws": 4,
+    "mode": "real",
+    "noise_seed": 9090,
+    "refit": false,
+    "overall": "equal-family mean of spectrum mean log(q_on/q_off)",
+    "interval": "95% envelope of stratified spectrum bootstrap and Satterthwaite Student t",
+    "family_limit": "no family arithmetic mean NRMSE worsens >10%",
+    "retain": "overall log-ratio upper CI <0 AND family limit",
+    "decide_before_22658": true,
+    "caveat": "31438 was used to fit q; development decision, not an independent generalization estimate"
+  }
+}

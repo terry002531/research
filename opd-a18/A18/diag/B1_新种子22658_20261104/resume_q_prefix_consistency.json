@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "old_partial_readings": 2240,
+  "comparison_only_after_fresh_recalculation": true,
+  "maximum_absolute_difference": 0.0,
+  "old_partial_sha256": "5731eb43d6635eec7619644b874c7894e870c18d0877f4fc026d5a495f0e6fce"
+}

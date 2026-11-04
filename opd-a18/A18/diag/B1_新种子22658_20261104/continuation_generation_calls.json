@@ -1,0 +1,96 @@
+{
+  "calls": [
+    {
+      "generator": "all_fams",
+      "seed": 31337,
+      "n": 3000,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31338,
+      "n": 3000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31344,
+      "n": 9000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "requested_n": 60,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation",
+      "adaptation": true
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31438,
+      "n": 40,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31438,
+      "n": 40,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31451,
+      "n": 30,
+      "jitter": true,
+      "phase": "overlap_audit_only"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31452,
+      "n": 30,
+      "phase": "overlap_audit_only"
+    }
+  ],
+  "evaluation_loaded_from_saved_npz": true,
+  "new_evaluation_generation_calls": 0
+}

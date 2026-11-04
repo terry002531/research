@@ -1,0 +1,26 @@
+{
+  "stage": "after_22658",
+  "raw_state_sha256": "8c32cdfed22c3d5acebfe91e6e9eed7ef53a86fd03ba60ba82a262f170c51a5a",
+  "differences": {
+    "model.decoder.closure.base.closure.gate_of.closure.GF._m2": {
+      "before": {
+        "shape": [
+          4,
+          272
+        ],
+        "dtype": "float64",
+        "sha256": "f648c2b05faa9af341eac6884dcd5f6552f54b7fe284700209b6b1a407146fa3"
+      },
+      "after": {
+        "shape": [
+          4,
+          272
+        ],
+        "dtype": "float64",
+        "sha256": "9e7a6cbbd3720d09ee03b553293ac6c5f1ac6a1fc90000ab91d871774219553e"
+      }
+    }
+  },
+  "parameter_or_prior_changes": 0,
+  "scratch_restored_after_comparison": true
+}

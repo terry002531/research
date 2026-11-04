@@ -1,0 +1,149 @@
+{
+  "task": "A18-B1-22658",
+  "author": "AI（Codex）",
+  "status": "simulation_only",
+  "diagnostic": {
+    "seed": 22658,
+    "n_per_family": 150,
+    "draws": 4,
+    "jitter": true,
+    "mode": "real",
+    "noise_seed": 1022658
+  },
+  "geometric_means": {
+    "B_raw": 0.06888224685209494,
+    "B_consistent": 0.06962990418635723,
+    "A": 0.082269950848772,
+    "fusion_pre_q": 0.06377336878618224,
+    "final": 0.06413414250615361,
+    "hard_raw": 0.06448330642694391,
+    "hard_consistent": 0.06501696725662633
+  },
+  "statistics": {
+    "bootstrap_n": 200000,
+    "bootstrap_seed": 1901122,
+    "unit": "spectrum, retaining four paired readings",
+    "statistic": "mean_spectrum mean_draw log(A/B)",
+    "alpha_per_family": 0.0019230769230769232,
+    "correction": "Bonferroni 26 families per comparison",
+    "interval": "envelope of percentile bootstrap and Student t",
+    "point_requirement": "A/B <= .95 or B/A <= .95",
+    "A_stable_vs_B_raw": [
+      "4–6 个峰",
+      "宽谱带吸收凹陷",
+      "卤素灯 2000–3500 K",
+      "荧光灯式多线",
+      "干涉波纹",
+      "阶梯谱",
+      "LED+卤素",
+      "激光线+宽背景"
+    ],
+    "B_stable_vs_B_raw": [
+      "单峰 15–60 nm",
+      "单峰 60–200 nm",
+      "近邻双峰",
+      "洛伦兹峰",
+      "不对称峰",
+      "窄带通",
+      "宽带通",
+      "锐边缘 2–10 nm",
+      "CIE LED 实谱",
+      "RGB 三色 LED",
+      "斜坡+单峰"
+    ],
+    "uncertain_vs_B_raw": [
+      "同分布五类",
+      "窄线 4–10 nm",
+      "白光 LED 合成",
+      "随机光滑",
+      "零件组合",
+      "双带通",
+      "透射谱"
+    ],
+    "A_stable_vs_B_consistent": [
+      "宽谱带吸收凹陷",
+      "卤素灯 2000–3500 K",
+      "白光 LED 合成",
+      "荧光灯式多线",
+      "干涉波纹",
+      "阶梯谱",
+      "LED+卤素",
+      "激光线+宽背景"
+    ],
+    "B_stable_vs_B_consistent": [
+      "单峰 15–60 nm",
+      "单峰 60–200 nm",
+      "近邻双峰",
+      "洛伦兹峰",
+      "不对称峰",
+      "窄带通",
+      "宽带通",
+      "锐边缘 2–10 nm",
+      "CIE LED 实谱",
+      "随机光滑",
+      "斜坡+单峰"
+    ],
+    "uncertain_vs_B_consistent": [
+      "同分布五类",
+      "窄线 4–10 nm",
+      "4–6 个峰",
+      "零件组合",
+      "双带通",
+      "RGB 三色 LED",
+      "透射谱"
+    ]
+  },
+  "q_decision": {
+    "statistic": "equal-family mean_spectrum mean_draw log(q_on/q_off)",
+    "log_ratio": 0.006448400447468713,
+    "ratio": 1.0064692361431942,
+    "bootstrap_log_ci": [
+      0.0045512142806730365,
+      0.008457929947629273
+    ],
+    "t_log_ci": [
+      0.004452541918558515,
+      0.008444258976378911
+    ],
+    "t_df": 158.8069776399297,
+    "conservative_log_ci": [
+      0.004452541918558515,
+      0.008457929947629273
+    ],
+    "bootstrap_n": 200000,
+    "bootstrap_seed": 1901122,
+    "overall_alpha": 0.05,
+    "family_alpha": 0.0019230769230769232,
+    "family_degradation_definition": "ratio of family arithmetic mean NRMSE > 1.10",
+    "any_family_worse_over_10_percent": [],
+    "retain_q": false,
+    "decision_scope": "B3 q use only; development comparison on reused validation spectra",
+    "validation_seed": 31438,
+    "n_per_family": 40,
+    "draws": 4,
+    "mode": "real",
+    "noise_seed": 9090,
+    "checkpoint_frozen": true,
+    "validation_spectra_previously_used_for_q_fit": true,
+    "independent_generalization_claim": false
+  },
+  "evaluation_only": true,
+  "new_B_implemented": false,
+  "configuration": "reconstructed frozen old-B1 adaptation; not official A18",
+  "matches_81063_network_hashes": true,
+  "full_inference_state_unchanged": true,
+  "full_inference_state_sha256": "59f19648abb6ceab81cec07ca40d68c5ce188b38988d923738405e4c749976ce",
+  "seconds": 1727.6999492645264,
+  "prior_q_process_seconds": 796.1,
+  "prior_evaluation_last_logged_seconds": 498.8,
+  "continued_existing_spectra": true,
+  "completed_family_predictions_reused": [
+    "同分布五类",
+    "窄线 4–10 nm"
+  ],
+  "peak_cuda_GB": 1.5826196670532227,
+  "chol_fallback": [
+    0,
+    0
+  ]
+}

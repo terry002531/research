@@ -1,0 +1,26 @@
+{
+  "stage": "validation_probe_2",
+  "raw_state_sha256": "a29e6aa5968c2bad9670b178c615356ceb0d157e8aedaf1efdd2d9c274f88c2a",
+  "differences": {
+    "model.decoder.closure.base.closure.gate_of.closure.GF._m2": {
+      "before": {
+        "shape": [
+          4,
+          272
+        ],
+        "dtype": "float64",
+        "sha256": "f648c2b05faa9af341eac6884dcd5f6552f54b7fe284700209b6b1a407146fa3"
+      },
+      "after": {
+        "shape": [
+          4,
+          272
+        ],
+        "dtype": "float64",
+        "sha256": "b2c6052ad978ef4815968676303a1dee3c8c1f96683ee3a15c8b663cbf7301eb"
+      }
+    }
+  },
+  "parameter_or_prior_changes": 0,
+  "scratch_restored_after_comparison": true
+}

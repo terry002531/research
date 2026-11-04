@@ -1,0 +1,34 @@
+{
+  "statistic": "equal-family mean_spectrum mean_draw log(q_on/q_off)",
+  "log_ratio": 0.006448400447468713,
+  "ratio": 1.0064692361431942,
+  "bootstrap_log_ci": [
+    0.0045512142806730365,
+    0.008457929947629273
+  ],
+  "t_log_ci": [
+    0.004452541918558515,
+    0.008444258976378911
+  ],
+  "t_df": 158.8069776399297,
+  "conservative_log_ci": [
+    0.004452541918558515,
+    0.008457929947629273
+  ],
+  "bootstrap_n": 200000,
+  "bootstrap_seed": 1901122,
+  "overall_alpha": 0.05,
+  "family_alpha": 0.0019230769230769232,
+  "family_degradation_definition": "ratio of family arithmetic mean NRMSE > 1.10",
+  "any_family_worse_over_10_percent": [],
+  "retain_q": false,
+  "decision_scope": "B3 q use only; development comparison on reused validation spectra",
+  "validation_seed": 31438,
+  "n_per_family": 40,
+  "draws": 4,
+  "mode": "real",
+  "noise_seed": 9090,
+  "checkpoint_frozen": true,
+  "validation_spectra_previously_used_for_q_fit": true,
+  "independent_generalization_claim": false
+}

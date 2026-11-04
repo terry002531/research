@@ -1,0 +1,12 @@
+{
+  "diagnostic_vs_used": {},
+  "method": "round 9 decimals exact rows; no forbidden sets generated",
+  "compared_sets": {
+    "调参验证集": 40,
+    "融合验证集": 1040,
+    "训练库": 87000,
+    "零件网络训练池": 65536,
+    "高斯先验用谱": 6000,
+    "SS调参集31451": 780
+  }
+}

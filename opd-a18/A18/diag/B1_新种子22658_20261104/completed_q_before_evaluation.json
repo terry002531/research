@@ -1,0 +1,14 @@
+{
+  "author": "AI（Codex）",
+  "protected_files": {
+    "q_ablation\\family_metrics.csv": "798a85d2148a00ae4e529d6533c9b6238558cec2f176513470fc8012dc9d9b45",
+    "q_ablation\\per_reading_metrics.csv": "7e52bc3cb85334ba6fd1c8d438544438eff205a495b0bdd40e1ceff2686044ba",
+    "q_ablation\\summary.json": "cbc3232b28a04879ca33e758672c0af8ae1ebe36b1c6687a59227ccc8d7cf126",
+    "q_decision_before_evaluation.json": "3626ddfa9005178ecd5392aa5b21dfb8d21d8870f01eb444967f4d13b03f8934",
+    "resume_run.log": "5a36829eca94aaea53378cae002f8093417830b30c094c3529316f7a2e612166",
+    "resume_process.log": "9eadec5797e5c2f80491b7008b6a5ea8bb2f6fad39d6f015f7b3ba5edf088eac",
+    "resume_diagnose_b1.py": "8e2e8fa69eb4dbcfb04d61226a922c0e37b7b50a98e0dda795039a99e2084cb3"
+  },
+  "evaluation_generated": false,
+  "reason": "Prior strict state assertion stopped before evaluation; inspect GF._m2 batch scratch only, preserving all fitted inference parameters and complete q decision."
+}

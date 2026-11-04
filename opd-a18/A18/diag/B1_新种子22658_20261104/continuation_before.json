@@ -1,0 +1,27 @@
+{
+  "author": "AI（Codex）",
+  "cause": "Over-broad write protection incorrectly rejected the second streaming progress update; numerical output was saved first.",
+  "completed_families": [
+    "同分布五类",
+    "窄线 4–10 nm"
+  ],
+  "completed_spectra": 300,
+  "completed_readings": 1200,
+  "saved_evaluation_seed": 22658,
+  "generate_evaluation_again": false,
+  "reuse_completed_predictions": true,
+  "replay_completed_measurement_rng_only": true,
+  "protected_files": {
+    "diagnostic_spectra.npz": "7259acd6b39fe3c96d98a475b1a918689c4445c3572dfb615c44af6b33d85609",
+    "generation_provenance.json": "b602f015af75c1c25b4fc500d664deb72532b2de9f8e13d2a5f94bcad3b50f6a",
+    "model_freeze.json": "240b2dac8b010fb0d2c1cd69954e7235ffc8f62c0a86609514e974c39be2aac0",
+    "full_model_freeze.json": "f3a6b911eeef79a87a25c22ed8685103da4cac4a780cf75aa11b9dd40a09bd9d",
+    "q_decision_before_evaluation.json": "3626ddfa9005178ecd5392aa5b21dfb8d21d8870f01eb444967f4d13b03f8934",
+    "scratch_probe_functional_check.json": "b30d226f92cce0de60b8e8d8f2c4d321ec1a863b915046b64e70b76a2424ee7e",
+    "checkpoint_after_progress_assertion\\diagnostic_partial.json": "48a684dc6addcb82a19f1aa3c12238add3fac249cada53395bde714c631bb830",
+    "checkpoint_after_progress_assertion\\evaluate_after_q.py": "9c7e5441b9d33e6fced41fc603c097fd375c5b86aded42f11c9024407f088200",
+    "checkpoint_after_progress_assertion\\evaluation_process.log": "e5113fbee63a7fb66407aeaaa6fad536b58a37b9ee07f929dc57918d8c4e308f",
+    "checkpoint_after_progress_assertion\\evaluation_run.log": "99635d6c87594d66e1dcbee1c754d0eb276f777f82c183d9c9f633d8e85202b5",
+    "checkpoint_after_progress_assertion\\per_reading_metrics.csv": "8064c0f51a427e5af959c335311832f0f62a6f2118d87e78a842a7aa6f44b9fc"
+  }
+}

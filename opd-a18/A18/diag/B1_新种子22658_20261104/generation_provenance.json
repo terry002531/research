@@ -1,0 +1,115 @@
+{
+  "actual_all_fams_seed": 22658,
+  "derived_seeds": {
+    "five_family": 22659,
+    "CIE_jitter": 22991,
+    "ood4": 23158,
+    "parts": 23558
+  },
+  "calls": [
+    {
+      "generator": "all_fams",
+      "seed": 31337,
+      "n": 3000,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31338,
+      "n": 3000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31344,
+      "n": 9000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "requested_n": 60,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation",
+      "adaptation": true
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31438,
+      "n": 40,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 11,
+      "n": 6000,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31438,
+      "n": 40,
+      "jitter": true,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31439,
+      "n": 40,
+      "phase": "reconstruct_from_original_training_validation"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 31451,
+      "n": 30,
+      "jitter": true,
+      "phase": "overlap_audit_only"
+    },
+    {
+      "generator": "gen5",
+      "seed": 31452,
+      "n": 30,
+      "phase": "overlap_audit_only"
+    },
+    {
+      "generator": "all_fams",
+      "seed": 22658,
+      "n": 150,
+      "jitter": true,
+      "phase": "evaluation_only"
+    },
+    {
+      "generator": "gen5",
+      "seed": 22659,
+      "n": 150,
+      "phase": "evaluation_only"
+    }
+  ],
+  "provenance_recorded_during_execution": true
+}
