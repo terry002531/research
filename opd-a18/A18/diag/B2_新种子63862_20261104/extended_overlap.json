@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "method": "Exact rows after 9-decimal rounding",
+  "new_seed_spectra_read_from_file": true,
+  "new_seed_regenerated": false,
+  "new_seed_spectra": 780,
+  "reported_six_family_spectra": 180,
+  "compared_counts": {
+    "full_training": 87000,
+    "full_fusion_validation": 1040,
+    "SS_tuning_31451_all26": 780,
+    "A_Gaussian_fit_seed11": 6000,
+    "A_tuning_five_31439": 40,
+    "parts_network_original_training_pool": 65536
+  },
+  "overlaps": {
+    "full_training": 0,
+    "full_fusion_validation": 0,
+    "SS_tuning_31451_all26": 0,
+    "A_Gaussian_fit_seed11": 0,
+    "A_tuning_five_31439": 0,
+    "parts_network_original_training_pool": 0
+  },
+  "test_6161_4242_generated_or_loaded": false,
+  "results_81063_loaded": false,
+  "fitting_or_inference_performed": false
+}

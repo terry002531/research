@@ -1,0 +1,163 @@
+{
+  "task": "A18-B2 seed 63862 preregistration preflight",
+  "author": "AI（Codex）",
+  "timestamp": "2026-11-04T11:34:30.271190+07:00",
+  "status": "PENDING_REQUIRED_INPUT_CLARIFICATION",
+  "diagnostic_generated": false,
+  "evaluation_executed": false,
+  "training_executed": false,
+  "prior_fitting_executed": false,
+  "old_source_and_B_hashes_match": true,
+  "existing_selected_priors": [
+    {
+      "family": "阶梯谱",
+      "requested_K": 64,
+      "actual_K": 64,
+      "dimension": 76,
+      "prior_kind": "spectral_kmeans",
+      "shrink": 0.01,
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_0.npz",
+      "size": 1953161,
+      "sha256": "5926f486ecb2920bebc8b8bf810ec8b123dc52ad7048383f353e3348decc22f7"
+    },
+    {
+      "family": "零件组合",
+      "requested_K": 64,
+      "actual_K": 59,
+      "dimension": 76,
+      "prior_kind": "spectral_kmeans",
+      "shrink": 0.0001,
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_1.npz",
+      "size": 1839280,
+      "sha256": "bd4ad52712f1690b8640b02649eb133d3619487ec51c2b4dba680578b7106bd3"
+    },
+    {
+      "family": "随机光滑",
+      "requested_K": 64,
+      "actual_K": 63,
+      "dimension": 76,
+      "prior_kind": "spectral_kmeans",
+      "shrink": 0.01,
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_2.npz",
+      "size": 1973288,
+      "sha256": "0f6cb21f55b6f411401aa49792ccec4d6398d423b6ecf0d1fffa97ecd9d68868"
+    },
+    {
+      "family": "同分布五类",
+      "requested_K": 320,
+      "actual_K": 320,
+      "dimension": 76,
+      "prior_kind": "training_subtype_mixture",
+      "shrink": 0.0001,
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_3.npz",
+      "size": 9635790,
+      "sha256": "1ffd750fd202a057a3fb575e00881d68fccb391b91d88a9d5533096f3eeb09a0"
+    },
+    {
+      "family": "单峰 60–200 nm",
+      "requested_K": 128,
+      "actual_K": 128,
+      "dimension": 76,
+      "prior_kind": "spectral_kmeans",
+      "shrink": 0.01,
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_4.npz",
+      "size": 3937364,
+      "sha256": "a5612c43bf9e83c2eafc0d7dd242caa82933d49f1a1600a8b96842c8188aed0d"
+    },
+    {
+      "family": "宽带通",
+      "requested_K": 128,
+      "actual_K": 128,
+      "dimension": 76,
+      "prior_kind": "spectral_kmeans",
+      "shrink": 0.01,
+      "path": "A18\\diag\\B2_第六类_20261104\\prior_5.npz",
+      "size": 3735784,
+      "sha256": "b2aa94d14762e4bcf9005f0e851718a1375178e2a7264fa1442186e28abb0289"
+    }
+  ],
+  "old_allowed_data": {
+    "path": "A18\\diag\\B2_第六类_20261104\\allowed_data.npz",
+    "arrays": [
+      "full_train",
+      "family_names",
+      "RN",
+      "BM",
+      "WL",
+      "DEVCOV",
+      "P0",
+      "SCALE",
+      "tr0",
+      "va0",
+      "dg0",
+      "yv0",
+      "yd0",
+      "tr1",
+      "va1",
+      "dg1",
+      "yv1",
+      "yd1",
+      "tr2",
+      "va2",
+      "dg2",
+      "yv2",
+      "yd2",
+      "tr3",
+      "va3",
+      "dg3",
+      "yv3",
+      "yd3",
+      "tr4",
+      "va4",
+      "dg4",
+      "yv4",
+      "yd4",
+      "tr5",
+      "va5",
+      "dg5",
+      "yv5",
+      "yd5"
+    ],
+    "training_counts": {
+      "阶梯谱": 3000,
+      "零件组合": 3000,
+      "随机光滑": 3000,
+      "同分布五类": 12000,
+      "单峰 60–200 nm": 3000,
+      "宽带通": 3000
+    },
+    "loss_r": 44.404842417764215,
+    "note": "Archive contains old training/validation/development spectra only; no new spectra generated."
+  },
+  "blockers": [
+    "Complete saved priors for both requested K=64 and K=256 were not found. Existing prior archives contain only each family's selected configuration.",
+    "A complete loadable frozen A model was not found. The B1 rerun reconstructs A from historical training/validation inputs.",
+    "The preregistration does not specify the unknown-family oracle mixture, family universe, or mixture weights."
+  ],
+  "questions_sent": true,
+  "no_63862_result_or_model_choice_made": true,
+  "log_line_240": "Final old subtype-mixture run; nominal K=320, not K=64 or K=256.",
+  "proposed_statistics": {
+    "n_spectra": 30,
+    "draws_per_spectrum": 4,
+    "nbootstrap": 200000,
+    "bootstrap_seed": 1901122,
+    "bootstrap_unit": "spectrum, retain 4 paired draws",
+    "statistic": "mean over spectra of mean over draws log(NRMSE_method/NRMSE_B)",
+    "uncorrected_quantiles": [
+      0.025,
+      0.975
+    ],
+    "four_family_bonferroni_quantiles": [
+      0.00625,
+      0.99375
+    ],
+    "correction_scope": "Four target families separately for each comparison; not across all methods or K values.",
+    "controls": "Report separately; no selection on control results."
+  },
+  "project_session_record": {
+    "intended_directory": "D:\\OneDrive\\Terry\\01_Research\\09_OPD端到端设计_光谱重建\\memory",
+    "written": false,
+    "reason": "Actual project root is above the writable workspace; no write permission."
+  }
+}

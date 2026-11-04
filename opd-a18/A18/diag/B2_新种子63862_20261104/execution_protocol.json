@@ -1,0 +1,55 @@
+{
+  "author": "AI（Codex）",
+  "timestamp": "2026-11-04T11:45:01.060254+07:00",
+  "seed": 63862,
+  "n_per_family": 30,
+  "draws": 4,
+  "noise_seed": 4321,
+  "jitter": true,
+  "mode": "real",
+  "target_families": [
+    "阶梯谱",
+    "零件组合",
+    "随机光滑",
+    "同分布五类"
+  ],
+  "control_families": [
+    "单峰 60–200 nm",
+    "宽带通"
+  ],
+  "K": [
+    64,
+    256
+  ],
+  "K_semantics": "Total requested spectral-kmeans components per family. Small clusters <3 dropped as original code. Both K reported; no selection.",
+  "covariance_shrinkage": "Fixed to each family's final historical selected shrinkage for both K; no new validation selection.",
+  "original_selected_oracle": "Also report six original selected configurations, including five-subtype K=320, separately from fixed spectral K=64/256.",
+  "oracle_candidate_universe": "Original run_oracles.py last version; no new prior form or candidate selection.",
+  "unknown_family": {
+    "family_universe": "Six listed families, equal family weights 1/6, all within-family weights retained.",
+    "K": "Same frozen K=64/256 spectral prior files as known-family oracle.",
+    "noise": "Estimate covariance using only archived VSEED=31438 repeated real readings and known calibration spectra. No new evaluation labels, amplitudes, powers, or DEVCOV passed.",
+    "estimator": "For each old calibration spectrum regress unit-area readings onto [R*x, dark/||dark||]. Estimate white variance from residual RSS/(n-2). Estimate dark-direction variance as mean squared fitted dark coefficient minus white coefficient variance; clip at zero. Freeze before evaluation.",
+    "boundary": "Calibration is at historical nominal operating conditions. This does not establish robustness to a new power distribution or arbitrary 26-family inputs."
+  },
+  "bootstrap": {
+    "replicates": 200000,
+    "seed": 1901122,
+    "unit": "spectrum, all four readings paired",
+    "statistic": "mean_spectrum mean_draw log(NRMSE_method/NRMSE_B)",
+    "uncorrected_quantiles": [
+      0.025,
+      0.975
+    ],
+    "bonferroni_quantiles": [
+      0.00625,
+      0.99375
+    ],
+    "scope": "Four target families separately per method comparison; not simultaneous over all methods and K.",
+    "stable_improvement": "upper corrected log CI <0 and paired geometric ratio <=0.95",
+    "controls": "Uncorrected intervals only; exploratory controls."
+  },
+  "restrictions": "No fitting/choice using 31451 or 63862; 31451 only a locked reproduction gate and retrospective statistics. Never load/generate 6161/4242 or load 81063 results. No B1/B3 decision.",
+  "reproduction_gate": "All six families, all five old main-table methods: absolute mean NRMSE difference <1e-6; otherwise stop without generating 63862.",
+  "authorization": "HANDOFF_A18-B2.md 2026-11-04 11:42"
+}

@@ -1,0 +1,43 @@
+2026-11-04T11:34:30.271190+07:00 AI（Codex） preflight only.
+No evaluation, spectrum generation, model fitting or training executed.
+PENDING: Complete saved priors for both requested K=64 and K=256 were not found. Existing prior archives contain only each family's selected configuration.
+PENDING: A complete loadable frozen A model was not found. The B1 rerun reconstructs A from historical training/validation inputs.
+PENDING: The preregistration does not specify the unknown-family oracle mixture, family universe, or mixture weights.
+[5.0s] A16A：B 在融合验证集上最弱的 8 族（换多高斯）：留出·激光线+宽背景 0.247，阶梯谱 0.235，荧光灯式多线 0.221，零件组合 0.171，干涉波纹 0.169，宽谱带吸收凹陷 0.152，4–6 个峰 0.133，留出·双带通 0.106
+[5.0s] A16A：B 在融合验证集上最弱的 8 族（换多高斯）：留出·激光线+宽背景 0.247，阶梯谱 0.235，荧光灯式多线 0.221，零件组合 0.171，干涉波纹 0.169，宽谱带吸收凹陷 0.152，4–6 个峰 0.133，留出·双带通 0.106
+[5.7s]    门控类别 272 个（A16 是 22 个）
+[5.7s]    融合 / q 的类后验特征合回 24 维
+[6.6s] Reconstructed priors: 阶梯谱, selected K=64, fixed K=64/256.
+[7.1s] Reconstructed priors: 零件组合, selected K=64, fixed K=64/256.
+[7.6s] Reconstructed priors: 随机光滑, selected K=64, fixed K=64/256.
+[9.7s] Reconstructed priors: 同分布五类, selected K=320, fixed K=64/256.
+[10.4s] Reconstructed priors: 单峰 60–200 nm, selected K=128, fixed K=64/256.
+[11.2s] Reconstructed priors: 宽带通, selected K=128, fixed K=64/256.
+[11.3s] All reconstruction finished. Reproducing old 31451 main table; no parameters can change.
+[22.4s] 31451 reproduction: 阶梯谱, maximum mean error difference 0
+[33.5s] 31451 reproduction: 零件组合, maximum mean error difference 0
+[44.5s] 31451 reproduction: 随机光滑, maximum mean error difference 0
+[57.7s] 31451 reproduction: 同分布五类, maximum mean error difference 0
+[69.3s] 31451 reproduction: 单峰 60–200 nm, maximum mean error difference 0
+[80.8s] 31451 reproduction: 宽带通, maximum mean error difference 0
+[80.9s] REPRODUCTION PASSED; hashes appended and frozen. Generating 63862 exactly once.
+[94.7s] 63862 阶梯谱: B=0.229595, A=0.219383, oracle64=0.183345, oracle256=0.184900
+[107.6s] 63862 零件组合: B=0.164021, A=0.184488, oracle64=0.163393, oracle256=0.158646
+[121.5s] 63862 随机光滑: B=0.086286, A=0.089091, oracle64=0.066152, oracle256=0.076919
+[138.4s] 63862 同分布五类: B=0.091015, A=0.100632, oracle64=0.091267, oracle256=0.072965
+[154.0s] 63862 单峰 60–200 nm: B=0.035350, A=0.065951, oracle64=0.009818, oracle256=0.008239
+[169.6s] 63862 宽带通: B=0.060277, A=0.141667, oracle64=0.050693, oracle256=0.046256
+[172.4s] Unknown-family K=64: integrated candidate 1/6; no true family supplied.
+[175.1s] Unknown-family K=64: integrated candidate 2/6; no true family supplied.
+[178.0s] Unknown-family K=64: integrated candidate 3/6; no true family supplied.
+[180.9s] Unknown-family K=64: integrated candidate 4/6; no true family supplied.
+[184.0s] Unknown-family K=64: integrated candidate 5/6; no true family supplied.
+[187.0s] Unknown-family K=64: integrated candidate 6/6; no true family supplied.
+[196.0s] Unknown-family K=256: integrated candidate 1/6; no true family supplied.
+[203.9s] Unknown-family K=256: integrated candidate 2/6; no true family supplied.
+[214.3s] Unknown-family K=256: integrated candidate 3/6; no true family supplied.
+[226.8s] Unknown-family K=256: integrated candidate 4/6; no true family supplied.
+[239.8s] Unknown-family K=256: integrated candidate 5/6; no true family supplied.
+[252.8s] Unknown-family K=256: integrated candidate 6/6; no true family supplied.
+[255.4s] Numerical evaluation and paired statistics saved; final independent verification still required.
+INDEPENDENT VERIFICATION PASS; report and append-only HANDOFF saved.

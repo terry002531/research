@@ -1,0 +1,11 @@
+{
+  "calibration_seed": 31438,
+  "calibration_readings": 960,
+  "white_variance": 1.2472353430942198e-06,
+  "dark_direction_variance": 0.03697162689267683,
+  "P_est_W": 1.0505818897227997e-05,
+  "inference_uses_true_P0": false,
+  "inference_uses_true_DEVCOV": false,
+  "estimator": "OLS signal and dark-direction removal on old unit-area calibration readings; fixed before new data.",
+  "caveat": "Historical nominal-power calibration; no power-shift validation."
+}
