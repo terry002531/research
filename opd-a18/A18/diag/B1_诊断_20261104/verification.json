@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "family_count": 26,
+  "reading_count": 3120,
+  "existing_files_checked": 629,
+  "existing_changes": {},
+  "allowed_new_file_outside_diag": [
+    "A18\\HANDOFF_A18-B1.md"
+  ],
+  "source_hashes_checked": [
+    "算法对照\\a15_three.py",
+    "算法对照\\a11_peakfix.py",
+    "算法对照\\a11_device.py",
+    "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py",
+    "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnet0.pt"
+  ],
+  "numerical_functions_preserved": {
+    "a15_three": 16,
+    "a11_peakfix": 15,
+    "a11_device": 23
+  },
+  "utf8_chinese_characters": 5809,
+  "loss_component_max_residual": 1.5273690223693848e-07,
+  "loss_component_rtol": 5e-07,
+  "handoff_sha256": "ada20fb22edf76ebc4ed19c819694979b783bf972db2e4b3f43bb26bf687fa4c",
+  "data_integrity": "per-reading means, family differences, geometric means, loss components, overlap, weight bounds verified"
+}

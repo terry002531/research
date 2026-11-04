@@ -1,0 +1,101 @@
+{
+  "task": "A18-B1",
+  "author": "AI（Codex）",
+  "status": "simulation_only",
+  "architecture": {
+    "parameters": 2166860,
+    "input": 41,
+    "output": 76,
+    "grid_points": 176,
+    "train_spectra": 87000,
+    "NVF": 40,
+    "noise_draws": 4,
+    "VSEED": 31438,
+    "P0_W": 1.0542339586846165e-05,
+    "torch": "2.11.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "source_sha256": {
+      "算法对照\\a15_three.py": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+      "算法对照\\a11_peakfix.py": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+      "算法对照\\a11_device.py": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+      "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2"
+    },
+    "B_sha256": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3"
+  },
+  "diagnostic": {
+    "seed": 31451,
+    "n_per_family": 30,
+    "jitter": true,
+    "mode": "real",
+    "noise_seed": 4321
+  },
+  "geometric_means": {
+    "B_raw": 0.06916530955332459,
+    "B_consistent": 0.07036053306261021,
+    "A": 0.08318281158619478,
+    "fusion_pre_q": 0.064660962206913,
+    "final": 0.06511213310232938
+  },
+  "B_better_families": [
+    "同分布五类",
+    "单峰 15–60 nm",
+    "单峰 60–200 nm",
+    "近邻双峰",
+    "4–6 个峰",
+    "洛伦兹峰",
+    "不对称峰",
+    "窄带通",
+    "宽带通",
+    "锐边缘 2–10 nm",
+    "白光 LED 合成",
+    "CIE LED 实谱",
+    "随机光滑",
+    "零件组合",
+    "双带通",
+    "激光线+宽背景",
+    "RGB 三色 LED",
+    "斜坡+单峰"
+  ],
+  "A_better_families": [
+    "窄线 4–10 nm",
+    "宽谱带吸收凹陷",
+    "卤素灯 2000–3500 K",
+    "荧光灯式多线",
+    "干涉波纹",
+    "阶梯谱",
+    "LED+卤素",
+    "透射谱"
+  ],
+  "prefer_A": [
+    "宽谱带吸收凹陷",
+    "卤素灯 2000–3500 K",
+    "白光 LED 合成",
+    "荧光灯式多线",
+    "干涉波纹",
+    "LED+卤素",
+    "激光线+宽背景",
+    "透射谱"
+  ],
+  "q_lambda": 0.01,
+  "chol_fallback": [
+    0,
+    0
+  ],
+  "seconds": 1165.6627910137177,
+  "peak_cuda_GB": 1.2495393753051758,
+  "training_objective_r": 44.40486145019531,
+  "generalization_means": {
+    "train": {
+      "shape_nrmse": 0.0850631816368209,
+      "training_objective": 0.05802605914113183
+    },
+    "validation": {
+      "shape_nrmse": 0.09124373176964691,
+      "training_objective": 0.07804696272628811
+    },
+    "diagnostic": {
+      "shape_nrmse": 0.09409134167606042,
+      "training_objective": 0.08243739752260108
+    }
+  }
+}

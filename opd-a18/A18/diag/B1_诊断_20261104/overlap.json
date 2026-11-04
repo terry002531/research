@@ -1,0 +1,7 @@
+{
+  "diagnostic_vs_used": {},
+  "method": "round 9 decimals, exact rows; no test spectra generated",
+  "diagnostic_seed": 31451,
+  "n_per_family": 30,
+  "jitter": true
+}

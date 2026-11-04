@@ -1,0 +1,2518 @@
+{
+  "08_A11重建与老化复标_讲义.md": {
+    "size": 18189,
+    "mtime_ns": 1793538172465692900
+  },
+  "09_S2-M2实际训练例子.md": {
+    "size": 25884,
+    "mtime_ns": 1793583548239347300
+  },
+  "A10x算法介绍.md": {
+    "size": 8927,
+    "mtime_ns": 1793466513156143000
+  },
+  "A11重建与老化复标_慢讲.md": {
+    "size": 23014,
+    "mtime_ns": 1793581288633190200
+  },
+  "A17.zip": {
+    "size": 812695,
+    "mtime_ns": 1793687853002925000
+  },
+  "A18.zip": {
+    "size": 939457,
+    "mtime_ns": 1793690878374326100
+  },
+  "A17\\README.md": {
+    "size": 1650,
+    "mtime_ns": 1793689780134023500
+  },
+  "A17\\ablation\\a16a_seed6161\\log.txt": {
+    "size": 20711,
+    "mtime_ns": 1793687368561500400
+  },
+  "A17\\ablation\\a16a_seed6161\\peakfix.json": {
+    "size": 419390,
+    "mtime_ns": 1793687368563005300
+  },
+  "A17\\ablation\\a16a_ss_seed6161\\log.txt": {
+    "size": 21346,
+    "mtime_ns": 1793687368624292200
+  },
+  "A17\\ablation\\a16a_ss_seed6161\\peakfix.json": {
+    "size": 420295,
+    "mtime_ns": 1793687368626290100
+  },
+  "A17\\ablation\\a16a_vs_seed6161\\log.txt": {
+    "size": 21217,
+    "mtime_ns": 1793687368661511200
+  },
+  "A17\\ablation\\a16a_vs_seed6161\\peakfix.json": {
+    "size": 419358,
+    "mtime_ns": 1793687368662511100
+  },
+  "A17\\ablation\\a16_seed6161\\log.txt": {
+    "size": 20207,
+    "mtime_ns": 1793687368705084800
+  },
+  "A17\\ablation\\a16_seed6161\\peakfix.json": {
+    "size": 419642,
+    "mtime_ns": 1793687368707084700
+  },
+  "A17\\code\\a15_three.py": {
+    "size": 47552,
+    "mtime_ns": 1793689775259246000
+  },
+  "A17\\code\\a16_ss.py": {
+    "size": 9548,
+    "mtime_ns": 1793689775258245900
+  },
+  "A17\\diag\\fuse_diag.out": {
+    "size": 4550,
+    "mtime_ns": 1793687368754869300
+  },
+  "A17\\diag\\fuse_diag.py": {
+    "size": 3293,
+    "mtime_ns": 1793687368752866200
+  },
+  "A17\\diag\\fuse_diag2.out": {
+    "size": 3193,
+    "mtime_ns": 1793687368756867200
+  },
+  "A17\\diag\\fuse_diag2.py": {
+    "size": 3427,
+    "mtime_ns": 1793687368755868200
+  },
+  "A17\\diag\\ss.py": {
+    "size": 6983,
+    "mtime_ns": 1793687368743592100
+  },
+  "A17\\diag\\ss_cls.out": {
+    "size": 5259,
+    "mtime_ns": 1793687368751866400
+  },
+  "A17\\diag\\ss_cls.py": {
+    "size": 10452,
+    "mtime_ns": 1793687368750867700
+  },
+  "A17\\diag\\ss_eval.out": {
+    "size": 6083,
+    "mtime_ns": 1793687368745590800
+  },
+  "A17\\diag\\ss_eval.py": {
+    "size": 7237,
+    "mtime_ns": 1793687368744591200
+  },
+  "A17\\diag\\ss_eval2.out": {
+    "size": 5860,
+    "mtime_ns": 1793687368747092400
+  },
+  "A17\\diag\\ss_eval2.py": {
+    "size": 8297,
+    "mtime_ns": 1793687368747092400
+  },
+  "A17\\diag\\ss_int.out": {
+    "size": 5370,
+    "mtime_ns": 1793687368749866600
+  },
+  "A17\\diag\\ss_int.py": {
+    "size": 8568,
+    "mtime_ns": 1793687368748863700
+  },
+  "A17\\results\\a17_seed6161\\log.txt": {
+    "size": 21478,
+    "mtime_ns": 1793687368504731900
+  },
+  "A17\\results\\a17_seed6161\\peakfix.json": {
+    "size": 420154,
+    "mtime_ns": 1793687368506730600
+  },
+  "A17\\results\\a17_seed6161\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793687368508729800
+  },
+  "A17\\results\\a17_seed6161\\run_stdout.txt": {
+    "size": 21480,
+    "mtime_ns": 1793687368527263600
+  },
+  "A18\\HANDOFF_A18-R1.md": {
+    "size": 15172,
+    "mtime_ns": 1793707512597158000
+  },
+  "A18\\README.md": {
+    "size": 2600,
+    "mtime_ns": 1793705958232425400
+  },
+  "A18\\交接文档.md": {
+    "size": 19989,
+    "mtime_ns": 1793705951092007800
+  },
+  "A18\\ablation\\a16a_seed6161\\log.txt": {
+    "size": 20711,
+    "mtime_ns": 1793689775161131600
+  },
+  "A18\\ablation\\a16a_seed6161\\peakfix.json": {
+    "size": 419390,
+    "mtime_ns": 1793689775162136700
+  },
+  "A18\\ablation\\a16a_ss_seed6161\\log.txt": {
+    "size": 21346,
+    "mtime_ns": 1793689775193137300
+  },
+  "A18\\ablation\\a16a_ss_seed6161\\peakfix.json": {
+    "size": 420295,
+    "mtime_ns": 1793689775194136400
+  },
+  "A18\\ablation\\a16a_vs_seed6161\\log.txt": {
+    "size": 21217,
+    "mtime_ns": 1793689775211142200
+  },
+  "A18\\ablation\\a16a_vs_seed6161\\peakfix.json": {
+    "size": 419358,
+    "mtime_ns": 1793689775212140400
+  },
+  "A18\\ablation\\a16_seed6161\\log.txt": {
+    "size": 20207,
+    "mtime_ns": 1793689775142619200
+  },
+  "A18\\ablation\\a16_seed6161\\peakfix.json": {
+    "size": 419642,
+    "mtime_ns": 1793689775143618100
+  },
+  "A18\\ablation\\a17_seed6161\\log.txt": {
+    "size": 21478,
+    "mtime_ns": 1793689775121617600
+  },
+  "A18\\ablation\\a17_seed6161\\peakfix.json": {
+    "size": 420154,
+    "mtime_ns": 1793689775123623200
+  },
+  "A18\\code\\a15_three.py": {
+    "size": 47552,
+    "mtime_ns": 1793689775240429600
+  },
+  "A18\\code\\a16_ss.py": {
+    "size": 9548,
+    "mtime_ns": 1793689775239426100
+  },
+  "A18\\code\\版本说明.md": {
+    "size": 11488,
+    "mtime_ns": 1793704995502023900
+  },
+  "A18\\code\\4242指标段\\a12_metrics.py": {
+    "size": 22844,
+    "mtime_ns": 1793704910300270300
+  },
+  "A18\\code\\4242指标段\\a15_three.py": {
+    "size": 47552,
+    "mtime_ns": 1793689768577236200
+  },
+  "A18\\code\\4242指标段\\a16_ss.py": {
+    "size": 10704,
+    "mtime_ns": 1793694145161662100
+  },
+  "A18\\code\\4242指标段\\run_a18_metrics_only.py": {
+    "size": 743,
+    "mtime_ns": 1793694154605919200
+  },
+  "A18\\code\\6161运行时\\a15_three.py": {
+    "size": 47185,
+    "mtime_ns": 1793687555945533500
+  },
+  "A18\\code\\6161运行时\\a16_ss.py": {
+    "size": 9548,
+    "mtime_ns": 1793689775239426100
+  },
+  "A18\\diag\\fuse_diag2.out": {
+    "size": 3193,
+    "mtime_ns": 1793689775313758500
+  },
+  "A18\\diag\\fuse_diag2.py": {
+    "size": 3427,
+    "mtime_ns": 1793689775312758000
+  },
+  "A18\\diag\\scale_ev.out": {
+    "size": 7554,
+    "mtime_ns": 1793689307005123900
+  },
+  "A18\\diag\\scale_ev.py": {
+    "size": 4352,
+    "mtime_ns": 1793687368757867600
+  },
+  "A18\\results\\a18_seed4242\\log.txt": {
+    "size": 20956,
+    "mtime_ns": 1793693611732749800
+  },
+  "A18\\results\\a18_seed4242\\peakfix.json": {
+    "size": 420079,
+    "mtime_ns": 1793693611654610900
+  },
+  "A18\\results\\a18_seed4242\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793692723309299800
+  },
+  "A18\\results\\a18_seed4242\\说明.md": {
+    "size": 4987,
+    "mtime_ns": 1793705924758641400
+  },
+  "A18\\results\\a18_seed4242\\metrics\\fig_algos_radar_a18.png": {
+    "size": 927461,
+    "mtime_ns": 1793699536720319700
+  },
+  "A18\\results\\a18_seed4242\\metrics\\fig_algos_radar_a18_v2.png": {
+    "size": 925410,
+    "mtime_ns": 1793700826622384800
+  },
+  "A18\\results\\a18_seed4242\\metrics\\fig_doublets.png": {
+    "size": 186732,
+    "mtime_ns": 1793699518503931700
+  },
+  "A18\\results\\a18_seed4242\\metrics\\fig_metrics.png": {
+    "size": 418745,
+    "mtime_ns": 1793699518073516300
+  },
+  "A18\\results\\a18_seed4242\\metrics\\log.txt": {
+    "size": 5559,
+    "mtime_ns": 1793699518504931400
+  },
+  "A18\\results\\a18_seed4242\\metrics\\metrics.json": {
+    "size": 56124,
+    "mtime_ns": 1793699517188970300
+  },
+  "A18\\results\\a18_seed4242\\metrics\\radar_spokes_a18.json": {
+    "size": 3512,
+    "mtime_ns": 1793699536722826800
+  },
+  "A18\\results\\a18_seed4242\\metrics\\radar_spokes_a18_v2.json": {
+    "size": 3410,
+    "mtime_ns": 1793700826625421800
+  },
+  "A18\\results\\a18_seed6161\\log.txt": {
+    "size": 21769,
+    "mtime_ns": 1793689293206535500
+  },
+  "A18\\results\\a18_seed6161\\peakfix.json": {
+    "size": 420001,
+    "mtime_ns": 1793689293159819600
+  },
+  "A18\\results\\a18_seed6161\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793688452675614800
+  },
+  "A18\\results\\a18_seed6161\\run_stdout.txt": {
+    "size": 21771,
+    "mtime_ns": 1793689306987116300
+  },
+  "A18\\results\\latency_R1\\latency.json": {
+    "size": 63291,
+    "mtime_ns": 1793706688172232700
+  },
+  "A18\\results\\latency_R1\\log.txt": {
+    "size": 13523,
+    "mtime_ns": 1793706688173232600
+  },
+  "memory\\2026-11-03_A18-R1_HANDOFF追加19点05状态更新.md": {
+    "size": 2948,
+    "mtime_ns": 1793743411946830900
+  },
+  "memory\\2026-11-03_A18-R1第一轮_快照整理与chol留痕.md": {
+    "size": 3333,
+    "mtime_ns": 1793707723812453500
+  },
+  "memory\\2026-11-03_A18-R1第二轮_种子开关扩查重计时脚本与文档.md": {
+    "size": 4478,
+    "mtime_ns": 1793707723863915500
+  },
+  "memory\\2026-11-03_A18代码与结果只读审核.md": {
+    "size": 4062,
+    "mtime_ns": 1793704047750556100
+  },
+  "memory\\2026-11-03_A18快照_CIE查重_计时拆解只读检查.md": {
+    "size": 4274,
+    "mtime_ns": 1793707723760600300
+  },
+  "memory\\2026-11-03_A18快照与CIE查重只读检查_未完成.md": {
+    "size": 1375,
+    "mtime_ns": 1793707723703860600
+  },
+  "S2-M2实例\\fig_a11_bars.png": {
+    "size": 173210,
+    "mtime_ns": 1793520759725385800
+  },
+  "S2-M2实例\\fig_a11_examples_1100.png": {
+    "size": 729244,
+    "mtime_ns": 1793520759345136600
+  },
+  "S2-M2实例\\fig_a11_examples_800.png": {
+    "size": 772029,
+    "mtime_ns": 1793520757616162100
+  },
+  "S2-M2实例\\脚本\\gate15_acc.json": {
+    "size": 16423,
+    "mtime_ns": 1793580872407100200
+  },
+  "S2-M2实例\\脚本\\gate15_acc.py": {
+    "size": 3525,
+    "mtime_ns": 1793580841092851900
+  },
+  "S2-M2实例\\脚本\\gate_examples.py": {
+    "size": 2501,
+    "mtime_ns": 1793579445818047800
+  },
+  "S2-M2实例\\脚本\\gate_perclass.py": {
+    "size": 2150,
+    "mtime_ns": 1793579808196734300
+  },
+  "S2-M2实例\\脚本\\parame_demo.py": {
+    "size": 1860,
+    "mtime_ns": 1793580102674685100
+  },
+  "S2-M2实例\\脚本\\pass_rate.log": {
+    "size": 10933,
+    "mtime_ns": 1793581763053227900
+  },
+  "S2-M2实例\\脚本\\pass_rate.py": {
+    "size": 2269,
+    "mtime_ns": 1793581290940964300
+  },
+  "S2-M2实例\\脚本\\pass_rate_1100.pkl": {
+    "size": 172700,
+    "mtime_ns": 1793581763051228900
+  },
+  "S2-M2实例\\脚本\\pass_rate_800.pkl": {
+    "size": 172700,
+    "mtime_ns": 1793581510339317300
+  },
+  "流程图\\make_flowcharts.py": {
+    "size": 17659,
+    "mtime_ns": 1793541206429566200
+  },
+  "流程图\\图1_A11重建原理_en.png": {
+    "size": 538571,
+    "mtime_ns": 1793541207817589400
+  },
+  "流程图\\图1_A11重建原理_en.svg": {
+    "size": 232295,
+    "mtime_ns": 1793541207904750800
+  },
+  "流程图\\图1_A11重建原理_zh.png": {
+    "size": 642291,
+    "mtime_ns": 1793541207077536600
+  },
+  "流程图\\图1_A11重建原理_zh.svg": {
+    "size": 325955,
+    "mtime_ns": 1793541207143980000
+  },
+  "流程图\\图2_老化快速复标原理_en.png": {
+    "size": 513154,
+    "mtime_ns": 1793541208207478900
+  },
+  "流程图\\图2_老化快速复标原理_en.svg": {
+    "size": 206960,
+    "mtime_ns": 1793541208289165300
+  },
+  "流程图\\图2_老化快速复标原理_zh.png": {
+    "size": 626641,
+    "mtime_ns": 1793541207408185100
+  },
+  "流程图\\图2_老化快速复标原理_zh.svg": {
+    "size": 326931,
+    "mtime_ns": 1793541207474599600
+  },
+  "流程图\\公式版\\make_flowcharts_公式版.py": {
+    "size": 17837,
+    "mtime_ns": 1793541126933225500
+  },
+  "流程图\\公式版\\图1_A11重建流程_en.png": {
+    "size": 520752,
+    "mtime_ns": 1793540915256717300
+  },
+  "流程图\\公式版\\图1_A11重建流程_en.svg": {
+    "size": 241765,
+    "mtime_ns": 1793540915390581000
+  },
+  "流程图\\公式版\\图1_A11重建流程_zh.png": {
+    "size": 546817,
+    "mtime_ns": 1793540914402919300
+  },
+  "流程图\\公式版\\图1_A11重建流程_zh.svg": {
+    "size": 326632,
+    "mtime_ns": 1793540914519154700
+  },
+  "流程图\\公式版\\图2_老化快速复标流程_en.png": {
+    "size": 544128,
+    "mtime_ns": 1793540915724640400
+  },
+  "流程图\\公式版\\图2_老化快速复标流程_en.svg": {
+    "size": 228409,
+    "mtime_ns": 1793540915823249600
+  },
+  "流程图\\公式版\\图2_老化快速复标流程_zh.png": {
+    "size": 625388,
+    "mtime_ns": 1793540914809740400
+  },
+  "流程图\\公式版\\图2_老化快速复标流程_zh.svg": {
+    "size": 347288,
+    "mtime_ns": 1793540914900379100
+  },
+  "算法对比\\01_分辨率计算.md": {
+    "size": 9094,
+    "mtime_ns": 1793622208824567700
+  },
+  "算法对照\\a11_device.py": {
+    "size": 50681,
+    "mtime_ns": 1793636076548908700
+  },
+  "算法对照\\a11_peakfix.py": {
+    "size": 20576,
+    "mtime_ns": 1793705652389371900
+  },
+  "算法对照\\a12x_xienet.py": {
+    "size": 7894,
+    "mtime_ns": 1793626512664516000
+  },
+  "算法对照\\a12_branch_diag.py": {
+    "size": 6644,
+    "mtime_ns": 1793621515705719700
+  },
+  "算法对照\\a12_cui_m3.py": {
+    "size": 15109,
+    "mtime_ns": 1793620840649252400
+  },
+  "算法对照\\a12_examples.py": {
+    "size": 6794,
+    "mtime_ns": 1793619996366473400
+  },
+  "算法对照\\a12_fusion.py": {
+    "size": 17310,
+    "mtime_ns": 1793621235633663900
+  },
+  "算法对照\\a12_metrics.py": {
+    "size": 23858,
+    "mtime_ns": 1793704791668412900
+  },
+  "算法对照\\a12_wang.py": {
+    "size": 5587,
+    "mtime_ns": 1793636347333586300
+  },
+  "算法对照\\a15_cui_m3.py": {
+    "size": 15316,
+    "mtime_ns": 1793675838412994000
+  },
+  "算法对照\\a15_examples.py": {
+    "size": 9941,
+    "mtime_ns": 1793633126539596700
+  },
+  "算法对照\\a15_three.py": {
+    "size": 49798,
+    "mtime_ns": 1793705670450943100
+  },
+  "算法对照\\a15_wang.py": {
+    "size": 5793,
+    "mtime_ns": 1793636373140597400
+  },
+  "算法对照\\a16_ss.py": {
+    "size": 11078,
+    "mtime_ns": 1793704777543349500
+  },
+  "算法对照\\a18_latency.py": {
+    "size": 14871,
+    "mtime_ns": 1793706031381653000
+  },
+  "算法对照\\algos_metrics.py": {
+    "size": 10619,
+    "mtime_ns": 1793625360721494300
+  },
+  "算法对照\\algos_radar.py": {
+    "size": 7092,
+    "mtime_ns": 1793633126541615300
+  },
+  "算法对照\\all_algos_cui_m3.py": {
+    "size": 25495,
+    "mtime_ns": 1793634357418249100
+  },
+  "算法对照\\all_algos_device.py": {
+    "size": 25341,
+    "mtime_ns": 1793624971139353900
+  },
+  "算法对照\\all_algos_wang.py": {
+    "size": 18670,
+    "mtime_ns": 1793636449574425300
+  },
+  "算法对照\\cui_m3_metrics.py": {
+    "size": 13982,
+    "mtime_ns": 1793634418985134400
+  },
+  "算法对照\\plot_a12_cui_m3.py": {
+    "size": 3633,
+    "mtime_ns": 1793625752060128500
+  },
+  "算法对照\\plot_a15_cui_m3.py": {
+    "size": 7304,
+    "mtime_ns": 1793633908569804000
+  },
+  "算法对照\\plot_a18_radar.py": {
+    "size": 8738,
+    "mtime_ns": 1793704848359048600
+  },
+  "算法对照\\plot_all_algos.py": {
+    "size": 11586,
+    "mtime_ns": 1793619736302310100
+  },
+  "算法对照\\plot_all_algos_cui_m3.py": {
+    "size": 6636,
+    "mtime_ns": 1793620434759963600
+  },
+  "算法对照\\plot_cui_m3_radar.py": {
+    "size": 7723,
+    "mtime_ns": 1793634469681596300
+  },
+  "算法对照\\plot_demo_cui_m3.py": {
+    "size": 3996,
+    "mtime_ns": 1793620715703360400
+  },
+  "算法对照\\plot_peakfix.py": {
+    "size": 3845,
+    "mtime_ns": 1793619744336213800
+  },
+  "算法对照\\plot_rank.py": {
+    "size": 4527,
+    "mtime_ns": 1793611417659087900
+  },
+  "算法对照\\plot_wang.py": {
+    "size": 15166,
+    "mtime_ns": 1793637537613428900
+  },
+  "算法对照\\run_a18_metrics_only.py": {
+    "size": 2413,
+    "mtime_ns": 1793704820937038900
+  },
+  "算法对照\\wang_eval.py": {
+    "size": 4784,
+    "mtime_ns": 1793636325132520100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results.zip": {
+    "size": 475952269,
+    "mtime_ns": 1793691646359837900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\说明.md": {
+    "size": 15603,
+    "mtime_ns": 1793609979625455500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\data\\R_uddin2024.npz": {
+    "size": 43326,
+    "mtime_ns": 1793604758148898800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\data\\R_uddin2024_nir.csv": {
+    "size": 12914,
+    "mtime_ns": 1793604758115129300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\data\\R_uddin2024_vis.csv": {
+    "size": 19326,
+    "mtime_ns": 1793604758104614400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\data\\SourceData_Uddin2024.xlsx": {
+    "size": 274368,
+    "mtime_ns": 1793604660644816300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos.zip": {
+    "size": 59352243,
+    "mtime_ns": 1793691680935305000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\calib_noise.json": {
+    "size": 7464,
+    "mtime_ns": 1793607699753275200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\check.json": {
+    "size": 2503,
+    "mtime_ns": 1793608996361929400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\check_nir.png": {
+    "size": 79252,
+    "mtime_ns": 1793608996360928600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\check_vis.png": {
+    "size": 167261,
+    "mtime_ns": 1793608996228075500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\demo_forward.png": {
+    "size": 154768,
+    "mtime_ns": 1793604759753333700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\overview_uddin.json": {
+    "size": 26334,
+    "mtime_ns": 1793609884923840600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\overview_模拟器能做到多好.png": {
+    "size": 386104,
+    "mtime_ns": 1793609963809776700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\paper_check.json": {
+    "size": 7960,
+    "mtime_ns": 1793605923536726100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\paper_check_nir.png": {
+    "size": 147605,
+    "mtime_ns": 1793605923534724200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\paper_check_vis.png": {
+    "size": 295521,
+    "mtime_ns": 1793605903000000000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a12x_orig_6161.txt": {
+    "size": 12720,
+    "mtime_ns": 1793627075728483700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a12x_xie_4242.txt": {
+    "size": 19131,
+    "mtime_ns": 1793627748518327000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a12x_xie_6161.txt": {
+    "size": 12734,
+    "mtime_ns": 1793627073104131300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_4242.txt": {
+    "size": 27932,
+    "mtime_ns": 1793633126549618200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_4242_首跑.txt": {
+    "size": 27928,
+    "mtime_ns": 1793633126551122200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_6161.txt": {
+    "size": 27925,
+    "mtime_ns": 1793633126552318200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_6161_首跑.txt": {
+    "size": 27919,
+    "mtime_ns": 1793633126552318200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_cnet0_4242.txt": {
+    "size": 19614,
+    "mtime_ns": 1793633126552318200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_examples_4242.txt": {
+    "size": 6581,
+    "mtime_ns": 1793633126553855000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_examples_6161.txt": {
+    "size": 6581,
+    "mtime_ns": 1793633126554860300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_train.txt": {
+    "size": 710,
+    "mtime_ns": 1793629505149132300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_xie_4242.txt": {
+    "size": 27473,
+    "mtime_ns": 1793633140175167900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\run_a15_xie_6161.txt": {
+    "size": 27483,
+    "mtime_ns": 1793633140213958300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\R_summary.json": {
+    "size": 953,
+    "mtime_ns": 1793604758149900900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\a11.json": {
+    "size": 430077,
+    "mtime_ns": 1793611242490014500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\examples.pkl": {
+    "size": 540748,
+    "mtime_ns": 1793611242493522700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\fig_demo_ideal.png": {
+    "size": 735264,
+    "mtime_ns": 1793611250786970100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\fig_demo_real.png": {
+    "size": 781376,
+    "mtime_ns": 1793611256025972300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\fig_families.png": {
+    "size": 104901,
+    "mtime_ns": 1793611245187662400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\fig_rank_ideal.png": {
+    "size": 157840,
+    "mtime_ns": 1793611419313177000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\fig_rank_real.png": {
+    "size": 161496,
+    "mtime_ns": 1793611419520438500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\fig_real.png": {
+    "size": 206136,
+    "mtime_ns": 1793611244413182400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\log.txt": {
+    "size": 9556,
+    "mtime_ns": 1793611242491017800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\mlp.pt": {
+    "size": 8883597,
+    "mtime_ns": 1793610230076670300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\net8.pt": {
+    "size": 5457229,
+    "mtime_ns": 1793610104456649100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11\\net8.pt.musd": {
+    "size": 2085,
+    "mtime_ns": 1793610104458654100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\a12_examples.npz": {
+    "size": 132442,
+    "mtime_ns": 1793620121272153000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\fig_a12_examples.png": {
+    "size": 667083,
+    "mtime_ns": 1793620121266649500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\fig_peakfix.png": {
+    "size": 134038,
+    "mtime_ns": 1793619745580451000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\log.txt": {
+    "size": 8806,
+    "mtime_ns": 1793618431853128300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\peakfix.json": {
+    "size": 241998,
+    "mtime_ns": 1793618431853128300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793618343176399700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics\\fig_doublets.png": {
+    "size": 195033,
+    "mtime_ns": 1793622762366012500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics\\fig_metrics.png": {
+    "size": 428066,
+    "mtime_ns": 1793622761846489500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics\\log.txt": {
+    "size": 5605,
+    "mtime_ns": 1793622762366515200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics\\metrics.json": {
+    "size": 55898,
+    "mtime_ns": 1793622761137349900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_A11\\fig_doublets.png": {
+    "size": 194499,
+    "mtime_ns": 1793700820800669700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_A11\\fig_metrics.png": {
+    "size": 428176,
+    "mtime_ns": 1793700820241070900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_A11\\log.txt": {
+    "size": 5615,
+    "mtime_ns": 1793700820801670400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_A11\\metrics.json": {
+    "size": 55801,
+    "mtime_ns": 1793700819475696600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_quick\\fig_doublets.png": {
+    "size": 77247,
+    "mtime_ns": 1793621763726166900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_quick\\fig_metrics.png": {
+    "size": 349479,
+    "mtime_ns": 1793621763585017900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_quick\\log.txt": {
+    "size": 4172,
+    "mtime_ns": 1793621763776510800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix\\metrics_quick\\metrics.json": {
+    "size": 14381,
+    "mtime_ns": 1793621762944965800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix_quick\\log.txt": {
+    "size": 8811,
+    "mtime_ns": 1793618120877084100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix_quick\\peakfix.json": {
+    "size": 39138,
+    "mtime_ns": 1793618120876082500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix_quick\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793618097987350100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix_R\\log.txt": {
+    "size": 12678,
+    "mtime_ns": 1793618819111839000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix_R\\peakfix.json": {
+    "size": 472094,
+    "mtime_ns": 1793618819078295900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_peakfix_R\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793618633253535600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\a11.json": {
+    "size": 59662,
+    "mtime_ns": 1793610026025104300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\examples.pkl": {
+    "size": 89628,
+    "mtime_ns": 1793610026027316100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\fig_families.png": {
+    "size": 105148,
+    "mtime_ns": 1793610026741018800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\fig_real.png": {
+    "size": 207743,
+    "mtime_ns": 1793610026594156700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\log.txt": {
+    "size": 9542,
+    "mtime_ns": 1793610026026108900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\mlp.pt": {
+    "size": 8883597,
+    "mtime_ns": 1793609984060278100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\net8.pt": {
+    "size": 5457229,
+    "mtime_ns": 1793609983098998900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_quick\\net8.pt.musd": {
+    "size": 2085,
+    "mtime_ns": 1793609983100505500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\a11.json": {
+    "size": 845161,
+    "mtime_ns": 1793611519825956500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\examples.pkl": {
+    "size": 766111,
+    "mtime_ns": 1793611519829957300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\fig_demo_ideal.png": {
+    "size": 740482,
+    "mtime_ns": 1793611521971947200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\fig_demo_real.png": {
+    "size": 783434,
+    "mtime_ns": 1793611523337862900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\fig_demo_realR.png": {
+    "size": 798131,
+    "mtime_ns": 1793611524634211700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\fig_families.png": {
+    "size": 104677,
+    "mtime_ns": 1793611520709004600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\fig_real.png": {
+    "size": 183741,
+    "mtime_ns": 1793611520481052400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\log.txt": {
+    "size": 13493,
+    "mtime_ns": 1793611519825956500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\mlp.pt": {
+    "size": 8883597,
+    "mtime_ns": 1793611127882735500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\net8.pt": {
+    "size": 5457229,
+    "mtime_ns": 1793610935283876000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R\\net8.pt.musd": {
+    "size": 2085,
+    "mtime_ns": 1793610935285877900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\a11.json": {
+    "size": 107094,
+    "mtime_ns": 1793610879091502800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\examples.pkl": {
+    "size": 766111,
+    "mtime_ns": 1793610879095034300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\fig_demo_ideal.png": {
+    "size": 775132,
+    "mtime_ns": 1793610880920830400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\fig_demo_real.png": {
+    "size": 793005,
+    "mtime_ns": 1793610882169866200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\fig_demo_realR.png": {
+    "size": 776802,
+    "mtime_ns": 1793610883281364100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\fig_families.png": {
+    "size": 105332,
+    "mtime_ns": 1793610879745957900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\fig_real.png": {
+    "size": 199305,
+    "mtime_ns": 1793610879608924400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\log.txt": {
+    "size": 13264,
+    "mtime_ns": 1793610879093028700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\mlp.pt": {
+    "size": 8883597,
+    "mtime_ns": 1793610821946450200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\net8.pt": {
+    "size": 5457229,
+    "mtime_ns": 1793610820011908000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a11_R_quick\\net8.pt.musd": {
+    "size": 2085,
+    "mtime_ns": 1793610820013652900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_orig_seed6161\\log.txt": {
+    "size": 12429,
+    "mtime_ns": 1793627075728993000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_orig_seed6161\\peakfix.json": {
+    "size": 300920,
+    "mtime_ns": 1793627075707010600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_orig_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793626922911088500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\log.txt": {
+    "size": 12930,
+    "mtime_ns": 1793627039165890000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\peakfix.json": {
+    "size": 301166,
+    "mtime_ns": 1793627039102617900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793626880706544000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\metrics\\fig_doublets.png": {
+    "size": 193559,
+    "mtime_ns": 1793627748516817000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\metrics\\fig_metrics.png": {
+    "size": 422849,
+    "mtime_ns": 1793627747972999300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\metrics\\log.txt": {
+    "size": 5622,
+    "mtime_ns": 1793627748518327000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed4242\\metrics\\metrics.json": {
+    "size": 55871,
+    "mtime_ns": 1793627747053702700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed6161\\log.txt": {
+    "size": 12444,
+    "mtime_ns": 1793627073105131900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed6161\\peakfix.json": {
+    "size": 301112,
+    "mtime_ns": 1793627073073691300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12x_xie_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793626920011164200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12_fusion\\branch_diag.json": {
+    "size": 11515,
+    "mtime_ns": 1793621656954025100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12_fusion\\branch_log.txt": {
+    "size": 6851,
+    "mtime_ns": 1793621656955033500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12_fusion\\fig_fusion.png": {
+    "size": 129536,
+    "mtime_ns": 1793621238117020900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12_fusion\\fusion.json": {
+    "size": 11168,
+    "mtime_ns": 1793621203550408000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a12_fusion\\log.txt": {
+    "size": 9045,
+    "mtime_ns": 1793621203550408000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_noB_seed4242\\log.txt": {
+    "size": 17174,
+    "mtime_ns": 1793638577860884200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_noB_seed4242\\peakfix.json": {
+    "size": 301477,
+    "mtime_ns": 1793638577817391800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_noB_seed4242\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793638119752369700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_noB_seed6161\\log.txt": {
+    "size": 17167,
+    "mtime_ns": 1793638580097389800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_noB_seed6161\\peakfix.json": {
+    "size": 301416,
+    "mtime_ns": 1793638580054886600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_noB_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793638126335678100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_seed4242\\log.txt": {
+    "size": 19612,
+    "mtime_ns": 1793633126560363800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_seed4242\\peakfix.json": {
+    "size": 419281,
+    "mtime_ns": 1793630055268334000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_cnet0_seed4242\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793629915256687000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnet.pt": {
+    "size": 8677129,
+    "mtime_ns": 1793629342830570800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnet0.pt": {
+    "size": 8677129,
+    "mtime_ns": 1793629505194723700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnetA.pt": {
+    "size": 8677129,
+    "mtime_ns": 1793641405611836000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnetS.pt": {
+    "size": 8832777,
+    "mtime_ns": 1793673366761991500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\cnetS_overfit_v1.pt": {
+    "size": 8832777,
+    "mtime_ns": 1793641824227960500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\gatelib.npz": {
+    "size": 110664726,
+    "mtime_ns": 1793641244823949900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\gatelibX.npz": {
+    "size": 222720726,
+    "mtime_ns": 1793673173244367100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\gatelibX_smoke.npz": {
+    "size": 1392726,
+    "mtime_ns": 1793671172132372800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_nets\\gatelib_smoke.npz": {
+    "size": 2767326,
+    "mtime_ns": 1793671192056346100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_noB_seed4242\\log.txt": {
+    "size": 16465,
+    "mtime_ns": 1793637200311835200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_noB_seed4242\\peakfix.json": {
+    "size": 301127,
+    "mtime_ns": 1793637200277570400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_noB_seed4242\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793637068883083500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_noB_seed6161\\log.txt": {
+    "size": 16457,
+    "mtime_ns": 1793637199777831600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_noB_seed6161\\peakfix.json": {
+    "size": 301069,
+    "mtime_ns": 1793637199737099100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_noB_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793637068024286200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\a15_examples.npz": {
+    "size": 157352,
+    "mtime_ns": 1793633061536626800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\fig_a15_beams.png": {
+    "size": 131952,
+    "mtime_ns": 1793633061531966200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\fig_a15_examples.png": {
+    "size": 612734,
+    "mtime_ns": 1793633036357595800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\log.txt": {
+    "size": 19238,
+    "mtime_ns": 1793633126560877900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\log_examples.txt": {
+    "size": 6276,
+    "mtime_ns": 1793633126561899900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\peakfix.json": {
+    "size": 419257,
+    "mtime_ns": 1793632027365671700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793631932091385600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\metrics\\fig_doublets.png": {
+    "size": 187546,
+    "mtime_ns": 1793632700747233900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\metrics\\fig_metrics.png": {
+    "size": 392983,
+    "mtime_ns": 1793632700354500700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\metrics\\log.txt": {
+    "size": 5614,
+    "mtime_ns": 1793632700749233500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed4242\\metrics\\metrics.json": {
+    "size": 56051,
+    "mtime_ns": 1793632699584576000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\a15_examples.npz": {
+    "size": 157352,
+    "mtime_ns": 1793633066835292600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\fig_a15_beams.png": {
+    "size": 131952,
+    "mtime_ns": 1793633066829865200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\fig_a15_examples.png": {
+    "size": 606445,
+    "mtime_ns": 1793633042277777700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\log.txt": {
+    "size": 19230,
+    "mtime_ns": 1793633126562593100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\log_examples.txt": {
+    "size": 6276,
+    "mtime_ns": 1793633126563618800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\peakfix.json": {
+    "size": 419163,
+    "mtime_ns": 1793632028182561100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793631932838387500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\metrics\\fig_doublets.png": {
+    "size": 187546,
+    "mtime_ns": 1793632700752235100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\metrics\\fig_metrics.png": {
+    "size": 394337,
+    "mtime_ns": 1793632700356009800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\metrics\\log.txt": {
+    "size": 5615,
+    "mtime_ns": 1793632700753235800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_seed6161\\metrics\\metrics.json": {
+    "size": 56038,
+    "mtime_ns": 1793632699589967200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\log.txt": {
+    "size": 18840,
+    "mtime_ns": 1793633140040831600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\peakfix.json": {
+    "size": 418848,
+    "mtime_ns": 1793628688731513300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793628569131649100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\metrics\\fig_doublets.png": {
+    "size": 193601,
+    "mtime_ns": 1793629577741783800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\metrics\\fig_metrics.png": {
+    "size": 419215,
+    "mtime_ns": 1793629577139274200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\metrics\\log.txt": {
+    "size": 5572,
+    "mtime_ns": 1793633140097040400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed4242\\metrics\\metrics.json": {
+    "size": 55868,
+    "mtime_ns": 1793629576018673600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\log.txt": {
+    "size": 18839,
+    "mtime_ns": 1793633140137254000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\peakfix.json": {
+    "size": 418749,
+    "mtime_ns": 1793628707916498900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793628594707616100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\metrics\\fig_doublets.png": {
+    "size": 193601,
+    "mtime_ns": 1793629606836509800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\metrics\\fig_metrics.png": {
+    "size": 420623,
+    "mtime_ns": 1793629606298041600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\metrics\\log.txt": {
+    "size": 5584,
+    "mtime_ns": 1793633140156532800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a15_xie_seed6161\\metrics\\metrics.json": {
+    "size": 55877,
+    "mtime_ns": 1793629605348629200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_b10_seed6161\\log.txt": {
+    "size": 21208,
+    "mtime_ns": 1793679042738907200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_b10_seed6161\\peakfix.json": {
+    "size": 419395,
+    "mtime_ns": 1793679042683514600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_b10_seed6161\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793678695135638000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_b30_seed6161\\log.txt": {
+    "size": 21204,
+    "mtime_ns": 1793679042579077100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_b30_seed6161\\peakfix.json": {
+    "size": 419346,
+    "mtime_ns": 1793679042530347100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_b30_seed6161\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793678693400484300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_raw_seed4242\\log.txt": {
+    "size": 20672,
+    "mtime_ns": 1793675705733319100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_raw_seed4242\\peakfix.json": {
+    "size": 419763,
+    "mtime_ns": 1793675705660404200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_raw_seed4242\\qnet.pt": {
+    "size": 83165,
+    "mtime_ns": 1793675438742807400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_raw_seed6161\\log.txt": {
+    "size": 20663,
+    "mtime_ns": 1793675705682027900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_raw_seed6161\\peakfix.json": {
+    "size": 419684,
+    "mtime_ns": 1793675705646733300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_raw_seed6161\\qnet.pt": {
+    "size": 83165,
+    "mtime_ns": 1793675438364765100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_seed6161\\log.txt": {
+    "size": 20711,
+    "mtime_ns": 1793676754081173200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_seed6161\\peakfix.json": {
+    "size": 419390,
+    "mtime_ns": 1793676754037231500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_seed6161\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793676487399453300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_ss_seed6161\\log.txt": {
+    "size": 21346,
+    "mtime_ns": 1793685069676233200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_ss_seed6161\\peakfix.json": {
+    "size": 420295,
+    "mtime_ns": 1793685069641712100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_ss_seed6161\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793684922752872700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_ss_vs_seed6161\\log.txt": {
+    "size": 21478,
+    "mtime_ns": 1793686372224109600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_ss_vs_seed6161\\peakfix.json": {
+    "size": 420154,
+    "mtime_ns": 1793686372151783200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_ss_vs_seed6161\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793686215212729600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_v160_seed6161\\log.txt": {
+    "size": 21196,
+    "mtime_ns": 1793677117856392500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_v160_seed6161\\peakfix.json": {
+    "size": 419439,
+    "mtime_ns": 1793677117786158500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_v160_seed6161\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793676952404531600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_vs_seed6161\\log.txt": {
+    "size": 21217,
+    "mtime_ns": 1793686836964377500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_vs_seed6161\\peakfix.json": {
+    "size": 419358,
+    "mtime_ns": 1793686836896663600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16a_vs_seed6161\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793686709164606300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed4242\\log.txt": {
+    "size": 23051,
+    "mtime_ns": 1793673848346936100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed4242\\peakfix.json": {
+    "size": 419933,
+    "mtime_ns": 1793673613830728200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed4242\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793673552471120600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed4242_overfit_v1\\log.txt": {
+    "size": 15540,
+    "mtime_ns": 1793671236896466200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed4242_overfit_v1\\peakfix.json": {
+    "size": 417192,
+    "mtime_ns": 1793671236895465700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed4242_overfit_v1\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793671236894467100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed6161\\log.txt": {
+    "size": 20615,
+    "mtime_ns": 1793673848363936600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed6161\\peakfix.json": {
+    "size": 419836,
+    "mtime_ns": 1793673819196945400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793673767493993200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed6161_overfit_v1\\log.txt": {
+    "size": 14957,
+    "mtime_ns": 1793671236919525300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed6161_overfit_v1\\peakfix.json": {
+    "size": 417108,
+    "mtime_ns": 1793671236917525300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bsA_seed6161_overfit_v1\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793671236919525300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bwA_seed4242\\log.txt": {
+    "size": 15965,
+    "mtime_ns": 1793642507530668700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bwA_seed4242\\peakfix.json": {
+    "size": 420075,
+    "mtime_ns": 1793641659945708400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bwA_seed4242\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793641595021495400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bwA_seed6161\\log.txt": {
+    "size": 15100,
+    "mtime_ns": 1793642507549516200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bwA_seed6161\\peakfix.json": {
+    "size": 419983,
+    "mtime_ns": 1793642260622523400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_bwA_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793642209371135400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_seed4242\\log.txt": {
+    "size": 20214,
+    "mtime_ns": 1793639301116258600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_seed4242\\peakfix.json": {
+    "size": 419699,
+    "mtime_ns": 1793639301075440800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_seed4242\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793639206953061600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_seed6161\\log.txt": {
+    "size": 20207,
+    "mtime_ns": 1793639302647806800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_seed6161\\peakfix.json": {
+    "size": 419642,
+    "mtime_ns": 1793639302609810600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\a16_seed6161\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793639208679872600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\all_algos.json": {
+    "size": 1668100,
+    "mtime_ns": 1793614792943410000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\fig_allrank_beams.png": {
+    "size": 201605,
+    "mtime_ns": 1793619749676540300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\fig_allrank_ideal.png": {
+    "size": 482583,
+    "mtime_ns": 1793619747379308500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\fig_allrank_real.png": {
+    "size": 523922,
+    "mtime_ns": 1793619748221299100
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\fig_allrank_realR.png": {
+    "size": 504769,
+    "mtime_ns": 1793619749243081200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\log.txt": {
+    "size": 9495,
+    "mtime_ns": 1793614792977708500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\nsf_samelib.pt": {
+    "size": 53888576,
+    "mtime_ns": 1793614279937768000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\xie_samelib.pt": {
+    "size": 6551155,
+    "mtime_ns": 1793613032475831400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\metrics\\fig_algos_radar.png": {
+    "size": 862914,
+    "mtime_ns": 1793633133116744700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\metrics\\log.txt": {
+    "size": 6003,
+    "mtime_ns": 1793627882718314900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\metrics\\metrics.json": {
+    "size": 667683,
+    "mtime_ns": 1793627882717309000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\metrics\\radar_spokes.json": {
+    "size": 3269,
+    "mtime_ns": 1793633133118742300
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\metrics_quick\\log.txt": {
+    "size": 2703,
+    "mtime_ns": 1793625831076115400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos\\metrics_quick\\metrics.json": {
+    "size": 118281,
+    "mtime_ns": 1793625831048561000
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos_smoke\\all_algos.json": {
+    "size": 233154,
+    "mtime_ns": 1793612097093440800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos_smoke\\fig_allrank_ideal.png": {
+    "size": 170738,
+    "mtime_ns": 1793612160681676800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos_smoke\\fig_allrank_real.png": {
+    "size": 203017,
+    "mtime_ns": 1793612161603402200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos_smoke\\fig_allrank_realR.png": {
+    "size": 165587,
+    "mtime_ns": 1793612161190662900
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\results\\all_algos_smoke\\log.txt": {
+    "size": 9363,
+    "mtime_ns": 1793612097094442400
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\calib_noise.py": {
+    "size": 3757,
+    "mtime_ns": 1793607698561675700
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py": {
+    "size": 18046,
+    "mtime_ns": 1793607892292226500
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\overview_compute.py": {
+    "size": 3947,
+    "mtime_ns": 1793609881185198600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\overview_plot.py": {
+    "size": 6121,
+    "mtime_ns": 1793609873786147200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\paper_check.py": {
+    "size": 10146,
+    "mtime_ns": 1793605921904145800
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\__pycache__\\calib_noise.cpython-311.pyc": {
+    "size": 8566,
+    "mtime_ns": 1793608995478034200
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\__pycache__\\forward.cpython-311.pyc": {
+    "size": 33402,
+    "mtime_ns": 1793607892342946600
+  },
+  "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\__pycache__\\paper_check.cpython-311.pyc": {
+    "size": 21284,
+    "mtime_ns": 1793605940572892100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\说明.md": {
+    "size": 27990,
+    "mtime_ns": 1793638211286405900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\data\\R_cui2025.npz": {
+    "size": 964834,
+    "mtime_ns": 1793604857753265900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\ref\\Py_Reconstruction_Aveg_by_Cedar.py": {
+    "size": 18162,
+    "mtime_ns": 1793604660663838600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\calib_noise.json": {
+    "size": 820,
+    "mtime_ns": 1793607853621133300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\check.json": {
+    "size": 2126,
+    "mtime_ns": 1793604944960495100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\check.png": {
+    "size": 280331,
+    "mtime_ns": 1793604944959496800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\demo_forward.png": {
+    "size": 110095,
+    "mtime_ns": 1793604859618481700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\overview_cui.json": {
+    "size": 908302,
+    "mtime_ns": 1793609962493129100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\overview_模拟器能做到多好.png": {
+    "size": 386104,
+    "mtime_ns": 1793609964224023200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\paper_check.json": {
+    "size": 10004,
+    "mtime_ns": 1793606273729306200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\paper_check.png": {
+    "size": 119161,
+    "mtime_ns": 1793606273998386800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\run_a15_m3.txt": {
+    "size": 10627,
+    "mtime_ns": 1793634059601082200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\R_summary.json": {
+    "size": 374,
+    "mtime_ns": 1793604857753265900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\a11.json": {
+    "size": 513093,
+    "mtime_ns": 1793611406441266700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\examples.pkl": {
+    "size": 599835,
+    "mtime_ns": 1793611406444267000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\fig_demo_ideal.png": {
+    "size": 515715,
+    "mtime_ns": 1793611408380878000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\fig_demo_reading.png": {
+    "size": 583523,
+    "mtime_ns": 1793611410998229100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\fig_demo_recon.png": {
+    "size": 526176,
+    "mtime_ns": 1793611409661063200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\fig_families.png": {
+    "size": 96316,
+    "mtime_ns": 1793611407123205500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\fig_real.png": {
+    "size": 159258,
+    "mtime_ns": 1793611406972105000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\log.txt": {
+    "size": 10565,
+    "mtime_ns": 1793611406442266400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\log_首次训练.txt": {
+    "size": 10614,
+    "mtime_ns": 1793611421324707500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\mlp.pt": {
+    "size": 8727885,
+    "mtime_ns": 1793610503146568800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\net8.pt": {
+    "size": 4501069,
+    "mtime_ns": 1793610354602477000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11\\net8.pt.musd": {
+    "size": 1957,
+    "mtime_ns": 1793610354604475100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\a11.json": {
+    "size": 775272,
+    "mtime_ns": 1793617948840714300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\examples.pkl": {
+    "size": 787665,
+    "mtime_ns": 1793617948845250700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\fig_demo_ideal.png": {
+    "size": 554182,
+    "mtime_ns": 1793617951714517800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\fig_demo_m3.png": {
+    "size": 559049,
+    "mtime_ns": 1793617957149772500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\fig_demo_reading.png": {
+    "size": 588762,
+    "mtime_ns": 1793617955233638700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\fig_demo_recon.png": {
+    "size": 559242,
+    "mtime_ns": 1793617953386591900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\fig_families.png": {
+    "size": 94071,
+    "mtime_ns": 1793617949917219200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\fig_real.png": {
+    "size": 168912,
+    "mtime_ns": 1793617949704650600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\log.txt": {
+    "size": 13871,
+    "mtime_ns": 1793617948841225600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\mlp.pt": {
+    "size": 8727885,
+    "mtime_ns": 1793617587329517400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\net8.pt": {
+    "size": 4501069,
+    "mtime_ns": 1793616879832335900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_M3\\net8.pt.musd": {
+    "size": 1957,
+    "mtime_ns": 1793616879833838900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\a11.json": {
+    "size": 69632,
+    "mtime_ns": 1793610299680945800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\examples.pkl": {
+    "size": 35958,
+    "mtime_ns": 1793610299681948500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\fig_families.png": {
+    "size": 99006,
+    "mtime_ns": 1793610300472733200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\fig_real.png": {
+    "size": 162462,
+    "mtime_ns": 1793610300307783900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\log.txt": {
+    "size": 10672,
+    "mtime_ns": 1793610299681948500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\mlp.pt": {
+    "size": 8727885,
+    "mtime_ns": 1793610217819484600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\net8.pt": {
+    "size": 4501069,
+    "mtime_ns": 1793610215620669000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a11_quick\\net8.pt.musd": {
+    "size": 1957,
+    "mtime_ns": 1793610215621669000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a12_M3\\a12.json": {
+    "size": 125780,
+    "mtime_ns": 1793625718926792700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a12_M3\\fig_a12_vs_a11.png": {
+    "size": 172149,
+    "mtime_ns": 1793625752745935200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a12_M3\\log.txt": {
+    "size": 5663,
+    "mtime_ns": 1793625718927792800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a12_M3\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793625665251328700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_cnet0_noB_M3\\a15.json": {
+    "size": 134860,
+    "mtime_ns": 1793638621735127600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_cnet0_noB_M3\\demo.pkl": {
+    "size": 150779,
+    "mtime_ns": 1793638621769865000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_cnet0_noB_M3\\log.txt": {
+    "size": 9896,
+    "mtime_ns": 1793638621769865000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_cnet0_noB_M3\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793638583922898500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\a15.json": {
+    "size": 186859,
+    "mtime_ns": 1793634059641863000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\cnet.pt": {
+    "size": 8599241,
+    "mtime_ns": 1793633835617994000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\cnet0.pt": {
+    "size": 8599241,
+    "mtime_ns": 1793637595794348900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\cnetA.pt": {
+    "size": 8599241,
+    "mtime_ns": 1793641421161103200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\cnetS.pt": {
+    "size": 8713929,
+    "mtime_ns": 1793673366686756500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\cnetS_overfit_v1.pt": {
+    "size": 8713929,
+    "mtime_ns": 1793641804176890500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\demo.pkl": {
+    "size": 225830,
+    "mtime_ns": 1793634059643088900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\fig_demo_a15_m3.png": {
+    "size": 772796,
+    "mtime_ns": 1793634065491173600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\fig_table_a15_m3.png": {
+    "size": 484973,
+    "mtime_ns": 1793634066380460200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\gatelib.npz": {
+    "size": 71688726,
+    "mtime_ns": 1793641244303740700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\gatelibX.npz": {
+    "size": 144768726,
+    "mtime_ns": 1793673172919058000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\log.txt": {
+    "size": 10529,
+    "mtime_ns": 1793634059643597800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_M3\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793634016644621300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_noB_M3\\a15.json": {
+    "size": 125503,
+    "mtime_ns": 1793637170533094000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_noB_M3\\demo.pkl": {
+    "size": 150776,
+    "mtime_ns": 1793637170534621800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_noB_M3\\log.txt": {
+    "size": 9012,
+    "mtime_ns": 1793637170539137700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a15_noB_M3\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793637093750090800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b10_M3\\a15.json": {
+    "size": 224185,
+    "mtime_ns": 1793678889086804600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b10_M3\\demo.pkl": {
+    "size": 263353,
+    "mtime_ns": 1793678889120667200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b10_M3\\log.txt": {
+    "size": 10851,
+    "mtime_ns": 1793678889120667200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b10_M3\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793678686575047800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b30_M3\\a15.json": {
+    "size": 233253,
+    "mtime_ns": 1793679078899308200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b30_M3\\demo.pkl": {
+    "size": 263353,
+    "mtime_ns": 1793679078901314700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b30_M3\\log.txt": {
+    "size": 10850,
+    "mtime_ns": 1793679078901314700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_b30_M3\\qnet.pt": {
+    "size": 13725,
+    "mtime_ns": 1793678944617291500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_M3\\a15.json": {
+    "size": 233053,
+    "mtime_ns": 1793676643331763700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_M3\\demo.pkl": {
+    "size": 263353,
+    "mtime_ns": 1793676643332762500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_M3\\log.txt": {
+    "size": 10783,
+    "mtime_ns": 1793676643367296700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_M3\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793676484950896700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_raw_M3\\a15.json": {
+    "size": 231970,
+    "mtime_ns": 1793675579059324900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_raw_M3\\demo.pkl": {
+    "size": 263353,
+    "mtime_ns": 1793675579061833400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_raw_M3\\log.txt": {
+    "size": 10737,
+    "mtime_ns": 1793675579094678400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_raw_M3\\qnet.pt": {
+    "size": 83165,
+    "mtime_ns": 1793675427713561700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_v160_M3\\a15.json": {
+    "size": 233595,
+    "mtime_ns": 1793677053627886200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_v160_M3\\demo.pkl": {
+    "size": 263353,
+    "mtime_ns": 1793677053628886300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_v160_M3\\log.txt": {
+    "size": 10827,
+    "mtime_ns": 1793677053630389700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16a_v160_M3\\qnet.pt": {
+    "size": 13789,
+    "mtime_ns": 1793676947882082100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3\\a15.json": {
+    "size": 218690,
+    "mtime_ns": 1793673587843129400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3\\demo.pkl": {
+    "size": 263350,
+    "mtime_ns": 1793673587844130600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3\\log.txt": {
+    "size": 12887,
+    "mtime_ns": 1793673587845131400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3\\log_run.txt": {
+    "size": 12985,
+    "mtime_ns": 1793673848414577600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3\\qnet.pt": {
+    "size": 13149,
+    "mtime_ns": 1793673549133163300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3_overfit_v1\\a15.json": {
+    "size": 217258,
+    "mtime_ns": 1793671236937152700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3_overfit_v1\\demo.pkl": {
+    "size": 263350,
+    "mtime_ns": 1793671236938152800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3_overfit_v1\\log.txt": {
+    "size": 11034,
+    "mtime_ns": 1793671236939153200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bsA_M3_overfit_v1\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793671236937152700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bwA_M3\\a15.json": {
+    "size": 226848,
+    "mtime_ns": 1793641639795960200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bwA_M3\\demo.pkl": {
+    "size": 263350,
+    "mtime_ns": 1793641639796960200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bwA_M3\\log.txt": {
+    "size": 11381,
+    "mtime_ns": 1793641639797960300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_bwA_M3\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793641601568297600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_M3\\a15.json": {
+    "size": 234521,
+    "mtime_ns": 1793639242012337600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_M3\\demo.pkl": {
+    "size": 263352,
+    "mtime_ns": 1793639242013339600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_M3\\log.txt": {
+    "size": 11485,
+    "mtime_ns": 1793639242018066400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\a16_M3\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793639183425933000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\all_algos.json": {
+    "size": 434827,
+    "mtime_ns": 1793619750689356100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\demo.pkl": {
+    "size": 494181,
+    "mtime_ns": 1793620670875570500
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\fig_allrank_beams.png": {
+    "size": 218270,
+    "mtime_ns": 1793620442189266400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\fig_allrank_m3.png": {
+    "size": 491168,
+    "mtime_ns": 1793620441872384000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\fig_all_algos_M3.png": {
+    "size": 177101,
+    "mtime_ns": 1793620442474797700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\fig_demo_allalgos_m3.png": {
+    "size": 794465,
+    "mtime_ns": 1793620717842410600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\log.txt": {
+    "size": 5971,
+    "mtime_ns": 1793619750694383800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\nsf_samelib.pt": {
+    "size": 53814848,
+    "mtime_ns": 1793619323204342100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\all_algos_M3\\xie_samelib.pt": {
+    "size": 6473267,
+    "mtime_ns": 1793618857979245100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\fig_algos_radar_cui_m3.png": {
+    "size": 884927,
+    "mtime_ns": 1793636444686512200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\log_a12.txt": {
+    "size": 2350,
+    "mtime_ns": 1793635763098520200
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\log_a15.txt": {
+    "size": 2350,
+    "mtime_ns": 1793635202920462000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\log_algos.txt": {
+    "size": 5648,
+    "mtime_ns": 1793636415972885300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\metrics_a12.json": {
+    "size": 88821,
+    "mtime_ns": 1793635763097517100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\metrics_a15.json": {
+    "size": 89082,
+    "mtime_ns": 1793635202887401800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\metrics_algos.json": {
+    "size": 500638,
+    "mtime_ns": 1793636415937396600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3\\radar_spokes.json": {
+    "size": 3282,
+    "mtime_ns": 1793636444689021400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\fig_algos_radar_cui_m3.png": {
+    "size": 895910,
+    "mtime_ns": 1793634805147702600
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\log_a12.txt": {
+    "size": 1304,
+    "mtime_ns": 1793634641592674100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\log_a15.txt": {
+    "size": 1302,
+    "mtime_ns": 1793634640216418400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\log_algos.txt": {
+    "size": 2606,
+    "mtime_ns": 1793634802048557800
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\metrics_a12.json": {
+    "size": 17389,
+    "mtime_ns": 1793634641587635000
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\metrics_a15.json": {
+    "size": 17412,
+    "mtime_ns": 1793634640183750400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\metrics_algos.json": {
+    "size": 96843,
+    "mtime_ns": 1793634802034026300
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\results\\metrics_M3_quick\\radar_spokes.json": {
+    "size": 3310,
+    "mtime_ns": 1793634805150702100
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\scripts\\calib_noise.py": {
+    "size": 2388,
+    "mtime_ns": 1793607720402575400
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\scripts\\forward.py": {
+    "size": 14738,
+    "mtime_ns": 1793608988799527900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\scripts\\paper_check.py": {
+    "size": 8241,
+    "mtime_ns": 1793606003982661700
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\scripts\\__pycache__\\forward.cpython-311.pyc": {
+    "size": 27936,
+    "mtime_ns": 1793608994749379900
+  },
+  "算法对照\\46_Cui2025_真实R矩阵\\scripts\\__pycache__\\paper_check.cpython-311.pyc": {
+    "size": 19421,
+    "mtime_ns": 1793607721921957700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\说明.md": {
+    "size": 22240,
+    "mtime_ns": 1793635314248842800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\data\\R_wang2024.npz": {
+    "size": 392354,
+    "mtime_ns": 1793632785147894900
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_run.log": {
+    "size": 7057,
+    "mtime_ns": 1793636686130122500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12_run.log": {
+    "size": 4409,
+    "mtime_ns": 1793638362752722300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a15_run.log": {
+    "size": 176,
+    "mtime_ns": 1793638544556025300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\all_algos_run.log": {
+    "size": 737047,
+    "mtime_ns": 1793638456287277400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\calib_noise.json": {
+    "size": 6613,
+    "mtime_ns": 1793635152382668000
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\calib_noise.png": {
+    "size": 132140,
+    "mtime_ns": 1793635152875789800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\calib_noise_log.txt": {
+    "size": 1211,
+    "mtime_ns": 1793635152381663600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\check.json": {
+    "size": 2445,
+    "mtime_ns": 1793635168831766800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\check.png": {
+    "size": 113883,
+    "mtime_ns": 1793635168830220700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\demo_forward.png": {
+    "size": 131804,
+    "mtime_ns": 1793635167953260000
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\error_budget.json": {
+    "size": 4750,
+    "mtime_ns": 1793635203021590200
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\error_budget.png": {
+    "size": 162651,
+    "mtime_ns": 1793635203806870300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\paper_check.json": {
+    "size": 14743,
+    "mtime_ns": 1793635175889051100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\paper_check.png": {
+    "size": 302944,
+    "mtime_ns": 1793635177014690600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\R_summary.json": {
+    "size": 366,
+    "mtime_ns": 1793632785148894400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\testset_device.npz": {
+    "size": 4700962,
+    "mtime_ns": 1793636487245531400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\testset_device_quick.npz": {
+    "size": 1220962,
+    "mtime_ns": 1793636149057288500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\testset_fig3.npz": {
+    "size": 4114106,
+    "mtime_ns": 1793636617091528400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\testset_fig3_quick.npz": {
+    "size": 478106,
+    "mtime_ns": 1793636181633889200
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\a11.json": {
+    "size": 17657,
+    "mtime_ns": 1793636686135691900
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\examples.pkl": {
+    "size": 592582,
+    "mtime_ns": 1793636686139198700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\fig_demo_device.png": {
+    "size": 569012,
+    "mtime_ns": 1793636690982678800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\fig_demo_ideal.png": {
+    "size": 549817,
+    "mtime_ns": 1793636689580542400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\fig_families.png": {
+    "size": 95820,
+    "mtime_ns": 1793636688078966900
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\fig_fig3.png": {
+    "size": 457035,
+    "mtime_ns": 1793636687891439300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\log.txt": {
+    "size": 7055,
+    "mtime_ns": 1793636686136692300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\mlp.pt": {
+    "size": 9334349,
+    "mtime_ns": 1793636410842909700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\net8.pt": {
+    "size": 7878349,
+    "mtime_ns": 1793636296306449000
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11\\net8.pt.musd": {
+    "size": 2597,
+    "mtime_ns": 1793636296307450100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\a11.json": {
+    "size": 17567,
+    "mtime_ns": 1793636188435653100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\examples.pkl": {
+    "size": 592582,
+    "mtime_ns": 1793636188438651600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\fig_demo_device.png": {
+    "size": 575647,
+    "mtime_ns": 1793636193033940100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\fig_demo_ideal.png": {
+    "size": 567199,
+    "mtime_ns": 1793636191673824600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\fig_families.png": {
+    "size": 96064,
+    "mtime_ns": 1793636190400947400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\fig_fig3.png": {
+    "size": 467536,
+    "mtime_ns": 1793636190109131500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\log.txt": {
+    "size": 6798,
+    "mtime_ns": 1793636188436652100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\mlp.pt": {
+    "size": 9334349,
+    "mtime_ns": 1793636119400447700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\net8.pt": {
+    "size": 7878349,
+    "mtime_ns": 1793636117977025600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a11_quick\\net8.pt.musd": {
+    "size": 2597,
+    "mtime_ns": 1793636117978026400
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12\\a12.json": {
+    "size": 10896,
+    "mtime_ns": 1793638362754226300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12\\log.txt": {
+    "size": 4119,
+    "mtime_ns": 1793638362759743300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793637831218535300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12\\raw.pkl": {
+    "size": 782949,
+    "mtime_ns": 1793638362759743300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12_quick\\a12.json": {
+    "size": 10782,
+    "mtime_ns": 1793636864494078500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12_quick\\log.txt": {
+    "size": 4133,
+    "mtime_ns": 1793636864530775500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12_quick\\qnet.pt": {
+    "size": 13213,
+    "mtime_ns": 1793636830958051700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a12_quick\\raw.pkl": {
+    "size": 398904,
+    "mtime_ns": 1793636864495912800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a15_quick\\a15.json": {
+    "size": 15780,
+    "mtime_ns": 1793637197044562600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a15_quick\\cnet.pt": {
+    "size": 8902601,
+    "mtime_ns": 1793636879693999100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a15_quick\\log.txt": {
+    "size": 8198,
+    "mtime_ns": 1793637197047689600
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a15_quick\\qnet.pt": {
+    "size": 14877,
+    "mtime_ns": 1793637164879111100
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\a15_quick\\raw.pkl": {
+    "size": 579285,
+    "mtime_ns": 1793637197046685900
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\all_algos\\xie_samelib.pt": {
+    "size": 6776627,
+    "mtime_ns": 1793637713559526000
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\all_algos_smoke\\all_algos.json": {
+    "size": 22038,
+    "mtime_ns": 1793636633309297700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\all_algos_smoke\\log.txt": {
+    "size": 4198,
+    "mtime_ns": 1793636633344874500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\all_algos_smoke\\raw.pkl": {
+    "size": 467068,
+    "mtime_ns": 1793636633344369800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\compare_test\\fig_fig3_wang.png": {
+    "size": 856808,
+    "mtime_ns": 1793637528596944700
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\compare_test\\fig_rank_wang.png": {
+    "size": 230217,
+    "mtime_ns": 1793637526054286000
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\results\\compare_test\\fig_table_wang.png": {
+    "size": 139783,
+    "mtime_ns": 1793637526342771500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\calib_noise.py": {
+    "size": 7342,
+    "mtime_ns": 1793634838847429200
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\error_budget.py": {
+    "size": 5992,
+    "mtime_ns": 1793635196764635200
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\forward.py": {
+    "size": 26235,
+    "mtime_ns": 1793635167206087500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\paper_check.py": {
+    "size": 7857,
+    "mtime_ns": 1793634227137492900
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\_nsf.py": {
+    "size": 2177,
+    "mtime_ns": 1793632923496490300
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\__pycache__\\error_budget.cpython-311.pyc": {
+    "size": 14372,
+    "mtime_ns": 1793634344643045800
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\__pycache__\\forward.cpython-311.pyc": {
+    "size": 50384,
+    "mtime_ns": 1793635172184262900
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\__pycache__\\paper_check.cpython-311.pyc": {
+    "size": 22476,
+    "mtime_ns": 1793634344678999500
+  },
+  "算法对照\\47_Wang2024_真实R矩阵\\scripts\\__pycache__\\_nsf.cpython-311.pyc": {
+    "size": 4052,
+    "mtime_ns": 1793632924834997700
+  },
+  "算法对照\\__pycache__\\a11_device.cpython-311.pyc": {
+    "size": 116901,
+    "mtime_ns": 1793636452889105200
+  },
+  "算法对照\\__pycache__\\a11_peakfix.cpython-311.pyc": {
+    "size": 52454,
+    "mtime_ns": 1793706126508146500
+  },
+  "算法对照\\__pycache__\\a12t_three.cpython-311.pyc": {
+    "size": 62514,
+    "mtime_ns": 1793632701616263400
+  },
+  "算法对照\\__pycache__\\a12t_three.cpython-312.pyc": {
+    "size": 52382,
+    "mtime_ns": 1793629552028150600
+  },
+  "算法对照\\__pycache__\\a12_cui_m3.cpython-311.pyc": {
+    "size": 44354,
+    "mtime_ns": 1793634434435888800
+  },
+  "算法对照\\__pycache__\\a12_examples.cpython-311.pyc": {
+    "size": 19205,
+    "mtime_ns": 1793621522320705200
+  },
+  "算法对照\\__pycache__\\a12_metrics.cpython-311.pyc": {
+    "size": 61792,
+    "mtime_ns": 1793707207023616900
+  },
+  "算法对照\\__pycache__\\a15_cui_m3.cpython-311.pyc": {
+    "size": 32058,
+    "mtime_ns": 1793634434439887800
+  },
+  "算法对照\\__pycache__\\a15_cui_m3.cpython-312.pyc": {
+    "size": 31296,
+    "mtime_ns": 1793640082143997300
+  },
+  "算法对照\\__pycache__\\a15_three.cpython-311.pyc": {
+    "size": 117668,
+    "mtime_ns": 1793706126503146100
+  },
+  "算法对照\\__pycache__\\a15_three.cpython-312.pyc": {
+    "size": 79291,
+    "mtime_ns": 1793642494060308600
+  },
+  "算法对照\\__pycache__\\a16_ss.cpython-311.pyc": {
+    "size": 26627,
+    "mtime_ns": 1793706127095885900
+  },
+  "算法对照\\__pycache__\\all_algos_cui_m3.cpython-311.pyc": {
+    "size": 68681,
+    "mtime_ns": 1793634434441391900
+  },
+  "算法对照\\__pycache__\\all_algos_device.cpython-311.pyc": {
+    "size": 67504,
+    "mtime_ns": 1793625026705584400
+  },
+  "算法对照\\__pycache__\\plot_all_algos.cpython-311.pyc": {
+    "size": 27785,
+    "mtime_ns": 1793620441097289900
+  },
+  "算法对照\\__pycache__\\wang_eval.cpython-311.pyc": {
+    "size": 13970,
+    "mtime_ns": 1793636455901952500
+  },
+  "结果展示网页\\build.py": {
+    "size": 25279,
+    "mtime_ns": 1793701345891990500
+  },
+  "结果展示网页\\fig_radar_uddin_seed4242.png": {
+    "size": 938493,
+    "mtime_ns": 1793701546567989000
+  },
+  "结果展示网页\\index.html": {
+    "size": 125613,
+    "mtime_ns": 1793701546571765100
+  },
+  "结果展示网页\\registry.json": {
+    "size": 14368,
+    "mtime_ns": 1793701272606793700
+  },
+  "结果展示网页\\template.html": {
+    "size": 35703,
+    "mtime_ns": 1793701545340550600
+  }
+}
