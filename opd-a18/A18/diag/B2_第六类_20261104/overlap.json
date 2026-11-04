@@ -1,0 +1,7 @@
+{
+  "train_vs_validation": 0,
+  "train_vs_diagnostic": 0,
+  "validation_vs_diagnostic": 0,
+  "decimals": 9,
+  "test_generated": false
+}

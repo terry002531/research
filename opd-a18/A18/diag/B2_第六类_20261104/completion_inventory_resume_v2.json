@@ -1,0 +1,24 @@
+{
+  "complete_reused": [
+    "allowed_data.npz",
+    "protocol.json",
+    "overlap.json",
+    "B1_reproduction.csv",
+    "baseline_errors.npz",
+    "network_summary.json",
+    "specialist_512x4*",
+    "specialist_768x6*",
+    "latest oracle_metrics.csv four target rows and prior_0..3",
+    "previous oracle_summary.json control rows and prior_4..5 and oracle_errors.npz controls",
+    "nullspace_detail.json six families"
+  ],
+  "stale_or_partial": [
+    "oracle_metrics.csv contains only four latest rows",
+    "oracle_summary.json/oracle_errors.npz same-five entry is older K=256; superseded by latest K=320 subtype mixture",
+    "oracle_candidates.csv has complete four target families, interrupted controls are absent",
+    "nullspace_metrics.csv has only four latest rows"
+  ],
+  "recomputed_only": "latest same-five selected-prior per-reading posterior and scale-invariance verification; no training or prior refit",
+  "controls": "both already complete in previous run; checked shapes, selected prior sizes and error means; reused without rerunning",
+  "no_old_file_overwritten": true
+}

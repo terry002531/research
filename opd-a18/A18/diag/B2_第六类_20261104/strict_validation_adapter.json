@@ -1,0 +1,9 @@
+{
+  "legacy_seed_excluded": 3,
+  "source": "VSEED=31438 same-distribution five-family member",
+  "actual_gen5_seed": 31439,
+  "actual_gen5_n": 40,
+  "fixed_sigma_e": 0.08,
+  "fixed_sigma_source": "A18/diag/scale_ev.out and fuse_diag2.out",
+  "reason": "Use only explicitly allowed validation spectra and retain existing ParamE sigma; not an old-run bitwise reproduction"
+}

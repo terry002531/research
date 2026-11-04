@@ -1,0 +1,15 @@
+{
+  "old_file_metadata_changes": {},
+  "old_B2_hash_changes": {},
+  "recompute_seconds": 5.66281870000239,
+  "resume_script_seconds": 9.395476579666138,
+  "gain_nodes": 15,
+  "radial_nodes": 48,
+  "scale_invariance_max_abs": 6.156498921772169e-13,
+  "incomplete_same5_fixed": true,
+  "networks_complete": true,
+  "control_oracles_reused": true,
+  "no_test_data_generated": true,
+  "old_files_checked": 700,
+  "old_B2_hashes_checked": 44
+}

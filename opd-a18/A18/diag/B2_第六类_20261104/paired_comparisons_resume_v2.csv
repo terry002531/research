@@ -1,0 +1,25 @@
+﻿family,comparison,delta,relative_change_percent,ci_low,ci_high,unit,resamples,evidence
+阶梯谱,A minus B,-0.011619303446353113,-4.820971098781768,-0.04059955532927386,0.018792013867460013,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+阶梯谱,oracle minus B,-0.03411940809100839,-14.156500953240824,-0.054362744009492044,-0.013493499882969249,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+阶梯谱,specialist_512x4 minus B,-0.015637253457279923,-6.488060780057603,-0.034488919273210565,0.005551244168662752,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+阶梯谱,specialist_768x6 minus B,-0.017589813383963315,-7.298198411684254,-0.03605592215208835,0.0014042805082999008,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+零件组合,A minus B,0.02416555648938969,13.382607276408365,0.0062025040735028915,0.04214142920457153,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+零件组合,oracle minus B,-0.010318012619976832,-5.713996730296811,-0.029822292584826927,0.006753943477598607,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+零件组合,specialist_512x4 minus B,0.002400539340893829,1.3293910804353049,-0.010716671548842342,0.016298660549684738,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+零件组合,specialist_768x6 minus B,0.0055472107404263395,3.07198151431749,-0.011777401545032828,0.023058878749402826,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+随机光滑,A minus B,0.0014734395194039248,1.8029028313987006,-0.0094118392395116,0.011305931374293074,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+随机光滑,oracle minus B,-0.0098668423818626,-12.0730833081097,-0.017750934369756787,-0.002512701269637375,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+随机光滑,specialist_512x4 minus B,0.0037753647418765995,4.619542026024748,-0.003923073693585367,0.011650699621437992,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+随机光滑,specialist_768x6 minus B,0.015396030249819892,18.838605972052026,0.007683316992260701,0.023202728993449648,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+同分布五类,A minus B,0.0008281065712109505,0.8781849532987884,-0.01815493079905779,0.019499705009941408,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+同分布五类,oracle minus B,-0.01406722937366588,-14.917921919748911,-0.03188865480735926,0.004471433246838959,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+同分布五类,specialist_512x4 minus B,0.003026580413940026,3.2096078836619357,-0.012360106824587802,0.021719841170296895,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+同分布五类,specialist_768x6 minus B,0.0026321400527359365,2.791314390740318,-0.013714829888830707,0.022356682599926302,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+单峰 60–200 nm,A minus B,0.03654773013315059,114.03743917445435,0.022220302357025313,0.05406769212915764,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+单峰 60–200 nm,oracle minus B,-0.02265606239934588,-70.6921969814635,-0.028961789987500174,-0.017052977771231312,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+单峰 60–200 nm,specialist_512x4 minus B,0.0026219291220925265,8.181030167702573,-0.0024995610591644806,0.006824175788569026,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+单峰 60–200 nm,specialist_768x6 minus B,0.0015593775293155892,4.865621462714009,-0.004241217362796074,0.006767044370948345,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+宽带通,A minus B,0.09394108518820746,154.5536965772902,0.08198307085965657,0.1067593038824399,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+宽带通,oracle minus B,-0.01443381995743304,-23.746800728169305,-0.020216746810767943,-0.008845942773181613,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+宽带通,specialist_512x4 minus B,0.1346967591937861,221.60572244479494,0.12103434986008144,0.14898672751962264,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较
+宽带通,specialist_768x6 minus B,0.1443416385070659,237.4736650805731,0.12857192118577943,0.16087150135653702,"spectrum, all four noise readings kept together",5000,推算；单诊断种子条件下的成对区间，未校正多重比较

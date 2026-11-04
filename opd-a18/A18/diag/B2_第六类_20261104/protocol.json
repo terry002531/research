@@ -1,0 +1,58 @@
+{
+  "task": "A18-B2",
+  "author": "AI（Codex）",
+  "simulation_only": true,
+  "training_seed": 31337,
+  "extra_training_seed": 31344,
+  "validation_seed": 31438,
+  "diagnostic_seed": 31451,
+  "diagnostic_noise_seed": 4321,
+  "validation_noise_seed": 54321,
+  "n_draws": 4,
+  "mode": "real",
+  "train_power": "log_uniform(0.5,2)*P0",
+  "evaluation_power": "P0",
+  "noise": {
+    "sigma_b": 0.015,
+    "sigma_g": 0.15,
+    "sigma_n": 3e-10
+  },
+  "full_library_size": 87000,
+  "family_train_counts": {
+    "阶梯谱": 3000,
+    "零件组合": 3000,
+    "随机光滑": 3000,
+    "同分布五类": 12000,
+    "单峰 60–200 nm": 3000,
+    "宽带通": 3000
+  },
+  "loss_r": 44.404842417764215,
+  "steps": 30000,
+  "batch_size": 2048,
+  "init_seed": 11,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "checkpoint_rule": "minimum equal-family mean real-mode shape NRMSE on VSEED=31438 every 1000 steps",
+  "variants": [
+    {
+      "name": "specialist_512x4",
+      "width": 512,
+      "blocks": 4
+    },
+    {
+      "name": "specialist_768x6",
+      "width": 768,
+      "blocks": 6
+    }
+  ],
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "source_sha256": {
+    "算法对照\\a15_three.py": "2a102e3694d360fb5aa02f66ad95020cc7942f93de84b502a5874c69594b2a5d",
+    "算法对照\\a11_peakfix.py": "92b27853d8d1255b849c718d7bcc2ef1167959cc25e4a319dad2e14b1cd45a49",
+    "算法对照\\a11_device.py": "083502f4e6c99e824a386ed8ff1ff92d065085eedd3a0466e1f812440f5b56d4",
+    "算法对照\\45_Uddin2024_真实R矩阵\\scripts\\forward.py": "bda8fac260004ed8825824a8b1d062bf4eeebe7e3e6375d6e532bc01b01f54f2"
+  },
+  "B_sha256": "aed7e14a36aa878207afe8e480e57a5b509bd01099e9512f4875b26f1edf6eb3",
+  "matmul_precision": "highest"
+}
